@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:Template name="AddButton" src="AddButton.uxml" />
+    <ui:VisualElement name="ruleNodeContainer" class="ruleNode" style="flex-direction: row; margin-left: 30px;">
+        <ui:Label text="Spawn" name="contentTitle" style="margin-top: 2px; width: 45px;" />
+        <uie:ObjectField name="contentObjectField" style="width: 100px; flex-grow: 1;" />
+        <ui:VisualElement name="objectSetupArea" style="flex-direction: row;">
+            <ui:Label text="on" style="margin-top: 2px;" />
+            <ui:Button text="..." name="landmarkButton" style="margin-top: -1px; margin-bottom: 0;" />
+        </ui:VisualElement>
+        <ui:Instance template="AddButton" name="AddButton" />
+    </ui:VisualElement>
+    <ui:VisualElement name="addBarLocation" />
+</ui:UXML>

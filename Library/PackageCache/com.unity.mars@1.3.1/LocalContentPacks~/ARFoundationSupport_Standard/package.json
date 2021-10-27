@@ -1,0 +1,17 @@
+{
+    "name": "com.unity.mars-ar-foundation-support",
+    "version": "0.1.0-standard",
+    "displayName": "Unity MARS AR Foundation Support - Standard",
+    "description": "This package includes as dependencies the standard set of AR Foundation packages used by MARS.",
+    "unity": "2019.3",
+    "unityRelease": "0f6",
+    "dependencies": {
+        "com.unity.xr.arfoundation": "2.1.14",
+        "com.unity.xr.arcore": "2.1.14",
+        "com.unity.xr.arkit-face-tracking": "1.0.8",
+        "com.unity.xr.arkit": "2.1.14",
+        "com.unity.xr.management": "3.2.17",
+        "com.unity.mars-ar-foundation-providers": "1.3.1"
+    },
+    "resolutionStrategy": "higherMinor"
+}

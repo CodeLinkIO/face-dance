@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c84bfda08ee2054593648f8267e8df6, type: 3}
+  m_Name: MarsWorldScaleModule
+  m_EditorClassIdentifier: 
+  m_MinScaleExponent: -2
+  m_MaxScaleExponent: 3
+  m_ScaleVisuals:
+  - m_ScaleVisual: {fileID: 2800000, guid: 9e5df94785c650341ba749a7eaa7bbc3, type: 3}
+    m_ScaleIcon: {fileID: 2800000, guid: d0bda012d90ec984b96d80e5a07a5a78, type: 3}
+  - m_ScaleVisual: {fileID: 2800000, guid: 2e3e2a1ddd37ff546bc1c772c26bdba4, type: 3}
+    m_ScaleIcon: {fileID: 2800000, guid: 5f189bfdfb4ae2d40a780b83372f4827, type: 3}
+  - m_ScaleVisual: {fileID: 2800000, guid: b30c8ff9aa0cca4499dd12fce97172c1, type: 3}
+    m_ScaleIcon: {fileID: 2800000, guid: 3e7718a449e31a047b6934b6a5f4871b, type: 3}
+  - m_ScaleVisual: {fileID: 2800000, guid: d2dc5e3050ef51d4c955ecf05f268c06, type: 3}
+    m_ScaleIcon: {fileID: 2800000, guid: 24618a9bccf536b47bda2466266de2f2, type: 3}
+  - m_ScaleVisual: {fileID: 2800000, guid: b4b718fb03a0fab42885ac5e55ab9dcb, type: 3}
+    m_ScaleIcon: {fileID: 2800000, guid: 4a70d97d746e0fe41b1e26d1bb6f341e, type: 3}
+  - m_ScaleVisual: {fileID: 2800000, guid: acdd629e00e0f664a8650b3d62533c1f, type: 3}
+    m_ScaleIcon: {fileID: 2800000, guid: 3c7067b5e621d0d4281f59b16aaa384e, type: 3}
+  m_ScaleReferenceMaterial: {fileID: 2100000, guid: bd92a17cd60f9ee4e94f609d9861292f,
+    type: 2}

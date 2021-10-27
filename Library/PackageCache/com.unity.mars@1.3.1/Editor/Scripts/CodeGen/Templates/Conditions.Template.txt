@@ -1,0 +1,32 @@
+﻿using UnityEngine;
+using Unity.XRTools.Utils;
+
+namespace Unity.MARS.Query
+{
+    public partial class ProxyConditions
+    {
+{BackingValue_FIELDS}
+
+{TryGetType_METHOD}
+
+{GetTypeCount_METHOD}
+
+        public void FromCondition(Condition condition)
+        {
+{FromCondition_CONSTRUCTOR}
+        }
+
+        void GatherComponents<TComponentRootType>(CachedComponentFilter<ICondition, TComponentRootType> componentFilter)
+            where TComponentRootType : Component
+        {
+{GatherComponents_METHOD}
+        }
+
+        static int CountInternal(ProxyConditions self)
+        {
+            var count = 0;
+{CountInternal_METHOD}
+            return count;
+        }
+    }
+}

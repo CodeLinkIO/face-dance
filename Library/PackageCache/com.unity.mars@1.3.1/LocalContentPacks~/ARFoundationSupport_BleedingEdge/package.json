@@ -1,0 +1,17 @@
+{
+    "name": "com.unity.mars-ar-foundation-support",
+    "version": "0.1.0-bleeding-edge-preview",
+    "displayName": "Unity MARS AR Foundation Support - Bleeding Edge",
+    "description": "This package includes as dependencies the latest pre-release set of AR Foundation packages used by MARS.",
+    "unity": "2019.3",
+    "unityRelease": "0f6",
+    "dependencies": {
+        "com.unity.xr.arfoundation": "4.1.3",
+        "com.unity.xr.arcore": "4.1.3",
+        "com.unity.xr.arkit-face-tracking": "4.1.3",
+        "com.unity.xr.arkit": "4.1.3",
+        "com.unity.xr.management": "3.2.17",
+        "com.unity.mars-ar-foundation-providers": "1.3.1"
+    },
+    "resolutionStrategy": "higherMinor"
+}

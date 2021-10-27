@@ -1,0 +1,13 @@
+{
+    "name": "Unity.ListViewFramework",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.ugui",
+            "expression": "1.0.0",
+            "define": "INCLUDE_UGUI"
+        }
+    ]
+}

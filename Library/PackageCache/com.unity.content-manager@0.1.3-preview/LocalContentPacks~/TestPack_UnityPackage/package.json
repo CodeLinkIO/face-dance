@@ -1,0 +1,18 @@
+{
+  "name": "com.unity.content-manager.test-content-pack-unitypackage",
+  "version": "0.1.0",
+  "displayName": "Unity Content Manager Test Pack - UnityPackage",
+  "description": "This is a test package stored locally with the Unity Content Manager and used during runtime tests. It installs as a unity package to the user's project folder.",
+  "unity": "2019.3",
+  "unityRelease": "0f6",
+  "dependencies": {
+  },
+    "samples": [
+    {
+      "displayName":"Test Pack - UnityPackage",
+      "description": "This is a test package stored locally with the Unity Content Manager and used during runtime tests. It installs as a unity package to the user's project folder.",
+      "path": "UnityPackage~/",
+      "interactiveImport":true
+    }
+  ]
+}

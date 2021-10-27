@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d939af64670248c0b3debff57bad4b6, type: 3}
+  m_Name: SimulatedDiscoveryIsland
+  m_EditorClassIdentifier: 
+  m_DefaultProviders:
+  - m_ProviderTypeName: Unity.MARS.Providers.IProvidesCameraOffset
+    m_DefaultProviderTypeName: Unity.MARS.Providers.CameraOffsetProvider
+    m_DefaultProviderPrefab: {fileID: 0}
+  - m_ProviderTypeName: Unity.MARS.Providers.IProvidesCameraPose
+    m_DefaultProviderTypeName: Unity.MARS.Providers.Synthetic.SimulatedCameraPoseProvider
+    m_DefaultProviderPrefab: {fileID: 0}
+  - m_ProviderTypeName: Unity.MARS.Providers.IProvidesPlaneFinding
+    m_DefaultProviderTypeName: 
+    m_DefaultProviderPrefab: {fileID: 6713339344908314061, guid: b83a96e88b3d04148a3097781c1947f1,
+      type: 3}
+  - m_ProviderTypeName: Unity.MARS.Providers.IProvidesPointCloud
+    m_DefaultProviderTypeName: 
+    m_DefaultProviderPrefab: {fileID: 6713339344908314061, guid: b83a96e88b3d04148a3097781c1947f1,
+      type: 3}
+  - m_ProviderTypeName: Unity.MARS.Providers.IProvidesCameraProjectionMatrix
+    m_DefaultProviderTypeName: Unity.MARS.Providers.Synthetic.SimulatedCameraViewProvider
+    m_DefaultProviderPrefab: {fileID: 0}
+  - m_ProviderTypeName: Unity.MARS.Providers.IProvidesSessionControl
+    m_DefaultProviderTypeName: 
+    m_DefaultProviderPrefab: {fileID: 6713339344908314061, guid: b83a96e88b3d04148a3097781c1947f1,
+      type: 3}
+  - m_ProviderTypeName: Unity.MARS.Providers.IProvidesMarkerTracking
+    m_DefaultProviderTypeName: Unity.MARS.Providers.Synthetic.SimulatedDiscoveryMarkerProvider
+    m_DefaultProviderPrefab: {fileID: 0}
+  - m_ProviderTypeName: Unity.MARS.Providers.IProvidesCameraTexture
+    m_DefaultProviderTypeName: Unity.MARS.Providers.Synthetic.SimulatedCameraViewProvider
+    m_DefaultProviderPrefab: {fileID: 0}
+  - m_ProviderTypeName: Unity.MARS.Providers.IProvidesCameraIntrinsics
+    m_DefaultProviderTypeName: Unity.MARS.Providers.Synthetic.SimulatedCameraViewProvider
+    m_DefaultProviderPrefab: {fileID: 0}
+  - m_ProviderTypeName: Unity.MARS.Providers.IProvidesLightEstimation
+    m_DefaultProviderTypeName: Unity.MARS.Providers.Synthetic.SimulatedLightEstimationProvider
+    m_DefaultProviderPrefab: {fileID: 0}
+  - m_ProviderTypeName: Unity.MARS.Providers.IProvidesMarsBodyTracking
+    m_DefaultProviderTypeName: Unity.MARS.Providers.Synthetic.SimulatedBodyTrackingProvider
+    m_DefaultProviderPrefab: {fileID: 1635623348108647045, guid: d3d01cd53825b3845a60cfff14e1db16,
+      type: 3}
+  m_PlatformOverrides: []

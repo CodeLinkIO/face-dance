@@ -1,0 +1,38 @@
+﻿using System.Collections.Generic;
+using Unity.MARS.Query;
+
+namespace Unity.MARS.Data
+{
+    public partial class MARSDatabase
+    {
+        bool FindTraitsInternal(ProxyConditions conditions, {TraitCollectionClassName} cache)
+        {
+{FindTraitsInternal_METHOD}
+            return true;
+        }
+
+        public bool UpdateQueryMatchInternal(int dataID,
+            ProxyConditions conditions, ProxyTraitRequirements requirements, QueryResult result)
+        {
+{UpdateQueryMatchInternal_METHOD}
+
+            return true;
+        }
+
+{FillRequirementType_METHOD}
+
+{UpdateRequirementType_METHOD}
+
+        void AddRequirementUpdateMethods(MARSDatabase self)
+        {
+{AddTraitRequirementMethods_METHOD}
+        }
+
+        bool DataPassesAllConditionsInternal(ProxyConditions conditions, int dataId)
+        {
+{DataPassesAllConditionsInternal_METHOD}
+
+            return true;
+        }
+    }
+}

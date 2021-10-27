@@ -1,0 +1,13 @@
+﻿.root {
+    background-color: rgba(0,0,0,0.3);
+}
+
+.light-mode .view-border-right {
+    border-right-color: rgb(100, 100, 100);
+    border-right-width: 1px;
+}
+
+.dark-mode .view-border-right {
+    border-right-color: rgb(0, 0, 0);
+    border-right-width: 1px;
+}

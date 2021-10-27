@@ -1,0 +1,2 @@
+Added 2 components to GenericMethodWrapper
+Generated 19 property bags in Unity.RuntimeSceneSerialization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null

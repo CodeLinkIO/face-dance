@@ -1,0 +1,1136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{B79FD6D2-468B-38A8-FB01-CC2193C4B82C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Unity.MARS</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\</OutputPath>
+    <DefineConstants>UNITY_2020_3_19;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_IOS;ENABLE_RUNTIME_GI;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;PLATFORM_IPHONE;UNITY_IPHONE;UNITY_IPHONE_API;UNITY_HAS_GOOGLEVR;ENABLE_SPATIALTRACKING;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;UNITY_CCU;UNITY_XR_ARKIT_LOADER_ENABLED;UNITY_XR_ARKIT_FACE_TRACKING_ENABLED;INCLUDE_LEGACY_INPUT_HELPERS;INCLUDE_AR_FOUNDATION;INCLUDE_AR_FOUNDATION_3_OR_NEWER;INCLUDE_AR_FOUNDATION_4_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.11</UnityProjectGeneratorVersion>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>iOS:9</UnityBuildTarget>
+    <UnityVersion>2020.3.19f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/GUI/Attributes/DisplayNameAttribute.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/Conditions.deprecated.cs" />
+    <Compile Include="Assets/MARS/Generated/ConditionRatingsData.Generated.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Behaviors/MARSCamera.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Rules/ContentActions/ApplyForces.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Conditions/Relations/BoundedFloatRelation.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/SimulatedProviders/ImageMarkers/SimulatedTrackingUtils.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/QueryResult.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/SessionRecording/CameraPoseRecording.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/SynthesizedObject/Trait/SynthesizedAlignment.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/SessionRecording/PointCloudRecorder.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Actions/SetAlignedPoseAction.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Modules/FunctionalityIslandExtensions.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/Scheduling/CachedTraitCollections.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/SimulatedProviders/SimulatedDataTrackingProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Utils/MetaEnumerator.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Conditions/SimpleTagCondition.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Database/MARSMemoryOptions.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/CreateFromData/Scripts/PotentialChild.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/Scheduling/Stages/TraitRequirementFilterStage.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/SessionRecording/PlaneFindingRecording.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Actions/Human/MatchBodyPoseAction.cs" />
+    <Compile Include="Assets/MARS/Generated/ResultFillStage.Generated.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Behaviors/MARSFaceMeshVisualizer.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/SetQueryResult.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Modules/SlowTaskModule.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Landmarks/Outputs/LandmarkOutputEdge.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/SessionRecording/FaceTrackingRecording.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/ObjectInterface/MARSEntity.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/RecordedDataProviders/RecordedPointCloudProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/SynthesizedObject/Data/SynthesizedTrackable.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/MarsDataType.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/Enums/Exclusivity.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Database/MARSTrackableDataProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Forces/ProxyForceRegionDefintion.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/Scheduling/Stages/Relations/GroupResultFillStage.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/QueryMatchID.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Behaviors/MARSLightEstimationVisualizer.cs" />
+    <Compile Include="Assets/MARS/Generated/MARSDatabase.Conditions.Generated.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/ConditionsAnalyzer.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Database/SetMatchData.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Interfaces/IMatchLossHandler.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/SessionRecording/FacialExpressionsRecorder.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/GroupRatingConfiguration.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Database/Types/MARSTraitMultiCollection.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/CompareToData/CompareToDataModule.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Pools.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/GUI/Attributes/ComponentMenuAttribute.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/Scheduling/Stages/ConditionMatchRatingStage.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/Scheduling/Stages/FindBestStandaloneMatchesStage.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/SessionRecording/FacialExpressionsRecording.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Capabilities.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Database/ConditionRatingsData.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Forces/ProxyForceAlignmentDefinition.cs" />
+    <Compile Include="Assets/MARS/Generated/MatchRatingDataTransform.Generated.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Database/TraitDataSnapshot.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/RecordedDataProviders/RecordedCameraPoseProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Forces/ProxyRegionForcePlane2D.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/SessionRecording/RecordedSessionDirector.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Database/Types/RemoveTraitCommand.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/EditorComponents/HumanInteraction/FaceLandmarkInteractionTarget.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/GUI/Attributes/DecoratorAttribute.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/SessionRecording/SessionRecordingInfo.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Interfaces/Conditions/IRangeBoundingOptions.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/SessionRecording/DataRecorder.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/Scheduling/Stages/MarkDataUsedStage.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Environment/IgnoreForEnvironmentPersistence.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/SimulatedProviders/SimulatedCameraPoseProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/Scheduling/StandaloneQueryPipeline.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Interfaces/Subscribers/IUsesMarsSceneEvaluation.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/SessionRecording/PointCloudEventMarker.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/SynthesizedObject/Trait/SynthesizedSemanticTag.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/GUI/Attributes/MonoBehaviourComponentMenuAttribute.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Environment/LayerPlaneData.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Interfaces/Conditions/ISpatialCondition.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/Scheduling/Stages/AcquireHandlingStage.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/SynthesizedObject/SynthesizedObject.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Interfaces/IUsesDevQueryResult.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/SessionRecording/TrackableEventType.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Handles/ElevationHandle.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/SessionRecording/PoseEvent.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/GUI/Gizmo2D.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/EditorOnlyEvents.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Utils/ExcludeInMARSEditor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Interfaces/ISpawnable.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Conditions/Relations/RelationBase.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Conditions/ConditionBase.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/MARSSession.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Extensions/CameraOffsetExtensions.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/StubProviders/StubFacialExpressionsProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Environment/MRLayerPlaneData.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/ProxyTraitRequirements.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Database/Types/AddOrUpdateTraitCommand.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/SynthesizedObject/Data/SynthesizedBody.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/Scheduling/Stages/Relations/CacheRelationTraitReferencesStage.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/SimulatedProviders/SimulatedPlanesProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Landmarks/Outputs/LandmarkOutputPose.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Database/Types/ProcessingJob.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/SessionRecording/PlaneEvent.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Utils/DataRecorderUtils.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/SimulatedProviders/ImageMarkers/SimulatedMarkerTrackingResult.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Conditions/HasPoseCondition.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Conditions/Relations/DistanceRelation.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Conditions/Multi/SubCondition.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/Scheduling/Stages/CacheTraitReferencesStage.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Landmarks/Inputs/ClosestLandmarkSettings.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Environment/PlaneDiscoveryVoxelGrid.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Behaviors/PlaneDataVisual.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/EditorComponents/HumanInteraction/FaceInteractionTargets.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/StubProviders/StubPlanesProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/Scheduling/Stages/DataAvailabilityCheckStage.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Interfaces/IReasoningAPI.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Database/Types/TrackableProcessingJob.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Interfaces/IReducibleRating.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Handles/ScaleWorldCanvasWithCameraDistance.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/MarsDebugSettings.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/SynthesizedObject/Trait/SynthesizedBounds2D.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Interfaces/IHasEditorColor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Environment/GeneratedPlanesRoot.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Reasoning APIs/GeoDuplicationReasoningAPI.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/ObjectInterface/Replicator.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/SessionRecording/SerializedPointCloudData.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/Scheduling/GroupQueryPipeline.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/GoogleCloudDataStorage/GoogleCloudDataStorageModule.deprecated.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Forces/ProxyForcesPoseUtils.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/SessionRecording/FaceExpressionDataEvent.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Interfaces/ISetMatchLossHandler.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/SynthesizedObject/Data/SynthesizedReferencePoint.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Modules/Queries/MARSQueryBackend.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/Relations.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Simulation/SimulationConstants.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Environment/PlaneVoxel.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/Markers/MarkerConstants.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/CreateFromData/Scripts/DataVisualsModule.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Conditions/IsMarkerCondition.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/Scheduling/DataTransform.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Landmarks/LandmarkController.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/SessionRecording/DataRecording.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Rules/ContentActions/ContentAction.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Utils/PlaneUtils.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/GUI/ColorPreset.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/SynthesizedObject/Trait/SynthesizedMarker.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/SynthesizedObject/Data/SynthesizedPlane.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/SynthesizedObject/Trait/SynthesizedPose.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Handles/ScaleLineWidthWithCameraDistance.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Interfaces/IMatchAcquireHandler.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Interfaces/ISetMatchUpdateHandler.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Database/Types/DataIdRequestMap.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Actions/ShowChildrenOnTrackingAction.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/SimulatedProviders/SimulatedDiscoverySessionProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Actions/TransformAction.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Conditions/IsBodyCondition.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/SimulatedProviders/ImageMarkers/SimulatedMarkerProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Database/MARSDatabase.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Interfaces/IMatchTimeoutHandler.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Interfaces/IUsesQueryResults.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/RecordedDataProviders/RecordedPlanesProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/SessionRecording/PointCloudEvent.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Conditions/IsPlaneCondition.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Handles/BillboardHandle.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/Scheduling/Stages/Relations/MarkSetDataUsedStage.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/CameraPoseProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Interfaces/IPoseRefiner.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Forces/ProxyForceFieldPrimitive.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/EditorComponents/HumanInteraction/BodyLandmarkInteractionTarget.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Environment/PlaneVoxelGenerationParams.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Rules/ProxyRuleSet.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/SimulatedProviders/CameraFPSModeHandler.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/Scheduling/Stages/Relations/Search/GroupMatchSearchStage.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Behaviors/MARSMarkerVisualizer.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/GUI/Attributes/ComponentEditorAttribute.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/SessionRecording/FaceTrackingRecorder.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/ObjectInterface/MarsEntityPriority.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/SimulatedProviders/SimulatedLightEstimationProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/SessionRecording/PointCloudRecording.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Conditions/PlaneSizeCondition.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/GroupOrderWeights.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Simulation/SimulationVideoContextManager.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/EditorComponents/InteractionTarget.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Database/MARSDatabase.Sets.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Database/MARSDatabase.Sets.New.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Interfaces/Subscribers/IUsesDatabaseQuerying.cs" />
+    <Compile Include="Assets/MARS/Generated/Pools.Generated.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Body/BodyPoseData.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/PreviousSetMatches.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Reasoning APIs/FloorReasoningAPI.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/RecordedDataProviders/RecordedTrackablesProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/EditorComponents/EntityVisual.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/EditorComponents/SimulationRenderSettings.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/GUI/Attributes/MinAttribute.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Conditions/TrackingStateCondition.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/SetMatchesBuffer.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/SimulatedProviders/SimulatedCameraViewProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Reasoning APIs/ImmersionReasoningAPI.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Utils/ParallelSparseArrays.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/Scheduling/Stages/IncompleteGroupFilterStage.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Reasoning APIs/HeightAboveFloorReasoningAPI.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/QueryArgs.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/SessionRecording/SerializedFaceData.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Modules/Queries/EvaluationSchedulerModule.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Landmarks/Actions/PlaneLandmarksAction.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Modules/GeoLocationModule.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Playables/MarsVideoPlayableAsset.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/SynthesizedObject/Trait/SynthesizedManualPose.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/FallbackFace.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/EditorComponents/RedirectSelection.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Playables/MarsVideoPlayableBehaviour.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Database/RelationRatingsData.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/QueryPipelineConfiguration.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Forces/ProxyForcesFieldSolver.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/SynthesizedObject/Data/SynthesizedLightEstimation.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/EditorComponents/PlacementOverride.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Forces/ProxyRegionForceOccupancy.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/Scheduling/Stages/MatchReductionStage.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Actions/Human/FaceAction.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/CreateFromData/Scripts/CreateFromDataBase.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/SimulatedProviders/SimulatedDiscoveryPlanesProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/Scheduling/Stages/ResultFillStage.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Forces/ProxyAlignmentForce.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/MARSRuntimePrefabs.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Interfaces/ISetMatchTimeoutHandler.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/EditorComponents/HumanInteraction/MarsBodySettings.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/SynthesizedObject/SynthesizedData.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Conditions/BoundedRangeCondition.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Environment/PlaneExtractionSettings.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Interfaces/ISetMatchAcquireHandler.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/Scheduling/QueryStageFrameFence.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/Scheduling/QueryStage.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Environment/MARSEnvironmentSettings.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Database/Types/GenericMARSDataCollection.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/SetChildArgs.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Environment/XRayCollider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Modules/MARSSceneModule.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Environment/PlaneVoxelGrid.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Environment/XRayRegion.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/CreateFromData/Scripts/PotentialComponent.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Rules/ContentActions/RandomizeTransform.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/SessionRecording/PlaneFindingRecorder.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/CreateFromData/Scripts/CreateProxyFromData.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Modules/Queries/MARSQueryBackend.Unregister.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Actions/BuildSurfaceAction.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/GroupSearchData.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Modules/Queries/ParallelQueryData.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Modules/ReasoningModule.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Interfaces/ICreateFromData.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/RelationMembership.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Modules/MarsTimeModule.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Actions/MatchAction.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/ProviderPriorities.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Forces/ProxyForceFieldTypes.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/StubProviders/StubPointCloudProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Forces/ProxyRegionForceBase.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Modules/Queries/MARSQueryBackend.ManualMatching.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/SimulatedProviders/SimulatedBodySnapshotProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Conditions/Relations/Relation.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/StubProviders/StubProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Conditions/Relations/NonBinaryRelation.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/StubProviders/StubFaceTrackingProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/SessionRecording/CameraPoseRecorder.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Actions/StretchToExtentsAction.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Utils/RatingMetaEnumerator.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Reasoning APIs/InViewReasoningAPI.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Modules/Queries/QueryPipelinesModule.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/AssemblyInfo.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/SimulatedProviders/SimulatedDiscoveryPointCloudProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/ObjectInterface/ProxyGroup.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/StubProviders/StubSessionProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Conditions/GeoFenceCondition.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Conditions/MarkerCondition.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/CreateFromData/Scripts/CreateProxyGroupFromData.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Conditions/Multi/FlatFloorCondition.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/SimulatedProviders/SimulatedHitTestProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Landmarks/Outputs/LandmarkOutputPolygon.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/SessionRecording/PlaneEventMarker.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Conditions/HeightAboveFloorCondition.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/Scheduling/Stages/Relations/FilterRelationMemberMatchesStage.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Database/Types/TrackableProcessingJobContainer.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/EditorOnlyDelegates.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Forces/ProxyForceField.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Landmarks/Actions/FaceLandmarksAction.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Interfaces/IUsesSetQueryResults.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Actions/ShowChildrenInBoundsAction.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/ObjectInterface/Proxy.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/SessionRecording/FaceEventMarker.cs" />
+    <Compile Include="Assets/MARS/Generated/TraitDataSnapshot.Generated.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Environment/SimulatedPlayable.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Debug/QueryObjectMapping.cs" />
+    <Compile Include="Assets/MARS/Generated/QueryResult.Generated.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/MARSCore.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/GUI/Attributes/MaxAttribute.cs" />
+    <Compile Include="Assets/MARS/Generated/MARSDatabase.Traits.Generated.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Playables/MarsVideoPlayableTrack.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Conditions/SemanticTagCondition.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Database/TryBestMatchArguments.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Actions/SetPoseAction.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/GUI/Attributes/ComponentTooltipAttribute.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/Scheduling/Stages/Relations/RelationRatingStage.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/GUI/Attributes/MinMaxAttribute.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Conditions/Relations/Multi/TestMultiRelation.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Conditions/Relations/ElevationRelation.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Environment/XRayRuntimeUtils.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Modules/ModuleOrders.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Interfaces/IMatchUpdateHandler.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/GUI/DocumentationConstants.cs" />
+    <Compile Include="Assets/MARS/Generated/Relations.Generated.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Database/BufferedCommandType.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/RecordedDataProviders/RecordedFacialExpressionsProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Rules/ContentActions/Scatter.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Behaviors/MARSPointCloudVisualizer.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Behaviors/MARSPlaneVisualizer.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/SessionRecording/FaceEvent.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Forces/ProxyAlignmentInitialSceneCollector.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/CommonQueryData.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/BufferPool.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Database/MARSDataProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Actions/Human/FaceExpressionAction.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/Markers/MarsMarkerLibrary.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Actions/Human/BodyExpressionAction.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Conditions/Multi/MultiCondition.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/RatingConfiguration.cs" />
+    <Compile Include="Assets/MARS/Generated/Conditions.Generated.cs" />
+    <Compile Include="Assets/MARS/Generated/FindMatchProposalsTransform.Generated.cs" />
+    <Compile Include="Assets/MARS/Generated/RelationTraitCache.Generated.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/Markers/MarsMarkerDefinition.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Interfaces/IMatchVisibilityHandler.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/SessionRecording/FaceExpressionEventMarker.cs" />
+    <Compile Include="Assets/MARS/Generated/RelationRatingTransform.Generated.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Conditions/Relations/Multi/SubRelation.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/SynthesizedObject/Trait/SynthesizedTrait.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Forces/ProxyForcesFieldSolverDefintions.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/SessionRecording/SessionRecordingSettings.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/SessionRecording/SessionRecordingModule.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Landmarks/HumanLandmarks/MARSFallbackFaceLandmarks.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Handles/ApplyColorsToOthers.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Database/Types/TrackableMARSDataCollection.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/GUI/Attributes/OptionalConstraintAttribute.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Utils/CompositeRenderRuntimeUtils.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/SynthesizedObject/Data/SynthesizedMarkerId.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Extensions/MRFaceExtensions.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Behaviors/MRFaceLandmarkVisualizer.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Modules/ReasoningDefaultsModule.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/SetQueryArgs.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Modules/Queries/ParallelGroupData.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Forces/ProxyForcesFieldSolverModule.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Environment/MARSEnvironmentSceneInfo.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/SimulatedProviders/SimulatedTrackablesProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Debug/ProfilerLabels.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/Scheduling/Stages/FindMatchProposalsStage.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Forces/ProxyForces.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Conditions/Relations/Multi/MultiRelation.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/CameraOffsetProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/RelationTraitCache.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Environment/VoxelPlaneFindingParams.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Behaviors/MARSStickerPlacer.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Simulation/SimulationVideoContextSettings.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Behaviors/MARSFaceManager.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/ProxyConditions.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/RecordedDataProviders/RecordedFaceTrackingProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/SimulatedProviders/SimulatedObject.cs" />
+    <Compile Include="Assets/MARS/Generated/MARSDatabase.Relations.Generated.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Modules/Queries/ParallelGroupMemberData.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Database/Types/TrackableComparisons.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Utils/MarsRuntimeUtils.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Database/MARSTraitDataProvider.cs" />
+    <Compile Include="Assets/MARS/Generated/CachedTraitCollections.Generated.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Conditions/AlignmentCondition.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/Scheduling/Stages/Relations/SetDataAvailabilityCheckStage.cs" />
+    <Compile Include="Assets/MARS/Generated/GroupQueryPipeline.Generated.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Simulation/SimulationEnvironmentSettings.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Landmarks/Outputs/LandmarkOutputPoint.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/EditorComponents/CompositeCameraRenderer.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/SimulatedProviders/SimulatedBodyTrackingProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Database/RelationDataPair.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Forces/ProxyForcesPlanesModule.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Modules/RuntimeHandleContextModule.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/CreateFromData/Scripts/DataVisualsModuleOptions.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Handles/DistanceHandle.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Handles/PlaneSizeHandle.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Providers/SimulatedProviders/ImageMarkers/SimulatedDiscoveryMarkerProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Interfaces/IAction.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Interfaces/Conditions/IConfigurableMatchRating.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Conditions/IsFaceCondition.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Backend/Queries/Scheduling/Stages/Relations/GroupAcquireHandlingStage.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Forces/ProxyRegionForceTowards.cs" />
+    <Compile Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Conditions/Condition.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Shaders/Sprites-Overlay.shader" />
+    <None Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Shaders/LegacyMarsSynthetic.shader" />
+    <None Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Shaders/XRayCommon.cginc" />
+    <None Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Unity.MARS.asmdef" />
+    <None Include="Assets/MARS/Generated/CodeGenVersion.Generated.txt" />
+    <None Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Shaders/TexturedFresnel/TexturedStableFresnelCommon.cginc" />
+    <None Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Shaders/DoubleSidedUnlitTransparent.shader" />
+    <None Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Shaders/MarsStandardLit.shader" />
+    <None Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Shaders/URPMarsLit.shader" />
+    <None Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Shaders/URPMarsSynthetic.shader" />
+    <None Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Shaders/LegacyRoomXRay.shader" />
+    <None Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Shaders/RoomXRay.shader" />
+    <None Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Shaders/GizmoSolidColor.shader" />
+    <None Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Shaders/XRayURPForwardPass.hlsl" />
+    <None Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Shaders/LegacyMarsStandardPraticleUnlit.shader" />
+    <None Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Shaders/TransparentPlaneWithEdgeShader.shader" />
+    <None Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Shaders/CompositeBlit.shader" />
+    <None Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Shaders/LegacyMarsStandard.shader" />
+    <None Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Shaders/MarsSynthetic.shader" />
+    <None Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Scripts/Behaviors/Materials/PointCloud.shader" />
+    <None Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Shaders/FaceDecalShader.shader" />
+    <None Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Shaders/URPRoomXRay.shader" />
+    <None Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Shaders/MarsStandardPraticleUnlit.shader" />
+    <None Include="Assets/MARS/ExtensionTypes/MarsExtensionTypes.asmref" />
+    <None Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Shaders/CameraPreview.shader" />
+    <None Include="Assets/MARS/Generated/MARS Generated.asmref" />
+    <None Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Shaders/DepthMask.shader" />
+    <None Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Shaders/FloorVisualShader.shader" />
+    <None Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Shaders/TransparentPulse.shader" />
+    <None Include="Library/PackageCache/com.unity.mars@1.3.1/Runtime/Shaders/TexturedFresnel/TexturedStableFresnel.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsNativeModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.GraphViewModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.PackageManagerUIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.PackageManagerUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIServiceModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIServiceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.OSXStandalone.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+      <HintPath>Library/PackageCache/com.unity.burst@1.3.0-preview.12/Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.unity">
+      <HintPath>Library/PackageCache/com.unity.mars-companion-core@0.3.11-preview/zxing.unity.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0-preview/Runtime/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>Library/PackageCache/com.unity.collections@0.8.0-preview.5/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/System.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Unity.XRTools.Utils.csproj">
+      <Project>{DADD9670-205C-42FB-5E52-C749D837795C}</Project>
+      <Name>Unity.XRTools.Utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.MARS.Interfaces.csproj">
+      <Project>{67AB0216-2E2A-D25F-C482-41A4F1016E5F}</Project>
+      <Name>Unity.MARS.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XRTools.ModuleLoader.Interfaces.csproj">
+      <Project>{76EFDCB6-3D7D-6F26-8443-22E656FC1519}</Project>
+      <Name>Unity.XRTools.ModuleLoader.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XRTools.ModuleLoader.csproj">
+      <Project>{4D212EC0-8690-2E5A-0DC7-1766DB9F2481}</Project>
+      <Name>Unity.XRTools.ModuleLoader</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
+      <Project>{C7988EC7-5BF1-DC16-7C5E-C965DA270668}</Project>
+      <Name>UnityEngine.SpatialTracking</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{46AAA727-79F1-CE61-E149-4FF71E6A5654}</Project>
+      <Name>Unity.Timeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.MARS.MARSHandles.csproj">
+      <Project>{D21E5A4A-2000-7AFD-2925-AD89E9AF7D0A}</Project>
+      <Name>Unity.MARS.MARSHandles</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.MARS.MARSHandles.Picking.csproj">
+      <Project>{BCA36A37-CD5C-B0BE-BBC1-361CD59B537B}</Project>
+      <Name>Unity.MARS.MARSHandles.Picking</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{6C91488D-80BC-3EC0-7945-0FA2ED977679}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.ARFoundation.csproj">
+      <Project>{14C1684F-8EA8-3AE0-30BA-839B76E3E7B2}</Project>
+      <Name>Unity.XR.ARFoundation</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

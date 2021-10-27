@@ -1,0 +1,360 @@
+#WindowCanvas {
+    width: 100%;
+    height: 100%;
+    min-width: 981px;
+    min-height: 600px;
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 1;
+    flex-direction: row;
+}
+
+#Categories {
+    min-width: 200px;
+    border-right-width: 1px;
+}
+
+#ProductEntry {
+    height: 64px;
+    min-height: 64px;
+    border-bottom-width: 1px;
+}
+
+#ProductDetail {
+    height: 32px;
+    max-height: 32px;
+    min-height: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    flex-direction: row;
+}
+
+#ProductIcon {
+    height: 32px;
+    max-height: 32px;
+    min-height: 32px;
+    width: 32px;
+    max-width: 32px;
+    min-width: 32px;
+}
+
+#ProductData {
+    width: 100%;
+    height: 32px;
+    margin-left: 8px;
+}
+
+#ProductName {
+    -unity-font-style: bold;
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+#ProductDescription {
+    margin-bottom: 4px;
+}
+
+#ProductArrow {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    background-image: url('/Packages/com.unity.content-manager/Editor/Textures/ArrowDropDown.png');
+}
+
+#CategoryList {
+    flex-grow: 1;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+#ContentListWrapper {
+    flex-grow: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#ContentOverview {
+    flex-grow: 1;
+}
+
+#ContentList {
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#ContentDetail {
+    border-left-width: 1px;
+    width: 320px;
+    min-width: 320px;
+}
+
+#ContentImage {
+    width: 320px;
+    height: 240px;
+    -unity-background-scale-mode: scale-and-crop;
+}
+
+#ContentDescription {
+    flex-grow: 1;
+    border-top-width: 1px;
+}
+
+#ContentMetadata {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    min-height: 92px;
+}
+
+#DescriptionName {
+    font-size: 16px;
+    -unity-font-style: bold;
+    white-space: nowrap;
+    margin-bottom: 4px;
+}
+
+#DescriptionPackage {
+    white-space: normal;
+    font-size: 12px;
+    padding-bottom: 4px;
+}
+
+#DescriptionDate {
+    white-space: nowrap;
+    font-size: 12px;
+}
+
+#DescriptionScroll {
+    flex-grow: 1;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 1px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+#DescriptionText {
+    flex-wrap: wrap;
+    white-space: normal;
+}
+
+#DescriptionHeading {
+    -unity-font-style: bold;
+    margin-bottom: 4px;
+}
+
+#DescriptionInfo {
+}
+
+#DescriptionLocation {
+    white-space: nowrap;
+    -unity-text-align: upper-center;
+}
+
+#DescriptionStatus {
+    white-space: nowrap;
+    -unity-text-align: upper-center;
+    margin-top: 4px;
+}
+
+#DescriptionButtons {
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: 68px;
+}
+
+.category {
+    width: auto;
+    height: 36px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.category-icon {
+    width: 24px;
+    height: 24px;
+    background-image: url('/Packages/com.unity.content-manager/Editor/Textures/IconGrid.png');
+}
+
+.category-label {
+    height: 100%;
+    flex-grow: 1;
+    flex-direction: row;
+    -unity-text-align: middle-left;
+    font-size: 14px;
+    padding-right: 4px;
+    padding-left: 8px;
+    -unity-font-style: bold;
+}
+
+.content-entry {
+    width: 200px;
+    height: 200px;
+    -unity-background-scale-mode: scale-and-crop;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    flex-direction: column-reverse;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+
+.content-entry-info {
+    min-height: 64px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    justify-content: center;
+    padding-bottom: 8px;
+}
+
+.content-entry-thumbnail {
+    background-image: url('/Packages/com.unity.content-manager/Editor/Textures/Thumbnails/ThumbCube.png');
+    flex-grow: 1;
+    -unity-background-scale-mode: scale-and-crop;
+    min-width: 200px;
+}
+
+.content-entry-label {
+    font-size: 14px;
+    -unity-font-style: bold;
+    margin-bottom: 2px;
+}
+
+.content-entry-cat {
+    font-size: 14px;
+}
+
+.selected.content-entry {
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+}
+
+.selected > .content-entry-info {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    min-height: 62px;
+}
+
+.selected > .content-entry-thumbnail {
+    left: -2px;
+    top: -2px;
+}
+
+.description-button {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    height: 36px;
+    flex-grow: 1;
+    -unity-font-style: bold;
+    max-width: 45%;
+    font-size: 14px;
+}
+
+.disabled {
+    display: none;
+}
+
+.download-indicator {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: 16px;
+    background-image: url('/Packages/com.unity.content-manager/Editor/Textures/IconCheckmark.png');
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    bottom: 24px;
+    display: none;
+}
+
+.update-available .download-indicator {
+    background-image: url('/Packages/com.unity.content-manager/Editor/Textures/IconUpdate.png');
+    border-top-right-radius: 0;
+}
+
+.selected .download-indicator {
+    right: 14px;
+    bottom: 22px;
+}
+
+.downloaded .download-indicator {
+    display: flex;
+}
+
+.Templates > .category-icon {
+    background-image: url('/Packages/com.unity.content-manager/Editor/Textures/IconTemplate.png');
+}
+
+.Environments > .category-icon {
+    background-image: url('/Packages/com.unity.content-manager/Editor/Textures/IconEnvironment.png');
+}
+
+.Samples > .category-icon {
+    background-image: url('/Packages/com.unity.content-manager/Editor/Textures/IconSample.png');
+}
+
+.Essentials > .category-icon {
+    background-image: url('/Packages/com.unity.content-manager/Editor/Textures/IconCube.png');
+}
+
+.loading-spinner {
+    width: 16px;
+    height: 16px;
+    background-image: url('/Packages/com.unity.content-manager/Editor/Textures/LoadingSpinner.png');
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    display: none;
+}
+
+.in-progress .download-indicator {
+    display: flex;
+    background-image: none;
+}
+
+.in-progress .loading-spinner {
+    display: flex;
+}

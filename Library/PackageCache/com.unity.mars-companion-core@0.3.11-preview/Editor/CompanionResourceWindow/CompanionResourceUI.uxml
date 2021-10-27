@@ -1,0 +1,86 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:VisualElement name="root" class="editor">
+        <Style src="CompanionResourceUI.uss" />
+        <ui:VisualElement name="header" style="flex-direction: row-reverse; border-bottom-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); min-height: 22px;">
+            <ui:VisualElement name="reloadButtonContainer" style="padding-left: 6px; border-left-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); height: auto; padding-right: 6px; padding-top: 2px; padding-bottom: 2px; margin-left: 2px; flex-shrink: 0;">
+                <ui:Button name="reloadProjectButton" tooltip="Update resource list" class="reload_icon" style="background-color: rgba(0, 0, 0, 0); border-left-color: rgba(0, 0, 0, 0); border-right-color: rgba(0, 0, 0, 0); border-top-color: rgba(0, 0, 0, 0); border-bottom-color: rgba(0, 0, 0, 0); width: 16px; height: 16px; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+            </ui:VisualElement>
+            <ui:Label name="lastSyncedLabel" class="editor_project_settings_contents" style="-unity-text-align: middle-right; white-space: nowrap; flex-shrink: 1;" />
+            <ui:Label text="Connect to cloud services project to use cloud features" name="unlinkedProjectMessage" class="error-message" style="-unity-text-align: middle-left; flex-grow: 1;" />
+            <ui:Label text="Sign in to use cloud features" name="notSignedInMessage" class="error-message" style="-unity-text-align: middle-left; flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="companionResourceProjectSettings" style="padding-left: 2px; padding-right: 2px; padding-top: 2px; flex-shrink: 0;">
+            <ui:VisualElement name="projectVisualElement" style="flex-direction: row; justify-content: space-between;">
+                <ui:Label text="Project:" tooltip="Current loaded project" class="editor_project_settings_label" />
+                <ui:VisualElement style="flex-direction: row; justify-content: space-between; flex-grow: 1;">
+                    <ui:Label name="projectNameLabel" class="editor_project_settings_contents" style="flex-grow: 1; -unity-text-align: middle-left; margin-left: 4px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="projectIDVisualElement" style="flex-direction: row; justify-content: space-between;">
+                <ui:Label text="Project ID:" class="editor_project_settings_label" style="opacity: 1; -unity-text-align: middle-left;" />
+                <ui:VisualElement style="flex-direction: row; justify-content: space-between; flex-grow: 1;">
+                    <ui:TextField picking-mode="Ignore" name="projectIDTextField" readonly="true" style="flex-direction: row; justify-content: flex-start; flex-grow: 1;" />
+                    <ui:Button text="QR Code" name="QRCodeButton" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="divider" style="margin-top: 4px; margin-bottom: 4px;">
+                <ui:Label text="Resources" style="-unity-font-style: bold;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="resourceFolderVisualElement" style="flex-direction: row; justify-content: space-between;">
+                <ui:Label text="Resource Folder:" tooltip="Path on the cloud where resources are loaded/saved" class="editor_project_settings_label" style="-unity-text-align: middle-left;" />
+                <ui:VisualElement class="editor_project_settings_contents" style="flex-grow: 1;">
+                    <ui:TextField picking-mode="Ignore" name="resourceFolderTextField" style="flex-grow: 1;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement>
+            <ui:IMGUIContainer name="imageMarkerGUIContainer" />
+        </ui:VisualElement>
+        <ui:VisualElement name="companionResourceTitle" class="companion_resource_title" style="flex-direction: row; justify-content: space-between; flex-shrink: 0; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-left-width: 0; border-right-width: 0;">
+            <ui:Label text="Asset" name="assetTitle" class="column_asset" style="-unity-text-align: middle-left;" />
+            <ui:Label text="Size" name="sizeTitle" class="column_size" style="border-left-width: 1px; border-right-width: 1px; border-color: rgb(0, 0, 0); margin-left: -1px; margin-right: -1px;" />
+            <ui:Label text="Last Updated" name="dateTitle" class="column_date" />
+            <ui:Label text="Sync Action" name="syncActionTitle" class="column_sync_status" style="border-left-width: 1px; border-right-width: 1px; border-color: rgb(0, 0, 0); margin-left: -1px; margin-right: -1px;" />
+            <ui:Button name="iOSTitleToggleButton" tooltip="Click here to mark all resources to be exported for iOS" class="column_bundle" />
+            <ui:VisualElement style="width:1px; height:100%; background-color: rgb(0, 0, 0); margin-left:-1px" />
+            <ui:Button name="androidTitleToggleButton" tooltip="Click here to mark all resources to be exported for Android" class="column_bundle" />
+            <ui:VisualElement style="width:1px; height:100%; background-color: rgb(0, 0, 0); margin-left:-1px" />
+            <ui:VisualElement name="deleteColumnTitle" style="flex-shrink: 0; width: 27px;" />
+            <ui:VisualElement name="scrollbarSpacer" style="flex-shrink: 0; width: 13px; display:none;" />
+        </ui:VisualElement>
+        <ui:ScrollView name="mainScrollView" style="flex-grow: 1;">
+            <ui:VisualElement name="scenesArea">
+                <ui:Foldout text="Scenes" name="scenesFoldout" class="foldout" />
+                <ui:VisualElement name="scenesResourceItemsArea" style="display: flex;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="prefabsArea">
+                <ui:Foldout text="Prefabs" name="prefabsFoldout" class="foldout" />
+                <ui:VisualElement name="prefabsResourceItemsArea" style="display: flex;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="recordingsArea">
+                <ui:Foldout text="Recordings" name="recordingsFoldout" class="foldout" />
+                <ui:VisualElement name="recordingsResourceItemsArea" style="display: flex;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="markersArea">
+                <ui:Foldout text="Markers" name="markersFoldout" class="foldout" />
+                <ui:VisualElement name="markersResourceItemsArea" style="display: flex;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="environmentsArea">
+                <ui:Foldout text="Environments" name="environmentsFoldout" class="foldout" />
+                <ui:VisualElement name="environmentsResourceItemsArea" style="display: flex;" />
+            </ui:VisualElement>
+        </ui:ScrollView>
+        <ui:VisualElement name="infoContainer" style="flex-shrink: 0; border-top-width: 1px; border-bottom-width: 1px; padding-top: 2px; padding-bottom: 2px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);">
+            <ui:Label name="infoLabel" text=" " style="-unity-text-align: upper-center; display: flex; visibility: visible;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-shrink: 0;">
+            <ui:VisualElement name="notSupportedBuildTargetMessage" style="flex-direction: row; justify-content: space-between; flex-grow: 1; align-items: center; flex-shrink: 0;">
+                <ui:Label text="*Current build target is not supported for asset publishing" tooltip="Consider changing the current build target to enable the contextual menu for publishing assets." class="warning-message"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="footer" style="flex-direction: row-reverse; padding-right: 4px; padding-bottom: 4px; padding-top: 4px; padding-left: 4px; flex-shrink: 0;">
+                <ui:Button text="Sync All Resources" name="syncAllButton" tooltip="Syncs all the companion resources (The same as pressing each button under the  Sync Status column)" style="display:none;" />
+                <ui:Button text="Sync Asset Bundles" name="syncBundlesButton" tooltip="Exports asset bundles for according to the current state of the cloud icons for each resource row. This process can take a while depending on the size of your project and whether it is necessary to switch platforms" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

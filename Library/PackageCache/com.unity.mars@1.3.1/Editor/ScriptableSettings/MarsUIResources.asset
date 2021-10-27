@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d897e1d4ab4d422499dacb0e2d34a4f8, type: 3}
+  m_Name: MarsUIResources
+  m_EditorClassIdentifier: 
+  m_NextEnvironmentIcon: {fileID: 2800000, guid: 249123a93d17e4343b26db2d94e13c5d,
+    type: 3}
+  m_PreviousEnvironmentIcon: {fileID: 2800000, guid: 2328c235d6923c04b9d49740c67d009a,
+    type: 3}
+  m_StopIcon: {fileID: 2800000, guid: b8663da35b25bc04dbf06dcc3018337e, type: 3}
+  m_WarningTexture: {fileID: 2800000, guid: 80ff6246da520954faa0cd63b95957a2, type: 3}
+  m_CreationPanelDefaultIcon:
+    m_Dark: {fileID: 2800000, guid: 489aee2c0a45e88448b110577986442b, type: 3}
+    m_Light: {fileID: 2800000, guid: 489aee2c0a45e88448b110577986442b, type: 3}
+  m_ProxyObject:
+    m_Dark: {fileID: 2800000, guid: b246f13186b764242bc6d04dadd0e9c9, type: 3}
+    m_Light: {fileID: 2800000, guid: abea158effe3d5742b22a702ead78e6e, type: 3}
+  m_Set:
+    m_Dark: {fileID: 2800000, guid: dabaf60b938c32343b24c888c90eb299, type: 3}
+    m_Light: {fileID: 2800000, guid: c2059eb965e606e4ab2910ba2e436e55, type: 3}
+  m_Replicator:
+    m_Dark: {fileID: 2800000, guid: de64284e04f1fa345a07d7959c6c8163, type: 3}
+    m_Light: {fileID: 2800000, guid: 373288c89fca240409cd872fde7b4d65, type: 3}
+  m_SyntheticObject:
+    m_Dark: {fileID: 2800000, guid: 51e9bbc16020bff4cac095360465ccac, type: 3}
+    m_Light: {fileID: 2800000, guid: 2316abb3f7c212b48b4fa2f4cad2003d, type: 3}
+  m_CreateTool:
+    m_Dark: {fileID: 2800000, guid: 268093d3e6159d443b1d42f03714b984, type: 3}
+    m_Light: {fileID: 2800000, guid: 92afc676b0a89384a96173e44bea4d5f, type: 3}
+  m_CompareTool:
+    m_Dark: {fileID: 2800000, guid: f5161c697a4a5534789dfa46b1bf269e, type: 3}
+    m_Light: {fileID: 2800000, guid: daac36c220f45e447970744162ef2eeb, type: 3}
+  m_ElevationIcons:
+    m_Inactive:
+      m_Dark: {fileID: 2800000, guid: 205efdc235b9e7a468d89d19ed99ac12, type: 3}
+      m_Light: {fileID: 2800000, guid: 205efdc235b9e7a468d89d19ed99ac12, type: 3}
+    m_Active:
+      m_Dark: {fileID: 2800000, guid: 589be8d64f7ae744e84bd26e38faf3a1, type: 3}
+      m_Light: {fileID: 2800000, guid: 589be8d64f7ae744e84bd26e38faf3a1, type: 3}
+  m_ProximityIcons:
+    m_Inactive:
+      m_Dark: {fileID: 2800000, guid: b7a4b148e8ff62e4780095605d9fbbd4, type: 3}
+      m_Light: {fileID: 2800000, guid: b7a4b148e8ff62e4780095605d9fbbd4, type: 3}
+    m_Active:
+      m_Dark: {fileID: 2800000, guid: 08da6f065d70aaa47bfa86e1bb5e3081, type: 3}
+      m_Light: {fileID: 2800000, guid: 08da6f065d70aaa47bfa86e1bb5e3081, type: 3}
+  m_SizeIcons:
+    m_Inactive:
+      m_Dark: {fileID: 2800000, guid: c0cc1133a20a9874faa08eb48b5b75e8, type: 3}
+      m_Light: {fileID: 2800000, guid: c0cc1133a20a9874faa08eb48b5b75e8, type: 3}
+    m_Active:
+      m_Dark: {fileID: 2800000, guid: 00117686ca80473408fbfb9bd94a3180, type: 3}
+      m_Light: {fileID: 2800000, guid: 00117686ca80473408fbfb9bd94a3180, type: 3}
+  m_FaceIcons:
+    m_Seeking:
+      m_Dark: {fileID: 2800000, guid: 58b6e7cea53fbd84199a4dd2a13e4599, type: 3}
+      m_Light: {fileID: 2800000, guid: 58b6e7cea53fbd84199a4dd2a13e4599, type: 3}
+    m_Tracking:
+      m_Dark: {fileID: 2800000, guid: f5e4ee73d107563479cf7795d02e6aa3, type: 3}
+      m_Light: {fileID: 2800000, guid: dac692f8e880343f99f2f406fbf79b92, type: 3}
+    m_Unavailable:
+      m_Dark: {fileID: 2800000, guid: 231216e87a1319c418edc6849d04c952, type: 3}
+      m_Light: {fileID: 2800000, guid: 231216e87a1319c418edc6849d04c952, type: 3}
+  m_MarkerIcons:
+    m_Seeking:
+      m_Dark: {fileID: 2800000, guid: b6e01dadca8f21c4188d7124bc96b3c6, type: 3}
+      m_Light: {fileID: 2800000, guid: b6e01dadca8f21c4188d7124bc96b3c6, type: 3}
+    m_Tracking:
+      m_Dark: {fileID: 2800000, guid: c20490274f2be4347a2967b2379ddb63, type: 3}
+      m_Light: {fileID: 2800000, guid: 26e28055d54554e589620efbe61426a1, type: 3}
+    m_Unavailable:
+      m_Dark: {fileID: 2800000, guid: 1bd9920c15a412e488b32c89a4a4f052, type: 3}
+      m_Light: {fileID: 2800000, guid: 1bd9920c15a412e488b32c89a4a4f052, type: 3}
+  m_ContextIcons:
+    m_Seeking:
+      m_Dark: {fileID: 2800000, guid: e5f70c4771625b04a9b7dbf54a35cef6, type: 3}
+      m_Light: {fileID: 2800000, guid: e5f70c4771625b04a9b7dbf54a35cef6, type: 3}
+    m_Tracking:
+      m_Dark: {fileID: 2800000, guid: 0599cea9308e3d24d9849f3d3e7741ca, type: 3}
+      m_Light: {fileID: 2800000, guid: 0599cea9308e3d24d9849f3d3e7741ca, type: 3}
+    m_Unavailable:
+      m_Dark: {fileID: 2800000, guid: 386860b075c05554ea835c43fc3ff885, type: 3}
+      m_Light: {fileID: 2800000, guid: 386860b075c05554ea835c43fc3ff885, type: 3}
+  m_SetIcons:
+    m_Seeking:
+      m_Dark: {fileID: 2800000, guid: 772175fb73b9da849a6f148713ec47e4, type: 3}
+      m_Light: {fileID: 2800000, guid: 772175fb73b9da849a6f148713ec47e4, type: 3}
+    m_Tracking:
+      m_Dark: {fileID: 2800000, guid: e54824678a2b4a546a7f1460c1aafc58, type: 3}
+      m_Light: {fileID: 2800000, guid: e54824678a2b4a546a7f1460c1aafc58, type: 3}
+    m_Unavailable:
+      m_Dark: {fileID: 2800000, guid: 576c33b78e4e1d64f9c760d382d7d7e8, type: 3}
+      m_Light: {fileID: 2800000, guid: 576c33b78e4e1d64f9c760d382d7d7e8, type: 3}
+  m_SimulationViewIcon: {fileID: 2800000, guid: ce36760adf346b34784c3a09f1dc7a03,
+    type: 3}
+  m_CanEditIcon: {fileID: 2800000, guid: ef68862b5832bf146811551df52958fe, type: 3}
+  m_CanNotEditIcon: {fileID: 2800000, guid: 25f12dddc9059cd42b8c0bb08d173544, type: 3}
+  m_ToolbarBackground: {fileID: 2800000, guid: 33b2a21b8300ee744b520d0ba1b624e6, type: 3}
+  m_ToolbarBackground2X: {fileID: 2800000, guid: 32d48cf4be3fc6a4690c065377c39a71,
+    type: 3}
+  m_ToolbarBackgroundPro: {fileID: 2800000, guid: 18856645e75fbf544892db34dd7274b7,
+    type: 3}
+  m_ToolbarBackgroundPro2X: {fileID: 2800000, guid: 8a96ba7eeb53d0546bf43ac81f0e6f79,
+    type: 3}
+  m_ToolbarButton: {fileID: 2800000, guid: ee07e647ae605f24a81a968b2aca78c5, type: 3}
+  m_ToolbarButton2X: {fileID: 2800000, guid: e626aed50e095094aa797d5b4d4c9e72, type: 3}
+  m_ToolbarDropdown: {fileID: 2800000, guid: 2ec7780f90f00e54ba11181274aaaf37, type: 3}
+  m_ToolbarDropdownPro: {fileID: 2800000, guid: 576955927867c3445ac9d6aad67d4fa3,
+    type: 3}
+  m_Ellipsis:
+    m_Dark: {fileID: 2800000, guid: 370432567ce36469a8879c5106a7798a, type: 3}
+    m_Light: {fileID: 2800000, guid: ac41d9d241cb4454d80fd2d98fc03ebb, type: 3}
+  m_SimulationIconData:
+    m_CameraControls:
+      m_Dark: {fileID: 2800000, guid: b6292d4d86e42064e9f4500be4f84eb9, type: 3}
+      m_Light: {fileID: 2800000, guid: ba9dee3677916474e9521118b0ea4035, type: 3}
+  m_BodyIconData:
+    m_AvatarIcon:
+      m_Dark: {fileID: 2800000, guid: e4c040a3e5fcf0448ad22e025086d39a, type: 3}
+      m_Light: {fileID: 2800000, guid: 7a13868f851f94a47b906c2ab53d9213, type: 3}
+    m_BodyPoseIcon:
+      m_Dark: {fileID: 2800000, guid: 221e486cc2846457abb9d3130f7abf73, type: 3}
+      m_Light: {fileID: 2800000, guid: 94016aabb20934f96b470c3f1fbcaff8, type: 3}
+    m_OpenTimelineIcon:
+      m_Dark: {fileID: 2800000, guid: 935fa4968b4684211b66ebf9d7b59cbd, type: 3}
+      m_Light: {fileID: 2800000, guid: e82cc068789014a4ca38177d95065881, type: 3}
+  m_OrientToSurface:
+    m_Dark: {fileID: 2800000, guid: 79f7806da67634e47b9a4a38fc1a5fcd, type: 3}
+    m_Light: {fileID: 2800000, guid: 7d31cc45f917a4644bc54563d8e5b534, type: 3}
+  m_PivotSnapping:
+    m_Dark: {fileID: 2800000, guid: ac3c01e736c07be418795d593b885171, type: 3}
+    m_Light: {fileID: 2800000, guid: c5988a085f22326468be06bcda0bbf59, type: 3}
+  m_XUp:
+    m_Dark: {fileID: 2800000, guid: 680b8cc0f96006749a775f900fe62dd1, type: 3}
+    m_Light: {fileID: 2800000, guid: c7a0850ff4a77df40be5ef1d20a09d8b, type: 3}
+  m_XDown:
+    m_Dark: {fileID: 2800000, guid: 82c478cb47a7b65429ff36661cdac24c, type: 3}
+    m_Light: {fileID: 2800000, guid: 902c8625bf59ee14a9f951ece45f9cde, type: 3}
+  m_YUp:
+    m_Dark: {fileID: 2800000, guid: 575ae88851d3477489eed165ae878e31, type: 3}
+    m_Light: {fileID: 2800000, guid: 95af162b92ef3c54893c1d842764551a, type: 3}
+  m_YDown:
+    m_Dark: {fileID: 2800000, guid: 69dba19170ad5304297597a610c32424, type: 3}
+    m_Light: {fileID: 2800000, guid: 056aefa979c5e164b83ede8783b40360, type: 3}
+  m_ZUp:
+    m_Dark: {fileID: 2800000, guid: e98ffa60a59fc7d4486da948959236a3, type: 3}
+    m_Light: {fileID: 2800000, guid: 9b433edf20e61e843b35df0558f1dd35, type: 3}
+  m_ZDown:
+    m_Dark: {fileID: 2800000, guid: 8ffdceb29366a8a4ea263725a3118316, type: 3}
+    m_Light: {fileID: 2800000, guid: 4473b5c8c8f6633428ef1727e1c6cc41, type: 3}
+  m_ForcesIconData:
+    m_AlignToCamera:
+      m_Dark: {fileID: 2800000, guid: 734af23d28fab440caffd0a07a4a06c4, type: 3}
+      m_Light: {fileID: 0}
+    m_AlignToProxy:
+      m_Dark: {fileID: 2800000, guid: f2bf9b779b38a4e2d81a6696c904ac51, type: 3}
+      m_Light: {fileID: 0}
+    m_OccupyNormal:
+      m_Dark: {fileID: 2800000, guid: b188cc062710d4c92a75c6990eb26d1c, type: 3}
+      m_Light: {fileID: 0}
+    m_OccupyPadding:
+      m_Dark: {fileID: 2800000, guid: 0970d183b81aa4a2db405e050a8cd290, type: 3}
+      m_Light: {fileID: 0}
+    m_SnapToSurfaceVertical:
+      m_Dark: {fileID: 2800000, guid: 1378357c813694b008056d74abe47a23, type: 3}
+      m_Light: {fileID: 0}
+    m_SnapToSurfaceHorizontal:
+      m_Dark: {fileID: 2800000, guid: 9a07eba7ab57d4ca4b0a40b1ab00a162, type: 3}
+      m_Light: {fileID: 0}
+    m_SnapToEdgeVertical:
+      m_Dark: {fileID: 2800000, guid: ffd3db66069044494ba7db656491a7fa, type: 3}
+      m_Light: {fileID: 0}
+    m_SnapToEdgeHorizontal:
+      m_Dark: {fileID: 2800000, guid: 718bb3fc2e9ea4b56bb78fd5bc8c401e, type: 3}
+      m_Light: {fileID: 0}

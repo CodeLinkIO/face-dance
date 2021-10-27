@@ -1,0 +1,29 @@
+﻿using System.Collections.Generic;
+using Unity.MARS.Query;
+
+namespace Unity.MARS.Data
+{
+    partial class CachedTraitCollection
+    {
+{BackingValue_FIELDS}
+
+        void ClearInternal(CachedTraitCollection self)
+        {
+{ClearInternal_METHOD}
+        }
+
+        void FromConditions(ProxyConditions conditions)
+        {
+{FromConditions_METHOD}
+        }
+
+        bool CheckDestroyedInternal(CachedTraitCollection self)
+        {
+{CheckDestroyed_METHOD}
+
+            return false;
+        }
+
+{TryGetType_METHOD}
+    }
+}

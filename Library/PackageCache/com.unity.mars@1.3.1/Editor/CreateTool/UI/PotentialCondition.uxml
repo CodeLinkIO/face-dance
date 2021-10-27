@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="Row" style="flex-direction: row;&#10;border-color: rgb(64, 64, 64);&#10;margin-left: 2px;&#10;margin-right: 2px;&#10;margin-top: 2px;&#10;margin-bottom: 2px;&#10;">
+        <Style src="PotentialCondition.uss" />
+        <ui:Toggle binding-path="use" class="row-item" style="margin-bottom: 2px;&#10;" />
+        <ui:Label text="Component Name" name="Name" class="row-item" style="justify-content: flex-start;&#10;" />
+        <ui:VisualElement name="Spacer" style="flex-grow: 1;&#10;" />
+        <ui:Label text="Component Value String" name="Value" class="row-item" style="align-items: flex-end;&#10;flex-wrap: wrap;&#10;max-width: 150px;&#10;white-space: normal;&#10;-unity-text-align: middle-right;&#10;flex-grow: 1;&#10;" />
+    </ui:VisualElement>
+</ui:UXML>

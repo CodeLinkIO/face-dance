@@ -1,0 +1,56 @@
+{
+    "name": "Unity.MARS",
+    "references": [
+        "Unity.XRTools.Utils",
+        "Unity.MARS.Interfaces",
+        "Unity.XRTools.ModuleLoader.Interfaces",
+        "Unity.XRTools.ModuleLoader",
+        "UnityEngine.SpatialTracking",
+        "Unity.Timeline",
+        "Unity.MARS.MARSHandles",
+        "Unity.MARS.MARSHandles.Picking",
+        "Unity.TextMeshPro",
+        "Unity.Postprocessing.Runtime",
+        "Unity.XR.ARFoundation"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.postprocessing",
+            "expression": "2.0.0",
+            "define": "INCLUDE_POST_PROCESSING"
+        },
+        {
+            "name": "com.unity.xr.legacyinputhelpers",
+            "expression": "1.0.0",
+            "define": "INCLUDE_LEGACY_INPUT_HELPERS"
+        },
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "7.0.0",
+            "define": "INCLUDE_RENDER_PIPELINES_UNIVERSAL"
+        },
+        {
+            "name": "com.unity.xr.arfoundation",
+            "expression": "2.1",
+            "define": "INCLUDE_AR_FOUNDATION"
+        },
+        {
+            "name": "com.unity.xr.arfoundation",
+            "expression": "3.0.1",
+            "define": "INCLUDE_AR_FOUNDATION_3_OR_NEWER"
+        },
+        {
+            "name": "com.unity.xr.arfoundation",
+            "expression": "4.0",
+            "define": "INCLUDE_AR_FOUNDATION_4_OR_NEWER"
+        }
+    ],
+    "noEngineReferences": false
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Unity.MARS.Navmesh",
+    "references": [
+        "Unity.MARS",
+        "NavMeshComponents",
+        "Unity.MARS.Interfaces",
+        "Unity.XRTools.Utils",
+        "Unity.XRTools.Utils.Editor",
+        "Unity.XRTools.ModuleLoader.Interfaces"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

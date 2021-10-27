@@ -1,0 +1,50 @@
+{
+    "name": "Unity.MARS.Providers.ARFoundation",
+    "references": [
+        "Unity.XRTools.Utils",
+        "Unity.MARS.Interfaces",
+        "Unity.XR.ARFoundation",
+        "Unity.MARS",
+        "Unity.XRTools.ModuleLoader.Interfaces",
+        "Unity.XRTools.ModuleLoader",
+        "Unity.XR.ARSubsystems",
+        "Unity.XR.ARKit.FaceTracking"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [
+        "WindowsStandalone64"
+    ],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.xr.arfoundation",
+            "expression": "2.1",
+            "define": "ARFOUNDATION_2_1_OR_NEWER"
+        },
+        {
+            "name": "com.unity.xr.arfoundation",
+            "expression": "3.0.1",
+            "define": "ARFOUNDATION_3_0_1_OR_NEWER"
+        },
+        {
+            "name": "com.unity.xr.arfoundation",
+            "expression": "4.0.0-preview.0",
+            "define": "ARFOUNDATION_4_OR_NEWER"
+        },
+        {
+            "name": "com.unity.xr.arfoundation",
+            "expression": "4.1.0-preview.0",
+            "define": "ARFOUNDATION_4_1_OR_NEWER"
+        },
+        {
+            "name": "com.unity.xr.arkit-face-tracking",
+            "expression": "1.0.7",
+            "define": "INCLUDE_ARKIT_FACE_PLUGIN"
+        }
+    ],
+    "noEngineReferences": false
+}

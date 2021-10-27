@@ -1,0 +1,19 @@
+﻿using System.Collections.Generic;
+using Unity.XRTools.Utils;
+using Unity.MARS.Query;
+
+namespace Unity.MARS.Data
+{
+    partial class ConditionRatingsData
+    {
+        // used to map type to index in generated FromConditions method
+        static int s_TypeIndex;
+
+        public void FromConditions(ProxyConditions conditions)
+        {
+            m_Count = 0;
+            s_TypeIndex = 0;
+{FromConditions_METHOD}
+        }
+    }
+}

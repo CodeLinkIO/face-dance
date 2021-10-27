@@ -1,0 +1,10 @@
+﻿namespace Unity.MARS.Query
+{
+    partial class GroupQueryPipeline
+    {
+        void GetAllIndexPairs(QueryMatchID id, Relations relations)
+        {
+{GetAllIndexPairs_METHOD}
+        }
+    }
+}

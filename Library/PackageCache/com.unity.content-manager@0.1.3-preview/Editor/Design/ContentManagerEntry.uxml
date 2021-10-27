@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="ContentTile" class="shallow-background flat-border content-entry raised-background" style="flex-direction: column;">
+        <Style src="ContentManager.uss" />
+        <ui:VisualElement name="TileImage" class="content-entry-thumbnail" />
+        <ui:VisualElement name="TileInfo" class="content-entry-info">
+            <ui:Label text="Content Pack" name="TileTitle" class="content-entry-label main-text" />
+            <ui:Label text="Category" name="TileDesc" class="content-entry-cat" />
+            <ui:VisualElement name="DownloadIndicator" class="raised-background download-indicator">
+                <ui:VisualElement name="ProgressIndicator" class="loading-spinner" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

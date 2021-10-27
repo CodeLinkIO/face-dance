@@ -1,0 +1,31 @@
+{
+  "name": "com.unity.mars-companion-core",
+  "displayName": "Unity MARS Companion Core",
+  "version": "0.3.11-preview",
+  "unity": "2019.3",
+  "unityRelease": "0f6",
+  "description": "Core package for MARS companion apps. This includes the Resource Window UI and utility methods for importing resources into the editor. There are also utility methods for managing resources on cloud storage for editor and runtime.",
+  "dependencies": {
+    "com.unity.list-view-framework": "1.1.7-preview",
+    "com.unity.mars": "1.3.1",
+    "com.unity.properties": "1.5.0-preview",
+    "com.unity.runtime-scene-serialization": "0.2.3-preview",
+    "com.unity.serialization": "1.5.0-preview",
+    "com.unity.textmeshpro": "2.1.0",
+    "com.unity.timeline": "1.2.12",
+    "com.unity.xrtools.utils": "1.3.1",
+    "com.unity.xrtools.module-loader": "1.3.1",
+    "com.unity.modules.assetbundle": "1.0.0",
+    "com.unity.modules.screencapture": "1.0.0",
+    "com.unity.modules.unitywebrequest": "1.0.0",
+    "com.unity.modules.unitywebrequesttexture": "1.0.0"
+  },
+  "upmCi": {
+    "footprint": "548ae77523f348f4398c73c47979b20d48345104"
+  },
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/com.unity.mars-companion-core.git",
+    "type": "git",
+    "revision": "f50625f36010611435b22bb4eef328f1c6a40513"
+  }
+}

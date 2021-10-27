@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5230b80776fe5e24da5c54c9505a8d0b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_AttachTarget: {instanceID: 0}
+  - m_HoverHighlightMaterial: {instanceID: 0}
+  - m_TargetSelectedMaterial: {instanceID: 0}
+  - m_NormalMaterial: {instanceID: 0}
+  - m_SpriteMaterial: {fileID: 2100000, guid: 51906f16441bb9d42bd939429c31c229, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

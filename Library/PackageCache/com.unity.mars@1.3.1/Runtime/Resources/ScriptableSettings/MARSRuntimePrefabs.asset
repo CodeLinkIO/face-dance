@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47744da65de7d4c4bbf2c2d3e649f55c, type: 3}
+  m_Name: MARSRuntimePrefabs
+  m_EditorClassIdentifier: 
+  m_UserPrefab: {fileID: 1394127281858466, guid: 4756fb09997791d4889d8af95fa5d507,
+    type: 3}
+  m_EntityColors: {fileID: 11400000, guid: 6e4f5b72387337447b60fdd4ba3a1656, type: 2}
+  m_PlaneSizeHandle: {fileID: 606281225362437339, guid: 368a521c19ad8d34c88687753b3616d8,
+    type: 3}
+  m_DistanceHandle: {fileID: 606281225362437339, guid: aea5e11ca1c6d3747b1a6062618ce49b,
+    type: 3}
+  m_ElevationHandle: {fileID: 606281225362437339, guid: f0b3c6c43f9157a46bbdef37658f35db,
+    type: 3}

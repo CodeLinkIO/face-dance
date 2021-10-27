@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e793ed69d444ff8b47786931e4f70b, type: 3}
+  m_Name: ARKitLandmarkMeshIndices
+  m_EditorClassIdentifier: 
+  m_LandmarkTriangleIndexes: 0d060000fd050000f3070000680000006a0200009005000056060000dd000000df04000086000000790400003c02000032060000ad020000ae000000ba020000790100009a060000a8040000a40600007e050000

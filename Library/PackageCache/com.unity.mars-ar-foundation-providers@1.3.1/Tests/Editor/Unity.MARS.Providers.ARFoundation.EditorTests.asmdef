@@ -1,0 +1,33 @@
+{
+    "name": "Unity.MARS.Providers.ARFoundation.EditorTests",
+    "references": [
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "Unity.MARS",
+        "Unity.MARS.Providers.ARFoundation",
+        "Unity.MARS.Providers.ARFoundation.Editor",
+        "Unity.XRTools.Utils",
+        "Unity.XR.ARSubsystems"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.xr.arfoundation",
+            "expression": "2.1",
+            "define": "INCLUDE_AR_FOUNDATION"
+        }
+    ],
+    "noEngineReferences": false
+}

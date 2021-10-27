@@ -1,0 +1,15 @@
+{
+    "name": "Unity.XRTools.ModuleLoader",
+    "references": [
+        "Unity.XRTools.Utils",
+        "Unity.XRTools.ModuleLoader.Interfaces"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

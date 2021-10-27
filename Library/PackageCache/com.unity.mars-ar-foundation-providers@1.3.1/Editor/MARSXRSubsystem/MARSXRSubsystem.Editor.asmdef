@@ -1,0 +1,46 @@
+{
+    "name": "Unity.MARS.XRSubsystem.Editor",
+    "references": [
+        "Unity.XR.Management",
+        "Unity.XR.Management.Editor",
+        "Unity.XR.ARSubsystems",
+        "Unity.XRTools.ModuleLoader",
+        "Unity.MARS.Interfaces",
+        "Unity.XRTools.Utils",
+        "Unity.XRTools.ModuleLoader.Interfaces",
+        "Unity.MARS.Editor",
+        "Unity.MARS"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.xr.arsubsystems",
+            "expression": "3.0.0-preview.0",
+            "define": "ARSUBSYSTEMS_3_OR_NEWER"
+        },
+        {
+            "name": "com.unity.xr.arsubsystems",
+            "expression": "4.0.0-preview.0",
+            "define": "ARSUBSYSTEMS_4_OR_NEWER"
+        },
+        {
+            "name": "com.unity.xr.management",
+            "expression": "3.2",
+            "define": "XRMANAGEMENT_3_2_OR_NEWER"
+        },
+        {
+            "name": "com.unity.xr.arsubsystems",
+            "expression": "2.1",
+            "define": "ARSUBSYSTEMS_2_1_OR_NEWER"
+        }
+    ],
+    "noEngineReferences": false
+}

@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="companionResourceItem" focusable="false" class="row" style="flex-direction: row; display: flex;">
+        <Style src="CompanionResourceUI.uss" />
+        <ui:VisualElement class="column_asset">
+            <ui:Label text="Asset Name" name="assetNameLabel" style="width: 50%; margin:0; padding:0" />
+            <uie:ObjectField name="assetReferenceObjectField" allow-scene-objects="false" style="width: 50%; margin-left:0; margin-right:0; padding:0" />
+        </ui:VisualElement>
+        <ui:Label text="100KB" name="sizeLabel" class="column_size" />
+        <ui:Label text="YY-MM-DD" name="dateLabel" class="column_date" />
+        <ui:Button text="Download" name="syncStatusButton" class="column_sync_status" />
+        <ui:Button name="deleteCompanionResourceItemButton" tooltip="Deletes this resource" class="column_delete" />
+    </ui:VisualElement>
+</ui:UXML>

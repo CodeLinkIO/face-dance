@@ -1,0 +1,606 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void Unity.XRTools.ModuleLoader.ModuleCallbacksBehaviour::Awake()
+extern void ModuleCallbacksBehaviour_Awake_m80422995969A91AC9E4E99372A85843BA8928B70 (void);
+// 0x00000002 System.Void Unity.XRTools.ModuleLoader.ModuleCallbacksBehaviour::OnEnable()
+extern void ModuleCallbacksBehaviour_OnEnable_m92381062AB40EF51D91EFE3A62C045ECFF6CDB57 (void);
+// 0x00000003 System.Void Unity.XRTools.ModuleLoader.ModuleCallbacksBehaviour::Start()
+extern void ModuleCallbacksBehaviour_Start_mCF265994D5F31BA611B021C8D049666811A32361 (void);
+// 0x00000004 System.Void Unity.XRTools.ModuleLoader.ModuleCallbacksBehaviour::Update()
+extern void ModuleCallbacksBehaviour_Update_m6021B0260D824A2A72FFB78C9F9420D5C43DD93C (void);
+// 0x00000005 System.Void Unity.XRTools.ModuleLoader.ModuleCallbacksBehaviour::OnDisable()
+extern void ModuleCallbacksBehaviour_OnDisable_m5FCAB4558C9C46E199772F1D5943806CE306B272 (void);
+// 0x00000006 System.Void Unity.XRTools.ModuleLoader.ModuleCallbacksBehaviour::OnDestroy()
+extern void ModuleCallbacksBehaviour_OnDestroy_m90C677177A7710C183396EC08CC285A0155F73B0 (void);
+// 0x00000007 System.Void Unity.XRTools.ModuleLoader.ModuleCallbacksBehaviour::.ctor()
+extern void ModuleCallbacksBehaviour__ctor_m84FE659B133026993438D7C6BD02577A4E44D236 (void);
+// 0x00000008 System.Boolean Unity.XRTools.ModuleLoader.ModuleLoaderCore::get_isUnloadingModules()
+extern void ModuleLoaderCore_get_isUnloadingModules_m4E58ACF2C297257D61C1C7BB69841A08793C1B4B (void);
+// 0x00000009 System.Void Unity.XRTools.ModuleLoader.ModuleLoaderCore::set_isUnloadingModules(System.Boolean)
+extern void ModuleLoaderCore_set_isUnloadingModules_m8BD0653303C17E46150A91CF60A5D3E72E20E462 (void);
+// 0x0000000A System.Collections.Generic.List`1<Unity.XRTools.ModuleLoader.IModule> Unity.XRTools.ModuleLoader.ModuleLoaderCore::get_modules()
+extern void ModuleLoaderCore_get_modules_m12644DFD629668A86EF0597ACADBE2A3B06DB9B8 (void);
+// 0x0000000B System.Collections.Generic.List`1<System.String> Unity.XRTools.ModuleLoader.ModuleLoaderCore::get_excludedTypes()
+extern void ModuleLoaderCore_get_excludedTypes_m7C8FC015EFD638FDEA6D2180E6972C8C0FB53FD5 (void);
+// 0x0000000C Unity.XRTools.ModuleLoader.ModuleLoaderSettingsOverride Unity.XRTools.ModuleLoader.ModuleLoaderCore::get_currentOverride()
+extern void ModuleLoaderCore_get_currentOverride_mBAA568711FBC0AA8B672B4A0B55F456B5F49F688 (void);
+// 0x0000000D System.Void Unity.XRTools.ModuleLoader.ModuleLoaderCore::add_ModulesLoaded(System.Action)
+extern void ModuleLoaderCore_add_ModulesLoaded_mDF56F4799DCB111BC3C0CB7ABBAA864408C64B47 (void);
+// 0x0000000E System.Void Unity.XRTools.ModuleLoader.ModuleLoaderCore::remove_ModulesLoaded(System.Action)
+extern void ModuleLoaderCore_remove_ModulesLoaded_m0AF283739DBFDA36A901B94C55EA1971FC502204 (void);
+// 0x0000000F System.Boolean Unity.XRTools.ModuleLoader.ModuleLoaderCore::get_ModulesAreLoaded()
+extern void ModuleLoaderCore_get_ModulesAreLoaded_mFB3B750AEE761638692054B6C0CEC5BEA809833B (void);
+// 0x00000010 System.Void Unity.XRTools.ModuleLoader.ModuleLoaderCore::set_ModulesAreLoaded(System.Boolean)
+extern void ModuleLoaderCore_set_ModulesAreLoaded_mB27D0D15607486F2F47138024EC181BC5BF67AB4 (void);
+// 0x00000011 UnityEngine.RuntimePlatform Unity.XRTools.ModuleLoader.ModuleLoaderCore::GetCurrentPlatform()
+extern void ModuleLoaderCore_GetCurrentPlatform_mEB97D7885C918094345051DF6B27109063074D9B (void);
+// 0x00000012 System.Boolean Unity.XRTools.ModuleLoader.ModuleLoaderCore::CheckCurrentMode(Unity.XRTools.ModuleLoader.ModuleLoaderCore/OverrideModes)
+extern void ModuleLoaderCore_CheckCurrentMode_m53F0444D8FCD07D09A3DB3E11AEBCCBCB9B3B8B6 (void);
+// 0x00000013 Unity.XRTools.ModuleLoader.ModuleLoaderCore/OverridePlatforms Unity.XRTools.ModuleLoader.ModuleLoaderCore::GetCurrentOverridePlatform()
+extern void ModuleLoaderCore_GetCurrentOverridePlatform_m3E3BD4A9D22C8075D5B4BBA92071431366821CED (void);
+// 0x00000014 System.Void Unity.XRTools.ModuleLoader.ModuleLoaderCore::OnLoaded()
+extern void ModuleLoaderCore_OnLoaded_m4923B2CBF848C449135ABA591B10871BFF242217 (void);
+// 0x00000015 System.Void Unity.XRTools.ModuleLoader.ModuleLoaderCore::OnDisable()
+extern void ModuleLoaderCore_OnDisable_m64739043FB1D85852832EAFC986E59F19990DB62 (void);
+// 0x00000016 System.Void Unity.XRTools.ModuleLoader.ModuleLoaderCore::ReloadModules()
+extern void ModuleLoaderCore_ReloadModules_m16556D6C12789F965760B98C3DE2F72876F01829 (void);
+// 0x00000017 System.Void Unity.XRTools.ModuleLoader.ModuleLoaderCore::OnBehaviorAwake()
+extern void ModuleLoaderCore_OnBehaviorAwake_m8CC307E3804D153FF96C6E4CF4ECF6A40CF46A5B (void);
+// 0x00000018 System.Void Unity.XRTools.ModuleLoader.ModuleLoaderCore::OnBehaviorEnable()
+extern void ModuleLoaderCore_OnBehaviorEnable_m75D83D71BB807905E415076A94575BFE5F43D3F1 (void);
+// 0x00000019 System.Void Unity.XRTools.ModuleLoader.ModuleLoaderCore::OnBehaviorStart()
+extern void ModuleLoaderCore_OnBehaviorStart_m2655B4682B29180530365CE2D2561BFF0DC23A5C (void);
+// 0x0000001A System.Void Unity.XRTools.ModuleLoader.ModuleLoaderCore::OnBehaviorUpdate()
+extern void ModuleLoaderCore_OnBehaviorUpdate_mD557F6389FB79710EE89229CE9743E8D5D973971 (void);
+// 0x0000001B System.Void Unity.XRTools.ModuleLoader.ModuleLoaderCore::OnBehaviorDisable()
+extern void ModuleLoaderCore_OnBehaviorDisable_mF6CD2B69A8227EF13ADA69831E245C1A90F07217 (void);
+// 0x0000001C System.Void Unity.XRTools.ModuleLoader.ModuleLoaderCore::OnBehaviorDestroy()
+extern void ModuleLoaderCore_OnBehaviorDestroy_m12C260D4B824892ED907404F66235E2250C7E2B6 (void);
+// 0x0000001D System.Void Unity.XRTools.ModuleLoader.ModuleLoaderCore::InjectFunctionalityInModules(Unity.XRTools.ModuleLoader.FunctionalityIsland)
+extern void ModuleLoaderCore_InjectFunctionalityInModules_mE1FE4E38BC188BE759C42FD8695A8F0B7F62358C (void);
+// 0x0000001E System.Void Unity.XRTools.ModuleLoader.ModuleLoaderCore::OnSceneLoaded(UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+extern void ModuleLoaderCore_OnSceneLoaded_m440236593F18372FCCA0E61A93026708A181ED8B (void);
+// 0x0000001F System.Void Unity.XRTools.ModuleLoader.ModuleLoaderCore::OnSceneUnloaded(UnityEngine.SceneManagement.Scene)
+extern void ModuleLoaderCore_OnSceneUnloaded_mC57C72ADDB0022255145DFACCB6081AA7B80D02B (void);
+// 0x00000020 System.Void Unity.XRTools.ModuleLoader.ModuleLoaderCore::OnActiveSceneChanged(UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene)
+extern void ModuleLoaderCore_OnActiveSceneChanged_m6D66A543BEC46598435D93930A33C574B2ED90C7 (void);
+// 0x00000021 System.Void Unity.XRTools.ModuleLoader.ModuleLoaderCore::GetModuleTypes(System.Collections.Generic.List`1<System.Type>)
+extern void ModuleLoaderCore_GetModuleTypes_mC783F29092DD2263570E7320D0798CE8DEF57AE6 (void);
+// 0x00000022 System.Void Unity.XRTools.ModuleLoader.ModuleLoaderCore::LoadModules()
+extern void ModuleLoaderCore_LoadModules_m93B28AAAA430A94E737838B39966457F8E8AA10D (void);
+// 0x00000023 System.Void Unity.XRTools.ModuleLoader.ModuleLoaderCore::UnloadModules()
+extern void ModuleLoaderCore_UnloadModules_mC461CF4592E926556E134C8D1BBC94652468988E (void);
+// 0x00000024 System.Void Unity.XRTools.ModuleLoader.ModuleLoaderCore::ClearModules()
+extern void ModuleLoaderCore_ClearModules_mB5304927BDA7603273A2751489E34513C87C968B (void);
+// 0x00000025 T Unity.XRTools.ModuleLoader.ModuleLoaderCore::GetModule()
+// 0x00000026 System.Void Unity.XRTools.ModuleLoader.ModuleLoaderCore::LoadModulesWithTypes(System.Collections.Generic.List`1<System.Type>)
+extern void ModuleLoaderCore_LoadModulesWithTypes_m10A9C4F3CEDC5F9DF6C2CC4944D7DF01DFBD4D99 (void);
+// 0x00000027 System.Comparison`1<Unity.XRTools.ModuleLoader.IModule> Unity.XRTools.ModuleLoader.ModuleLoaderCore::CreateComparison(System.Collections.Generic.Dictionary`2<Unity.XRTools.ModuleLoader.IModule,System.Int32>,System.Collections.Generic.Dictionary`2<Unity.XRTools.ModuleLoader.IModule,System.String>)
+extern void ModuleLoaderCore_CreateComparison_m361FD27DD30CDB79174F539404E252B4B42AC948 (void);
+// 0x00000028 UnityEngine.GameObject Unity.XRTools.ModuleLoader.ModuleLoaderCore::GetModuleParent()
+extern void ModuleLoaderCore_GetModuleParent_m7BDD8170A1DFEADC232FFDF33BB1234498E4DE4A (void);
+// 0x00000029 System.Void Unity.XRTools.ModuleLoader.ModuleLoaderCore::.ctor()
+extern void ModuleLoaderCore__ctor_m7767EB265F16D6EB639CD5DD628BE6753C55B03C (void);
+// 0x0000002A System.Void Unity.XRTools.ModuleLoader.ModuleLoaderCore::.cctor()
+extern void ModuleLoaderCore__cctor_m12625A47320C3D6ECD131A0C4BA67C8A0A0BC77B (void);
+// 0x0000002B System.Boolean Unity.XRTools.ModuleLoader.ModuleLoaderCore::<LoadModules>b__52_0(System.Type)
+extern void ModuleLoaderCore_U3CLoadModulesU3Eb__52_0_m739ABDB5CC36F601B836C5856629365B0E52B541 (void);
+// 0x0000002C Unity.XRTools.ModuleLoader.ModuleLoaderSettingsOverride Unity.XRTools.ModuleLoader.ModuleLoaderCore/PlatformOverride::get_settings()
+extern void PlatformOverride_get_settings_m3FEDA7D3BD657C89AA5DC8A87460ECF2C2FAC2FD (void);
+// 0x0000002D Unity.XRTools.ModuleLoader.ModuleLoaderCore/OverridePlatforms Unity.XRTools.ModuleLoader.ModuleLoaderCore/PlatformOverride::get_platforms()
+extern void PlatformOverride_get_platforms_m0D5D6D73F41922FEBD508DB27014BA8BF64B8254 (void);
+// 0x0000002E Unity.XRTools.ModuleLoader.ModuleLoaderCore/OverrideModes Unity.XRTools.ModuleLoader.ModuleLoaderCore/PlatformOverride::get_modes()
+extern void PlatformOverride_get_modes_m93AAA483E670C6FD8B6748DD5B377F9773361211 (void);
+// 0x0000002F System.Void Unity.XRTools.ModuleLoader.ModuleLoaderCore/PlatformOverride::.ctor()
+extern void PlatformOverride__ctor_m9BA5F365413EA1D272E992143591D0B2B91F9BC3 (void);
+// 0x00000030 System.Void Unity.XRTools.ModuleLoader.ModuleLoaderCore/<>c__DisplayClass57_0::.ctor()
+extern void U3CU3Ec__DisplayClass57_0__ctor_m619789D2D50AD4CC2EF919120F627BAB53503A20 (void);
+// 0x00000031 System.Int32 Unity.XRTools.ModuleLoader.ModuleLoaderCore/<>c__DisplayClass57_0::<CreateComparison>b__0(Unity.XRTools.ModuleLoader.IModule,Unity.XRTools.ModuleLoader.IModule)
+extern void U3CU3Ec__DisplayClass57_0_U3CCreateComparisonU3Eb__0_mC00A1F4FDBA0BCB5285D0A54B20251818336D868 (void);
+// 0x00000032 System.Void Unity.XRTools.ModuleLoader.ModuleLoaderCoreExtensionMethods::EnsureFunctionalityInjected(Unity.XRTools.ModuleLoader.IUsesFunctionalityInjection)
+extern void ModuleLoaderCoreExtensionMethods_EnsureFunctionalityInjected_m00649F05AF54C3ABCF6B38DC91787DF105F017E6 (void);
+// 0x00000033 System.Boolean Unity.XRTools.ModuleLoader.ModuleLoaderDebugSettings::get_functionalityInjectionModuleLogging()
+extern void ModuleLoaderDebugSettings_get_functionalityInjectionModuleLogging_m5A64D304E47B72DB4461BA42D77D211958878CAB (void);
+// 0x00000034 UnityEngine.HideFlags Unity.XRTools.ModuleLoader.ModuleLoaderDebugSettings::get_moduleHideFlags()
+extern void ModuleLoaderDebugSettings_get_moduleHideFlags_mAF06801E1A6C6AE0F294EBBD4AD4BEFB6216F318 (void);
+// 0x00000035 System.Boolean Unity.XRTools.ModuleLoader.ModuleLoaderDebugSettings::get_overridePlatformInPlaymode()
+extern void ModuleLoaderDebugSettings_get_overridePlatformInPlaymode_mB90554F66FB8A0E0D74654C522CCC8B0CCD63165 (void);
+// 0x00000036 UnityEngine.RuntimePlatform Unity.XRTools.ModuleLoader.ModuleLoaderDebugSettings::get_playmodePlatformOverride()
+extern void ModuleLoaderDebugSettings_get_playmodePlatformOverride_mC06487F5CC935DA6A52211CFEF9FA39B8CA7A311 (void);
+// 0x00000037 System.Void Unity.XRTools.ModuleLoader.ModuleLoaderDebugSettings::OnValidate()
+extern void ModuleLoaderDebugSettings_OnValidate_m84B7C4DE3F18070317311ED6E91DAD5AC7DA2FBC (void);
+// 0x00000038 System.Void Unity.XRTools.ModuleLoader.ModuleLoaderDebugSettings::SetModuleHideFlags(UnityEngine.HideFlags)
+extern void ModuleLoaderDebugSettings_SetModuleHideFlags_m87D654D7D1E082CAB156C4E59E9DF434DDEDDFD5 (void);
+// 0x00000039 System.Void Unity.XRTools.ModuleLoader.ModuleLoaderDebugSettings::.ctor()
+extern void ModuleLoaderDebugSettings__ctor_mD0E5AD1442854005CB822E06FD901CA4ACB9747C (void);
+// 0x0000003A System.Collections.Generic.List`1<System.String> Unity.XRTools.ModuleLoader.ModuleLoaderSettingsOverride::get_ExcludedTypes()
+extern void ModuleLoaderSettingsOverride_get_ExcludedTypes_m2CA4FDC5D42C8ADDB1A03BEDCA956C47B4ADEB12 (void);
+// 0x0000003B System.Void Unity.XRTools.ModuleLoader.ModuleLoaderSettingsOverride::.ctor()
+extern void ModuleLoaderSettingsOverride__ctor_mBC87D5A634C40D0F75CAD1DB59A823A496A335CD (void);
+// 0x0000003C System.Collections.Generic.HashSet`1<Unity.XRTools.ModuleLoader.FunctionalityIsland> Unity.XRTools.ModuleLoader.FunctionalityInjectionModule::get_islands()
+extern void FunctionalityInjectionModule_get_islands_m0BBF82516A6443CEA4C2DCC46CF36B1F2DC6C0DC (void);
+// 0x0000003D Unity.XRTools.ModuleLoader.FunctionalityIsland Unity.XRTools.ModuleLoader.FunctionalityInjectionModule::get_defaultIsland()
+extern void FunctionalityInjectionModule_get_defaultIsland_m9628CF415008918BB52D0AD0163E1150F9C99166 (void);
+// 0x0000003E Unity.XRTools.ModuleLoader.FunctionalityIsland Unity.XRTools.ModuleLoader.FunctionalityInjectionModule::get_activeIsland()
+extern void FunctionalityInjectionModule_get_activeIsland_m503B838F3F4B281EFB61E03F0CCC5120770A7997 (void);
+// 0x0000003F System.Void Unity.XRTools.ModuleLoader.FunctionalityInjectionModule::set_activeIsland(Unity.XRTools.ModuleLoader.FunctionalityIsland)
+extern void FunctionalityInjectionModule_set_activeIsland_m9F9B84F795065F928B33126DBD6652C8CE5304D7 (void);
+// 0x00000040 System.Void Unity.XRTools.ModuleLoader.FunctionalityInjectionModule::add_activeIslandChanged(System.Action`1<Unity.XRTools.ModuleLoader.FunctionalityIsland>)
+extern void FunctionalityInjectionModule_add_activeIslandChanged_m17F912F30F42D17A0C55B87174356EAB26B49B2D (void);
+// 0x00000041 System.Void Unity.XRTools.ModuleLoader.FunctionalityInjectionModule::remove_activeIslandChanged(System.Action`1<Unity.XRTools.ModuleLoader.FunctionalityIsland>)
+extern void FunctionalityInjectionModule_remove_activeIslandChanged_m8DAB64A5A9E3EAB76D7069412A3BC009D431DC2D (void);
+// 0x00000042 System.Void Unity.XRTools.ModuleLoader.FunctionalityInjectionModule::PreLoad()
+extern void FunctionalityInjectionModule_PreLoad_m555EB63A214A27D92F0E17ACE12381E7567DF901 (void);
+// 0x00000043 System.Void Unity.XRTools.ModuleLoader.FunctionalityInjectionModule::Unity.XRTools.ModuleLoader.IModule.LoadModule()
+extern void FunctionalityInjectionModule_Unity_XRTools_ModuleLoader_IModule_LoadModule_mECEC08DA810564025D428B93E9F90069481C17B6 (void);
+// 0x00000044 System.Void Unity.XRTools.ModuleLoader.FunctionalityInjectionModule::Unity.XRTools.ModuleLoader.IModule.UnloadModule()
+extern void FunctionalityInjectionModule_Unity_XRTools_ModuleLoader_IModule_UnloadModule_m95027C57F2B9A3CFFA08E6D259B543CE27F4CB59 (void);
+// 0x00000045 System.Void Unity.XRTools.ModuleLoader.FunctionalityInjectionModule::AddIsland(Unity.XRTools.ModuleLoader.FunctionalityIsland)
+extern void FunctionalityInjectionModule_AddIsland_m791948BBB1305C5125CB3B5470950B4A746DC3A9 (void);
+// 0x00000046 System.Void Unity.XRTools.ModuleLoader.FunctionalityInjectionModule::SetActiveIsland(Unity.XRTools.ModuleLoader.FunctionalityIsland)
+extern void FunctionalityInjectionModule_SetActiveIsland_m31DBF5CA4D55E1DC9BEAE9E9269F72CAA72A6ACE (void);
+// 0x00000047 System.String Unity.XRTools.ModuleLoader.FunctionalityInjectionModule::PrintStatus()
+extern void FunctionalityInjectionModule_PrintStatus_mA3E96B2E614C49559E012249A381F9FE429EE2C7 (void);
+// 0x00000048 System.Void Unity.XRTools.ModuleLoader.FunctionalityInjectionModule::Unity.XRTools.ModuleLoader.IModuleBehaviorCallbacks.OnBehaviorAwake()
+extern void FunctionalityInjectionModule_Unity_XRTools_ModuleLoader_IModuleBehaviorCallbacks_OnBehaviorAwake_mD3526FA5D069113B718D2C9AFD1AB8C7422F4525 (void);
+// 0x00000049 System.Void Unity.XRTools.ModuleLoader.FunctionalityInjectionModule::Unity.XRTools.ModuleLoader.IModuleBehaviorCallbacks.OnBehaviorEnable()
+extern void FunctionalityInjectionModule_Unity_XRTools_ModuleLoader_IModuleBehaviorCallbacks_OnBehaviorEnable_m5C601DFE305226A87FBB32CF4B4B8EDFB26AA50D (void);
+// 0x0000004A System.Void Unity.XRTools.ModuleLoader.FunctionalityInjectionModule::Unity.XRTools.ModuleLoader.IModuleBehaviorCallbacks.OnBehaviorStart()
+extern void FunctionalityInjectionModule_Unity_XRTools_ModuleLoader_IModuleBehaviorCallbacks_OnBehaviorStart_m5417A5523772F008513BBCC88B8FC3B940274C96 (void);
+// 0x0000004B System.Void Unity.XRTools.ModuleLoader.FunctionalityInjectionModule::Unity.XRTools.ModuleLoader.IModuleBehaviorCallbacks.OnBehaviorUpdate()
+extern void FunctionalityInjectionModule_Unity_XRTools_ModuleLoader_IModuleBehaviorCallbacks_OnBehaviorUpdate_m71335E60418EE6BBD7CBB9D8A100C72596E12257 (void);
+// 0x0000004C System.Void Unity.XRTools.ModuleLoader.FunctionalityInjectionModule::Unity.XRTools.ModuleLoader.IModuleBehaviorCallbacks.OnBehaviorDisable()
+extern void FunctionalityInjectionModule_Unity_XRTools_ModuleLoader_IModuleBehaviorCallbacks_OnBehaviorDisable_m850BF09868EDE9BD302995EC36903FE16EE2D12F (void);
+// 0x0000004D System.Void Unity.XRTools.ModuleLoader.FunctionalityInjectionModule::Unity.XRTools.ModuleLoader.IModuleBehaviorCallbacks.OnBehaviorDestroy()
+extern void FunctionalityInjectionModule_Unity_XRTools_ModuleLoader_IModuleBehaviorCallbacks_OnBehaviorDestroy_mBCE254E6B764F8FBDFAB1C4DEBA097AE60933027 (void);
+// 0x0000004E System.Void Unity.XRTools.ModuleLoader.FunctionalityInjectionModule::.ctor()
+extern void FunctionalityInjectionModule__ctor_m18F69CA7D751A8C9AF393F0EDFC3D51EBF147DEF (void);
+// 0x0000004F System.Collections.Generic.Dictionary`2<System.Type,Unity.XRTools.ModuleLoader.IFunctionalityProvider> Unity.XRTools.ModuleLoader.FunctionalityIsland::get_providers()
+extern void FunctionalityIsland_get_providers_m6DD933FB9AF8EA23A72AAD6D4E9FDA417CFB9A1B (void);
+// 0x00000050 System.Collections.Generic.HashSet`1<Unity.XRTools.ModuleLoader.IFunctionalityProvider> Unity.XRTools.ModuleLoader.FunctionalityIsland::get_uniqueProviders()
+extern void FunctionalityIsland_get_uniqueProviders_mEE7039FAAF8F56BF5ED137CE69F593201B615B2E (void);
+// 0x00000051 Unity.XRTools.ModuleLoader.FunctionalityIsland/DefaultProvider[] Unity.XRTools.ModuleLoader.FunctionalityIsland::get_defaultProviders()
+extern void FunctionalityIsland_get_defaultProviders_m1C04FF5C63F408B20E8634FFCD505276D7272BB7 (void);
+// 0x00000052 System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland::.cctor()
+extern void FunctionalityIsland__cctor_mC4702A2C3D85B57662C4F1D48DDD7239DC67988E (void);
+// 0x00000053 System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland::GetDefaultProviderTypesBatch(Unity.XRTools.ModuleLoader.FunctionalityIsland/DefaultProvider[])
+extern void FunctionalityIsland_GetDefaultProviderTypesBatch_mB625821743E7456BE6AF46A8C6B7F100F36E2D02 (void);
+// 0x00000054 System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland::GetProviderTypesBatch(Unity.XRTools.ModuleLoader.FunctionalityIsland/DefaultProvider[])
+extern void FunctionalityIsland_GetProviderTypesBatch_mB193E47416CA9603EC8EB58C6B5E0E8D635183CB (void);
+// 0x00000055 System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland::FindTypesByFullNameBatch(System.Collections.Generic.List`1<System.String>,System.Collections.Generic.List`1<System.Type>)
+extern void FunctionalityIsland_FindTypesByFullNameBatch_m2A8078E502BF7B1E858545CE6FB422AEFF1014FA (void);
+// 0x00000056 Unity.XRTools.ModuleLoader.ProviderSelectionOptionsAttribute Unity.XRTools.ModuleLoader.FunctionalityIsland::GetProviderSelectionOptions(System.Type)
+extern void FunctionalityIsland_GetProviderSelectionOptions_mA439DEAC6EE238373FCA7671ACDE32A7533FC2C7 (void);
+// 0x00000057 System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland::Setup()
+extern void FunctionalityIsland_Setup_mE38CD02C48441ECE81FE125A42FFD571AF51A37B (void);
+// 0x00000058 System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland::OnValidate()
+extern void FunctionalityIsland_OnValidate_m9412E8F9F289E7E08AB11FAE5C12F7E3243B6A92 (void);
+// 0x00000059 System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland::ValidateDefaultProviders()
+extern void FunctionalityIsland_ValidateDefaultProviders_m883BF8CCC06F716717D3227E72B0C331397F2FDD (void);
+// 0x0000005A System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland::ValidateProviderArray(Unity.XRTools.ModuleLoader.FunctionalityIsland/DefaultProvider[],System.Nullable`1<Unity.XRTools.ModuleLoader.ModuleLoaderCore/OverridePlatforms>)
+extern void FunctionalityIsland_ValidateProviderArray_m038F7D06AE992B95861C8121E7EDB1FB0091DFF1 (void);
+// 0x0000005B System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland::SetupDefaultProviders(System.Collections.Generic.HashSet`1<System.Type>,System.Collections.Generic.List`1<Unity.XRTools.ModuleLoader.IFunctionalityProvider>)
+extern void FunctionalityIsland_SetupDefaultProviders_m825EB958EA8E1B3289BCF0F69B87AC500EB4B074 (void);
+// 0x0000005C System.Int32 Unity.XRTools.ModuleLoader.FunctionalityIsland::CheckMissingProviders(System.Collections.Generic.HashSet`1<System.Type>)
+extern void FunctionalityIsland_CheckMissingProviders_m5F02936F53B38D0CC05803D8729DFC460D819642 (void);
+// 0x0000005D System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland::ActivateProviderGameObjects()
+extern void FunctionalityIsland_ActivateProviderGameObjects_m3C42435E98C3FB47E31E9C74665C210CDCFAA7C8 (void);
+// 0x0000005E System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland::InjectFunctionalityInDefaultProviders(System.Collections.Generic.Dictionary`2<UnityEngine.GameObject,UnityEngine.GameObject>,System.Collections.Generic.List`1<Unity.XRTools.ModuleLoader.IFunctionalityProvider>)
+extern void FunctionalityIsland_InjectFunctionalityInDefaultProviders_mB12E3E064813E2C5B6A2824FFC80A7C08CE1B63F (void);
+// 0x0000005F System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland::PrepareFunctionalityForSubscriberTypes(System.Collections.Generic.HashSet`1<System.Type>,System.Collections.Generic.List`1<Unity.XRTools.ModuleLoader.IFunctionalityProvider>)
+extern void FunctionalityIsland_PrepareFunctionalityForSubscriberTypes_m8958748352651CCFD6E307CBC7FB7DED4C0DE37F (void);
+// 0x00000060 System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland::InjectFunctionality(System.Collections.Generic.List`1<System.Object>,System.Collections.Generic.List`1<Unity.XRTools.ModuleLoader.IFunctionalityProvider>)
+extern void FunctionalityIsland_InjectFunctionality_m13F400CF06AE564BFEC7252E412DD8474DF21D6F (void);
+// 0x00000061 System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland::InjectFunctionality(System.Collections.Generic.List`1<Unity.XRTools.ModuleLoader.IFunctionalitySubscriber>,System.Collections.Generic.List`1<Unity.XRTools.ModuleLoader.IFunctionalityProvider>)
+extern void FunctionalityIsland_InjectFunctionality_m097198399B89E99E277D6DB634CC1DF54F098168 (void);
+// 0x00000062 System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland::InjectPreparedFunctionality(System.Collections.Generic.List`1<Unity.XRTools.ModuleLoader.IFunctionalitySubscriber>)
+extern void FunctionalityIsland_InjectPreparedFunctionality_mFCEE1CBFD7630A2BD9E8159F22B1544472928038 (void);
+// 0x00000063 System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland::InjectPreparedFunctionality(System.Collections.Generic.List`1<System.Object>)
+extern void FunctionalityIsland_InjectPreparedFunctionality_m33CCF2B6F6982ACA33CA09897A1354A1ACB45E73 (void);
+// 0x00000064 System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland::InjectFunctionalityGroup(System.Collections.Generic.List`1<Unity.XRTools.ModuleLoader.IFunctionalitySubscriber>)
+extern void FunctionalityIsland_InjectFunctionalityGroup_mBD90A4158181D18981B67AD6ACB425DBE68F5D65 (void);
+// 0x00000065 System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland::InjectFunctionalityGroup(System.Collections.Generic.List`1<System.Object>)
+extern void FunctionalityIsland_InjectFunctionalityGroup_m81C5B0BA2C77192EDC77BDFBECB37862147A2D35 (void);
+// 0x00000066 System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland::InjectFunctionalitySingle(System.Object)
+extern void FunctionalityIsland_InjectFunctionalitySingle_mD53F28D0D595F49E74B06D540EA33CC7AB03CD5B (void);
+// 0x00000067 System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland::InjectFunctionality(UnityEngine.SceneManagement.Scene)
+extern void FunctionalityIsland_InjectFunctionality_mA26480C9835D5652E140E3ECD166831A0E7E46E3 (void);
+// 0x00000068 System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland::InjectFunctionality(UnityEngine.GameObject)
+extern void FunctionalityIsland_InjectFunctionality_mF16F2E3C6BB5D1AF01E6CBA567FC6D0A38B71754 (void);
+// 0x00000069 System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland::AddProviders(System.Collections.Generic.List`1<Unity.XRTools.ModuleLoader.IFunctionalityProvider>)
+extern void FunctionalityIsland_AddProviders_m22308968FBC2E8BAA00C6D2D38740AAB2AD7868A (void);
+// 0x0000006A System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland::RemoveProviders(System.Collections.Generic.List`1<Unity.XRTools.ModuleLoader.IFunctionalityProvider>)
+extern void FunctionalityIsland_RemoveProviders_m890EF4D6AAC98344E68A25A1CFC6E79E23FEE265 (void);
+// 0x0000006B System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland::PrepareProviders(System.Collections.Generic.HashSet`1<System.Type>,System.Collections.Generic.List`1<Unity.XRTools.ModuleLoader.IFunctionalityProvider>,System.Boolean)
+extern void FunctionalityIsland_PrepareProviders_m77D49DFF8DBF13A64083B4E5C713867D0555836B (void);
+// 0x0000006C Unity.XRTools.ModuleLoader.IFunctionalityProvider Unity.XRTools.ModuleLoader.FunctionalityIsland::GetOrCreateProviderInstance(System.Type,System.Type)
+extern void FunctionalityIsland_GetOrCreateProviderInstance_mEB1DD1D8B14448952329671D68F2F80D0480640C (void);
+// 0x0000006D System.Boolean Unity.XRTools.ModuleLoader.FunctionalityIsland::CanAddProviderType(System.Type)
+extern void FunctionalityIsland_CanAddProviderType_m3C6E3ED53082D4ED33F8776D0F9CCF5FB5106253 (void);
+// 0x0000006E System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland::AddProvider(System.Type,Unity.XRTools.ModuleLoader.IFunctionalityProvider)
+extern void FunctionalityIsland_AddProvider_m08F57797E91978524FF985EE55DB9854549748BB (void);
+// 0x0000006F System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland::GetRequiredProviders(System.Type,System.Collections.Generic.HashSet`1<System.Type>)
+extern void FunctionalityIsland_GetRequiredProviders_m36BADD2C700A8BF478A0ED222D7C01DF24D01432 (void);
+// 0x00000070 System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland::Unload()
+extern void FunctionalityIsland_Unload_mAF94CB0E59711149B754871694E4B0678F2FF935 (void);
+// 0x00000071 System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland::CheckSetup()
+extern void FunctionalityIsland_CheckSetup_m8B598F2B2EC7952B8DD3C75261D7FECB5910358F (void);
+// 0x00000072 System.String Unity.XRTools.ModuleLoader.FunctionalityIsland::PrintStatus()
+extern void FunctionalityIsland_PrintStatus_mDD26385C977075712B3E57B73130DF507B8B5993 (void);
+// 0x00000073 System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland::LoadProvider()
+extern void FunctionalityIsland_LoadProvider_mC16F0210D28CC9A614AA6796419375806D98145B (void);
+// 0x00000074 System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland::ConnectSubscriber(System.Object)
+extern void FunctionalityIsland_ConnectSubscriber_mC1D73285DC3D27B397F22394056E53598BDAA95B (void);
+// 0x00000075 System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland::UnloadProvider()
+extern void FunctionalityIsland_UnloadProvider_mF44808960C43AFEC75C326A6EBC70EA9DCEA0E76 (void);
+// 0x00000076 System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland::OnBehaviorDestroy()
+extern void FunctionalityIsland_OnBehaviorDestroy_m7081748B8E1B5FD2E7C64E897C33513BD4451D35 (void);
+// 0x00000077 System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland::.ctor()
+extern void FunctionalityIsland__ctor_m05E66BB28F94010447C5B8B79099D20B53DC1474 (void);
+// 0x00000078 System.String Unity.XRTools.ModuleLoader.FunctionalityIsland/DefaultProvider::get_providerTypeName()
+extern void DefaultProvider_get_providerTypeName_mF868C29CF405E484EFB5115E937E50BB61C468D1 (void);
+// 0x00000079 System.String Unity.XRTools.ModuleLoader.FunctionalityIsland/DefaultProvider::get_defaultProviderTypeName()
+extern void DefaultProvider_get_defaultProviderTypeName_mF37E46F3E945C1AFFD42CD17BD6741D6D444E2D7 (void);
+// 0x0000007A UnityEngine.GameObject Unity.XRTools.ModuleLoader.FunctionalityIsland/DefaultProvider::get_defaultProviderPrefab()
+extern void DefaultProvider_get_defaultProviderPrefab_m74FCEA0E3932328F3C27C367B32C5A31AC9271A2 (void);
+// 0x0000007B System.Type Unity.XRTools.ModuleLoader.FunctionalityIsland/DefaultProvider::get_providerType()
+extern void DefaultProvider_get_providerType_mDFF34FC39109F6829518C115D9824B796162A614 (void);
+// 0x0000007C System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland/DefaultProvider::set_providerType(System.Type)
+extern void DefaultProvider_set_providerType_mCE2CC9ECFDBCB9AC2905EBC96029E48E46F31A48 (void);
+// 0x0000007D System.Type Unity.XRTools.ModuleLoader.FunctionalityIsland/DefaultProvider::get_defaultProviderType()
+extern void DefaultProvider_get_defaultProviderType_m52AFE410581099EB0D85A223AA12ED0980212173 (void);
+// 0x0000007E System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland/DefaultProvider::set_defaultProviderType(System.Type)
+extern void DefaultProvider_set_defaultProviderType_m985DF0792D5FB72C464041DD3CC80E2CD161A751 (void);
+// 0x0000007F System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland/DefaultProvider::.ctor()
+extern void DefaultProvider__ctor_m14FB46409AF74C82C0E6BE269A0FACD36657DD9E (void);
+// 0x00000080 System.Boolean Unity.XRTools.ModuleLoader.FunctionalityIsland/DefaultProvider::<get_providerType>b__12_0(System.Type)
+extern void DefaultProvider_U3Cget_providerTypeU3Eb__12_0_m2E317E59A78BDC4C010E4B0C448CDD360444DD07 (void);
+// 0x00000081 System.Boolean Unity.XRTools.ModuleLoader.FunctionalityIsland/DefaultProvider::<get_defaultProviderType>b__15_0(System.Type)
+extern void DefaultProvider_U3Cget_defaultProviderTypeU3Eb__15_0_mEB2BAD9ED5F076C6A556472E6407B5E68017C209 (void);
+// 0x00000082 Unity.XRTools.ModuleLoader.ModuleLoaderCore/OverridePlatforms Unity.XRTools.ModuleLoader.FunctionalityIsland/PlatformOverride::get_platforms()
+extern void PlatformOverride_get_platforms_m62BE076AE6F89E805B695AF1364EBEEA5B1A07EF (void);
+// 0x00000083 Unity.XRTools.ModuleLoader.ModuleLoaderCore/OverrideModes Unity.XRTools.ModuleLoader.FunctionalityIsland/PlatformOverride::get_modes()
+extern void PlatformOverride_get_modes_mA4E8B5FEB20C052F92401AF99D47B0883401E1F8 (void);
+// 0x00000084 Unity.XRTools.ModuleLoader.FunctionalityIsland/DefaultProvider[] Unity.XRTools.ModuleLoader.FunctionalityIsland/PlatformOverride::get_defaultProviders()
+extern void PlatformOverride_get_defaultProviders_m165D16F8A6886C3336D9AB7580499FA360C0E2D1 (void);
+// 0x00000085 System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland/PlatformOverride::.ctor()
+extern void PlatformOverride__ctor_m2A4CEA6ABD4BD0F892116CD4EDC377573EDA9F02 (void);
+// 0x00000086 System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland/<>c::.cctor()
+extern void U3CU3Ec__cctor_mA896317272C019A437EB451D4166B9BC1C28CE82 (void);
+// 0x00000087 System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland/<>c::.ctor()
+extern void U3CU3Ec__ctor_m235B2F387C811F521473040422AAFC47875D77D4 (void);
+// 0x00000088 System.Void Unity.XRTools.ModuleLoader.FunctionalityIsland/<>c::<.cctor>b__32_0(System.Type)
+extern void U3CU3Ec_U3C_cctorU3Eb__32_0_mE5B5BC07B4A74586E6042E29268FC51B759DC57D (void);
+// 0x00000089 System.String Unity.XRTools.ModuleLoader.FunctionalityIsland/<>c::<SetupDefaultProviders>b__41_0(System.Type)
+extern void U3CU3Ec_U3CSetupDefaultProvidersU3Eb__41_0_m2A7211DD530801A63A4E3703A7F2BB83688D254C (void);
+// 0x0000008A System.String Unity.XRTools.ModuleLoader.FunctionalityIsland/<>c::<PrepareFunctionalityForSubscriberTypes>b__45_0(System.Type)
+extern void U3CU3Ec_U3CPrepareFunctionalityForSubscriberTypesU3Eb__45_0_mCA891C72D8DB580A9734BC0FA5351180F4BC314E (void);
+// 0x0000008B System.Int32 Unity.XRTools.ModuleLoader.FunctionalityIsland/<>c::<PrepareProviders>b__57_0(System.Type,System.Type)
+extern void U3CU3Ec_U3CPrepareProvidersU3Eb__57_0_m283CDFB183B943763058AC404771A7BB8DC36DBC (void);
+static Il2CppMethodPointer s_methodPointers[139] = 
+{
+	ModuleCallbacksBehaviour_Awake_m80422995969A91AC9E4E99372A85843BA8928B70,
+	ModuleCallbacksBehaviour_OnEnable_m92381062AB40EF51D91EFE3A62C045ECFF6CDB57,
+	ModuleCallbacksBehaviour_Start_mCF265994D5F31BA611B021C8D049666811A32361,
+	ModuleCallbacksBehaviour_Update_m6021B0260D824A2A72FFB78C9F9420D5C43DD93C,
+	ModuleCallbacksBehaviour_OnDisable_m5FCAB4558C9C46E199772F1D5943806CE306B272,
+	ModuleCallbacksBehaviour_OnDestroy_m90C677177A7710C183396EC08CC285A0155F73B0,
+	ModuleCallbacksBehaviour__ctor_m84FE659B133026993438D7C6BD02577A4E44D236,
+	ModuleLoaderCore_get_isUnloadingModules_m4E58ACF2C297257D61C1C7BB69841A08793C1B4B,
+	ModuleLoaderCore_set_isUnloadingModules_m8BD0653303C17E46150A91CF60A5D3E72E20E462,
+	ModuleLoaderCore_get_modules_m12644DFD629668A86EF0597ACADBE2A3B06DB9B8,
+	ModuleLoaderCore_get_excludedTypes_m7C8FC015EFD638FDEA6D2180E6972C8C0FB53FD5,
+	ModuleLoaderCore_get_currentOverride_mBAA568711FBC0AA8B672B4A0B55F456B5F49F688,
+	ModuleLoaderCore_add_ModulesLoaded_mDF56F4799DCB111BC3C0CB7ABBAA864408C64B47,
+	ModuleLoaderCore_remove_ModulesLoaded_m0AF283739DBFDA36A901B94C55EA1971FC502204,
+	ModuleLoaderCore_get_ModulesAreLoaded_mFB3B750AEE761638692054B6C0CEC5BEA809833B,
+	ModuleLoaderCore_set_ModulesAreLoaded_mB27D0D15607486F2F47138024EC181BC5BF67AB4,
+	ModuleLoaderCore_GetCurrentPlatform_mEB97D7885C918094345051DF6B27109063074D9B,
+	ModuleLoaderCore_CheckCurrentMode_m53F0444D8FCD07D09A3DB3E11AEBCCBCB9B3B8B6,
+	ModuleLoaderCore_GetCurrentOverridePlatform_m3E3BD4A9D22C8075D5B4BBA92071431366821CED,
+	ModuleLoaderCore_OnLoaded_m4923B2CBF848C449135ABA591B10871BFF242217,
+	ModuleLoaderCore_OnDisable_m64739043FB1D85852832EAFC986E59F19990DB62,
+	ModuleLoaderCore_ReloadModules_m16556D6C12789F965760B98C3DE2F72876F01829,
+	ModuleLoaderCore_OnBehaviorAwake_m8CC307E3804D153FF96C6E4CF4ECF6A40CF46A5B,
+	ModuleLoaderCore_OnBehaviorEnable_m75D83D71BB807905E415076A94575BFE5F43D3F1,
+	ModuleLoaderCore_OnBehaviorStart_m2655B4682B29180530365CE2D2561BFF0DC23A5C,
+	ModuleLoaderCore_OnBehaviorUpdate_mD557F6389FB79710EE89229CE9743E8D5D973971,
+	ModuleLoaderCore_OnBehaviorDisable_mF6CD2B69A8227EF13ADA69831E245C1A90F07217,
+	ModuleLoaderCore_OnBehaviorDestroy_m12C260D4B824892ED907404F66235E2250C7E2B6,
+	ModuleLoaderCore_InjectFunctionalityInModules_mE1FE4E38BC188BE759C42FD8695A8F0B7F62358C,
+	ModuleLoaderCore_OnSceneLoaded_m440236593F18372FCCA0E61A93026708A181ED8B,
+	ModuleLoaderCore_OnSceneUnloaded_mC57C72ADDB0022255145DFACCB6081AA7B80D02B,
+	ModuleLoaderCore_OnActiveSceneChanged_m6D66A543BEC46598435D93930A33C574B2ED90C7,
+	ModuleLoaderCore_GetModuleTypes_mC783F29092DD2263570E7320D0798CE8DEF57AE6,
+	ModuleLoaderCore_LoadModules_m93B28AAAA430A94E737838B39966457F8E8AA10D,
+	ModuleLoaderCore_UnloadModules_mC461CF4592E926556E134C8D1BBC94652468988E,
+	ModuleLoaderCore_ClearModules_mB5304927BDA7603273A2751489E34513C87C968B,
+	NULL,
+	ModuleLoaderCore_LoadModulesWithTypes_m10A9C4F3CEDC5F9DF6C2CC4944D7DF01DFBD4D99,
+	ModuleLoaderCore_CreateComparison_m361FD27DD30CDB79174F539404E252B4B42AC948,
+	ModuleLoaderCore_GetModuleParent_m7BDD8170A1DFEADC232FFDF33BB1234498E4DE4A,
+	ModuleLoaderCore__ctor_m7767EB265F16D6EB639CD5DD628BE6753C55B03C,
+	ModuleLoaderCore__cctor_m12625A47320C3D6ECD131A0C4BA67C8A0A0BC77B,
+	ModuleLoaderCore_U3CLoadModulesU3Eb__52_0_m739ABDB5CC36F601B836C5856629365B0E52B541,
+	PlatformOverride_get_settings_m3FEDA7D3BD657C89AA5DC8A87460ECF2C2FAC2FD,
+	PlatformOverride_get_platforms_m0D5D6D73F41922FEBD508DB27014BA8BF64B8254,
+	PlatformOverride_get_modes_m93AAA483E670C6FD8B6748DD5B377F9773361211,
+	PlatformOverride__ctor_m9BA5F365413EA1D272E992143591D0B2B91F9BC3,
+	U3CU3Ec__DisplayClass57_0__ctor_m619789D2D50AD4CC2EF919120F627BAB53503A20,
+	U3CU3Ec__DisplayClass57_0_U3CCreateComparisonU3Eb__0_mC00A1F4FDBA0BCB5285D0A54B20251818336D868,
+	ModuleLoaderCoreExtensionMethods_EnsureFunctionalityInjected_m00649F05AF54C3ABCF6B38DC91787DF105F017E6,
+	ModuleLoaderDebugSettings_get_functionalityInjectionModuleLogging_m5A64D304E47B72DB4461BA42D77D211958878CAB,
+	ModuleLoaderDebugSettings_get_moduleHideFlags_mAF06801E1A6C6AE0F294EBBD4AD4BEFB6216F318,
+	ModuleLoaderDebugSettings_get_overridePlatformInPlaymode_mB90554F66FB8A0E0D74654C522CCC8B0CCD63165,
+	ModuleLoaderDebugSettings_get_playmodePlatformOverride_mC06487F5CC935DA6A52211CFEF9FA39B8CA7A311,
+	ModuleLoaderDebugSettings_OnValidate_m84B7C4DE3F18070317311ED6E91DAD5AC7DA2FBC,
+	ModuleLoaderDebugSettings_SetModuleHideFlags_m87D654D7D1E082CAB156C4E59E9DF434DDEDDFD5,
+	ModuleLoaderDebugSettings__ctor_mD0E5AD1442854005CB822E06FD901CA4ACB9747C,
+	ModuleLoaderSettingsOverride_get_ExcludedTypes_m2CA4FDC5D42C8ADDB1A03BEDCA956C47B4ADEB12,
+	ModuleLoaderSettingsOverride__ctor_mBC87D5A634C40D0F75CAD1DB59A823A496A335CD,
+	FunctionalityInjectionModule_get_islands_m0BBF82516A6443CEA4C2DCC46CF36B1F2DC6C0DC,
+	FunctionalityInjectionModule_get_defaultIsland_m9628CF415008918BB52D0AD0163E1150F9C99166,
+	FunctionalityInjectionModule_get_activeIsland_m503B838F3F4B281EFB61E03F0CCC5120770A7997,
+	FunctionalityInjectionModule_set_activeIsland_m9F9B84F795065F928B33126DBD6652C8CE5304D7,
+	FunctionalityInjectionModule_add_activeIslandChanged_m17F912F30F42D17A0C55B87174356EAB26B49B2D,
+	FunctionalityInjectionModule_remove_activeIslandChanged_m8DAB64A5A9E3EAB76D7069412A3BC009D431DC2D,
+	FunctionalityInjectionModule_PreLoad_m555EB63A214A27D92F0E17ACE12381E7567DF901,
+	FunctionalityInjectionModule_Unity_XRTools_ModuleLoader_IModule_LoadModule_mECEC08DA810564025D428B93E9F90069481C17B6,
+	FunctionalityInjectionModule_Unity_XRTools_ModuleLoader_IModule_UnloadModule_m95027C57F2B9A3CFFA08E6D259B543CE27F4CB59,
+	FunctionalityInjectionModule_AddIsland_m791948BBB1305C5125CB3B5470950B4A746DC3A9,
+	FunctionalityInjectionModule_SetActiveIsland_m31DBF5CA4D55E1DC9BEAE9E9269F72CAA72A6ACE,
+	FunctionalityInjectionModule_PrintStatus_mA3E96B2E614C49559E012249A381F9FE429EE2C7,
+	FunctionalityInjectionModule_Unity_XRTools_ModuleLoader_IModuleBehaviorCallbacks_OnBehaviorAwake_mD3526FA5D069113B718D2C9AFD1AB8C7422F4525,
+	FunctionalityInjectionModule_Unity_XRTools_ModuleLoader_IModuleBehaviorCallbacks_OnBehaviorEnable_m5C601DFE305226A87FBB32CF4B4B8EDFB26AA50D,
+	FunctionalityInjectionModule_Unity_XRTools_ModuleLoader_IModuleBehaviorCallbacks_OnBehaviorStart_m5417A5523772F008513BBCC88B8FC3B940274C96,
+	FunctionalityInjectionModule_Unity_XRTools_ModuleLoader_IModuleBehaviorCallbacks_OnBehaviorUpdate_m71335E60418EE6BBD7CBB9D8A100C72596E12257,
+	FunctionalityInjectionModule_Unity_XRTools_ModuleLoader_IModuleBehaviorCallbacks_OnBehaviorDisable_m850BF09868EDE9BD302995EC36903FE16EE2D12F,
+	FunctionalityInjectionModule_Unity_XRTools_ModuleLoader_IModuleBehaviorCallbacks_OnBehaviorDestroy_mBCE254E6B764F8FBDFAB1C4DEBA097AE60933027,
+	FunctionalityInjectionModule__ctor_m18F69CA7D751A8C9AF393F0EDFC3D51EBF147DEF,
+	FunctionalityIsland_get_providers_m6DD933FB9AF8EA23A72AAD6D4E9FDA417CFB9A1B,
+	FunctionalityIsland_get_uniqueProviders_mEE7039FAAF8F56BF5ED137CE69F593201B615B2E,
+	FunctionalityIsland_get_defaultProviders_m1C04FF5C63F408B20E8634FFCD505276D7272BB7,
+	FunctionalityIsland__cctor_mC4702A2C3D85B57662C4F1D48DDD7239DC67988E,
+	FunctionalityIsland_GetDefaultProviderTypesBatch_mB625821743E7456BE6AF46A8C6B7F100F36E2D02,
+	FunctionalityIsland_GetProviderTypesBatch_mB193E47416CA9603EC8EB58C6B5E0E8D635183CB,
+	FunctionalityIsland_FindTypesByFullNameBatch_m2A8078E502BF7B1E858545CE6FB422AEFF1014FA,
+	FunctionalityIsland_GetProviderSelectionOptions_mA439DEAC6EE238373FCA7671ACDE32A7533FC2C7,
+	FunctionalityIsland_Setup_mE38CD02C48441ECE81FE125A42FFD571AF51A37B,
+	FunctionalityIsland_OnValidate_m9412E8F9F289E7E08AB11FAE5C12F7E3243B6A92,
+	FunctionalityIsland_ValidateDefaultProviders_m883BF8CCC06F716717D3227E72B0C331397F2FDD,
+	FunctionalityIsland_ValidateProviderArray_m038F7D06AE992B95861C8121E7EDB1FB0091DFF1,
+	FunctionalityIsland_SetupDefaultProviders_m825EB958EA8E1B3289BCF0F69B87AC500EB4B074,
+	FunctionalityIsland_CheckMissingProviders_m5F02936F53B38D0CC05803D8729DFC460D819642,
+	FunctionalityIsland_ActivateProviderGameObjects_m3C42435E98C3FB47E31E9C74665C210CDCFAA7C8,
+	FunctionalityIsland_InjectFunctionalityInDefaultProviders_mB12E3E064813E2C5B6A2824FFC80A7C08CE1B63F,
+	FunctionalityIsland_PrepareFunctionalityForSubscriberTypes_m8958748352651CCFD6E307CBC7FB7DED4C0DE37F,
+	FunctionalityIsland_InjectFunctionality_m13F400CF06AE564BFEC7252E412DD8474DF21D6F,
+	FunctionalityIsland_InjectFunctionality_m097198399B89E99E277D6DB634CC1DF54F098168,
+	FunctionalityIsland_InjectPreparedFunctionality_mFCEE1CBFD7630A2BD9E8159F22B1544472928038,
+	FunctionalityIsland_InjectPreparedFunctionality_m33CCF2B6F6982ACA33CA09897A1354A1ACB45E73,
+	FunctionalityIsland_InjectFunctionalityGroup_mBD90A4158181D18981B67AD6ACB425DBE68F5D65,
+	FunctionalityIsland_InjectFunctionalityGroup_m81C5B0BA2C77192EDC77BDFBECB37862147A2D35,
+	FunctionalityIsland_InjectFunctionalitySingle_mD53F28D0D595F49E74B06D540EA33CC7AB03CD5B,
+	FunctionalityIsland_InjectFunctionality_mA26480C9835D5652E140E3ECD166831A0E7E46E3,
+	FunctionalityIsland_InjectFunctionality_mF16F2E3C6BB5D1AF01E6CBA567FC6D0A38B71754,
+	FunctionalityIsland_AddProviders_m22308968FBC2E8BAA00C6D2D38740AAB2AD7868A,
+	FunctionalityIsland_RemoveProviders_m890EF4D6AAC98344E68A25A1CFC6E79E23FEE265,
+	FunctionalityIsland_PrepareProviders_m77D49DFF8DBF13A64083B4E5C713867D0555836B,
+	FunctionalityIsland_GetOrCreateProviderInstance_mEB1DD1D8B14448952329671D68F2F80D0480640C,
+	FunctionalityIsland_CanAddProviderType_m3C6E3ED53082D4ED33F8776D0F9CCF5FB5106253,
+	FunctionalityIsland_AddProvider_m08F57797E91978524FF985EE55DB9854549748BB,
+	FunctionalityIsland_GetRequiredProviders_m36BADD2C700A8BF478A0ED222D7C01DF24D01432,
+	FunctionalityIsland_Unload_mAF94CB0E59711149B754871694E4B0678F2FF935,
+	FunctionalityIsland_CheckSetup_m8B598F2B2EC7952B8DD3C75261D7FECB5910358F,
+	FunctionalityIsland_PrintStatus_mDD26385C977075712B3E57B73130DF507B8B5993,
+	FunctionalityIsland_LoadProvider_mC16F0210D28CC9A614AA6796419375806D98145B,
+	FunctionalityIsland_ConnectSubscriber_mC1D73285DC3D27B397F22394056E53598BDAA95B,
+	FunctionalityIsland_UnloadProvider_mF44808960C43AFEC75C326A6EBC70EA9DCEA0E76,
+	FunctionalityIsland_OnBehaviorDestroy_m7081748B8E1B5FD2E7C64E897C33513BD4451D35,
+	FunctionalityIsland__ctor_m05E66BB28F94010447C5B8B79099D20B53DC1474,
+	DefaultProvider_get_providerTypeName_mF868C29CF405E484EFB5115E937E50BB61C468D1,
+	DefaultProvider_get_defaultProviderTypeName_mF37E46F3E945C1AFFD42CD17BD6741D6D444E2D7,
+	DefaultProvider_get_defaultProviderPrefab_m74FCEA0E3932328F3C27C367B32C5A31AC9271A2,
+	DefaultProvider_get_providerType_mDFF34FC39109F6829518C115D9824B796162A614,
+	DefaultProvider_set_providerType_mCE2CC9ECFDBCB9AC2905EBC96029E48E46F31A48,
+	DefaultProvider_get_defaultProviderType_m52AFE410581099EB0D85A223AA12ED0980212173,
+	DefaultProvider_set_defaultProviderType_m985DF0792D5FB72C464041DD3CC80E2CD161A751,
+	DefaultProvider__ctor_m14FB46409AF74C82C0E6BE269A0FACD36657DD9E,
+	DefaultProvider_U3Cget_providerTypeU3Eb__12_0_m2E317E59A78BDC4C010E4B0C448CDD360444DD07,
+	DefaultProvider_U3Cget_defaultProviderTypeU3Eb__15_0_mEB2BAD9ED5F076C6A556472E6407B5E68017C209,
+	PlatformOverride_get_platforms_m62BE076AE6F89E805B695AF1364EBEEA5B1A07EF,
+	PlatformOverride_get_modes_mA4E8B5FEB20C052F92401AF99D47B0883401E1F8,
+	PlatformOverride_get_defaultProviders_m165D16F8A6886C3336D9AB7580499FA360C0E2D1,
+	PlatformOverride__ctor_m2A4CEA6ABD4BD0F892116CD4EDC377573EDA9F02,
+	U3CU3Ec__cctor_mA896317272C019A437EB451D4166B9BC1C28CE82,
+	U3CU3Ec__ctor_m235B2F387C811F521473040422AAFC47875D77D4,
+	U3CU3Ec_U3C_cctorU3Eb__32_0_mE5B5BC07B4A74586E6042E29268FC51B759DC57D,
+	U3CU3Ec_U3CSetupDefaultProvidersU3Eb__41_0_m2A7211DD530801A63A4E3703A7F2BB83688D254C,
+	U3CU3Ec_U3CPrepareFunctionalityForSubscriberTypesU3Eb__45_0_mCA891C72D8DB580A9734BC0FA5351180F4BC314E,
+	U3CU3Ec_U3CPrepareProvidersU3Eb__57_0_m283CDFB183B943763058AC404771A7BB8DC36DBC,
+};
+static const int32_t s_InvokerIndices[139] = 
+{
+	4526,
+	4526,
+	4526,
+	4526,
+	4526,
+	4526,
+	4526,
+	6738,
+	6667,
+	4428,
+	4428,
+	4428,
+	3605,
+	3605,
+	4480,
+	3651,
+	6712,
+	6585,
+	6712,
+	4526,
+	4526,
+	4526,
+	4526,
+	4526,
+	4526,
+	4526,
+	4526,
+	4526,
+	3605,
+	1927,
+	3654,
+	1929,
+	6662,
+	4526,
+	4526,
+	4526,
+	-1,
+	3605,
+	5884,
+	4428,
+	4526,
+	6754,
+	3070,
+	4428,
+	4401,
+	4401,
+	4526,
+	4526,
+	1211,
+	6662,
+	4480,
+	4401,
+	4480,
+	4401,
+	4526,
+	3580,
+	4526,
+	4428,
+	4526,
+	4428,
+	4428,
+	4428,
+	3605,
+	3605,
+	3605,
+	4526,
+	4526,
+	4526,
+	3605,
+	3605,
+	4428,
+	4526,
+	4526,
+	4526,
+	4526,
+	4526,
+	4526,
+	4526,
+	4428,
+	4428,
+	4428,
+	6754,
+	6662,
+	6662,
+	6222,
+	6530,
+	4526,
+	4526,
+	4526,
+	1850,
+	1872,
+	2463,
+	4526,
+	1872,
+	1872,
+	1872,
+	1872,
+	3605,
+	3605,
+	3605,
+	3605,
+	3605,
+	3654,
+	3605,
+	3605,
+	3605,
+	1078,
+	5884,
+	3070,
+	1872,
+	6222,
+	4526,
+	4526,
+	4428,
+	4526,
+	3605,
+	4526,
+	4526,
+	4526,
+	4428,
+	4428,
+	4428,
+	4428,
+	3605,
+	4428,
+	3605,
+	4526,
+	3070,
+	3070,
+	4401,
+	4401,
+	4428,
+	4526,
+	6754,
+	4526,
+	3605,
+	2639,
+	2639,
+	1211,
+};
+static const Il2CppTokenRangePair s_rgctxIndices[1] = 
+{
+	{ 0x06000025, { 0, 1 } },
+};
+static const Il2CppRGCTXDefinition s_rgctxValues[1] = 
+{
+	{ (Il2CppRGCTXDataType)2, 268 },
+};
+extern const CustomAttributesCacheGenerator g_Unity_XRTools_ModuleLoader_AttributeGenerators[];
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_XRTools_ModuleLoader_CodeGenModule;
+const Il2CppCodeGenModule g_Unity_XRTools_ModuleLoader_CodeGenModule = 
+{
+	"Unity.XRTools.ModuleLoader.dll",
+	139,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	1,
+	s_rgctxIndices,
+	1,
+	s_rgctxValues,
+	NULL,
+	g_Unity_XRTools_ModuleLoader_AttributeGenerators,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

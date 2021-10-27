@@ -1,0 +1,16 @@
+{
+    "name": "Unity.MARS.Tests",
+    "references": [
+        "Unity.MARS",
+        "Unity.MARS.Interfaces",
+        "Unity.XRTools.Utils",
+        "Unity.XRTools.ModuleLoader.Interfaces",
+        "Unity.XRTools.ModuleLoader"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

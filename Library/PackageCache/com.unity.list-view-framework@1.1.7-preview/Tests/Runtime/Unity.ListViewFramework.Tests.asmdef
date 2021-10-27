@@ -1,0 +1,6 @@
+{
+    "name": "Unity.ListViewFramework.Tests",
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ]
+}

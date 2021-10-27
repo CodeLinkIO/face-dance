@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 887952814dc994403bb512c499c8ef9a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_ViewDataDictionary: {instanceID: 0}
+  - m_SimulatedPlanePrefab: {fileID: 1009823717191172, guid: 86741c312c3ed1a418fc6ce1f2e75d24,
+      type: 3}
+  - m_SimulatedPlaneMaterial: {fileID: 2100000, guid: 29f23c493a76552409a189fbfbd3a420,
+      type: 2}
+  - m_PostPrefab: {fileID: 6965878171617909552, guid: f5cde1bc5e2df7e4a80a97bd260d642c,
+      type: 3}
+  - m_MeshPrefab: {fileID: 7049119591699967397, guid: 5ff6f2c2db8f5584f87714b623dde922,
+      type: 3}
+  - m_SimulatedLightingPrefab: {fileID: 4413608226344950362, guid: 2cca1a540e997164bbc4d04ec1399eb0,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,25 @@
+﻿using UnityEngine;
+using Unity.XRTools.Utils;
+
+namespace Unity.MARS.Query
+{
+    public partial class Relations
+    {
+{BackingValue_FIELDS}
+
+{TryGetType_METHOD}
+
+{GetTypeCount_METHOD}
+
+        public void FromRelation(Relation relation)
+        {
+{FromRelation_CONSTRUCTOR}
+        }
+
+        void GatherComponents<TComponentRootType>(CachedComponentFilter<IRelation, TComponentRootType> componentFilter)
+            where TComponentRootType : Component
+        {
+{GatherComponents_METHOD}
+        }
+    }
+}

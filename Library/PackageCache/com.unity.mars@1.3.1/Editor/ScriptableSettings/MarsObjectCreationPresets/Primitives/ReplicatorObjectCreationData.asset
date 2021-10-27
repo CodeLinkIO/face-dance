@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e98cd00f46b4998b3b403d30d35394, type: 3}
+  m_Name: ReplicatorObjectCreationData
+  m_EditorClassIdentifier: 
+  m_ObjectName: Proxy Replicator
+  m_Icon:
+    m_Dark: {fileID: 2800000, guid: de64284e04f1fa345a07d7959c6c8163, type: 3}
+    m_Light: {fileID: 2800000, guid: 373288c89fca240409cd872fde7b4d65, type: 3}
+  m_Tooltip: 
+  m_CreateInContext: 0

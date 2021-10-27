@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba36a03cc179e4d42a247ee25fcb5896, type: 3}
+  m_Name: ARFoundation - Standard
+  m_EditorClassIdentifier: 
+  m_DisplayName: AR Foundation
+  m_PackageName: com.unity.mars-ar-foundation-support
+  m_Url: Packages/com.unity.mars/LocalContentPacks~/ARFoundationSupport_Standard
+  m_InstallType: 0
+  m_Description: 'This is the stable verified release of AR Foundation, but does
+    not provide access to prerelease features such as Body Tracking.
+
+
+    AR Foundation
+    is our core AR framework specifically designed for enabling multiplatform AR
+    experiences. Unity MARS is built on top of the Unity Editor and works in coordination
+    with AR Foundation. It exists as an additional layer that takes advantage of
+    the data from AR Foundation or other custom data providers to allow creators
+    to build for multiple platforms in a more streamlined and intuitive way.'
+  m_Category: providers
+  m_PreviewLabel: 
+  m_PreviewImage: {fileID: 2800000, guid: 4211a48abcb0fed4da183ef66dbf9af3, type: 3}
+  m_Version: 0.1.0-standard
+  m_Created:
+    m_Ticks: 636990912000000000
+  m_Updated:
+    m_Ticks: 637387488000000000

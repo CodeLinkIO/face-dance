@@ -1,0 +1,21 @@
+{
+    "name": "Unity.MARS.EditorTests",
+    "references": [
+        "Unity.MARS",
+        "Unity.MARS.Interfaces",
+        "Unity.XRTools.Utils",
+        "Unity.MARS.Tests",
+        "Unity.MARS.Editor",
+        "Unity.XRTools.Utils.Editor",
+        "Unity.XRTools.ModuleLoader.Interfaces",
+        "Unity.XRTools.ModuleLoader"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

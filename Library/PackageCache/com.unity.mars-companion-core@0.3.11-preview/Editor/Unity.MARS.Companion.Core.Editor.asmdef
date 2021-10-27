@@ -1,0 +1,28 @@
+{
+    "name": "Unity.MARS.Companion.Core.Editor",
+    "references": [
+        "Unity.MARS.Companion.Core",
+        "Unity.Properties",
+        "Unity.MARS",
+        "Unity.MARS.Editor",
+        "Unity.MARS.Interfaces",
+        "Unity.XRTools.Utils",
+        "Unity.XRTools.Utils.Editor",
+        "Unity.XRTools.ModuleLoader.Interfaces",
+        "Unity.XRTools.ModuleLoader",
+        "Unity.RuntimeSceneSerialization",
+        "Unity.Serialization",
+        "Unity.Timeline"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

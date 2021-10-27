@@ -1,0 +1,16 @@
+{
+  "name": "com.unity.content-manager",
+  "displayName": "Unity Content Manager",
+  "version": "0.1.3-preview",
+  "unity": "2019.3",
+  "unityRelease": "0f6",
+  "description": "The Content Manager shows samples, extension packages, and other pieces of content available for a product. It uses the Package Manager API.\n\nThe Content Manager specializes in configuring and extending a project after it has been created. It streamlines various types of sample installation and automatically handles soft dependencies.\n\n",
+  "upmCi": {
+    "footprint": "508d5d99165ed17421f5c3a690b07dd801449496"
+  },
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/com.unity.content-manager.git",
+    "type": "git",
+    "revision": "33d80e6f70ddcf46750404f8bdc024efb484db13"
+  }
+}

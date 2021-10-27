@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:Template name="AddButton" src="AddButton.uxml" />
+    <ui:VisualElement name="ruleNodeContainer" focusable="true" class="ruleNode" style="margin-top: 16px; flex-direction: row;">
+        <ui:Foldout name="rowFoldout" style="left: -38px; width: 18px; overflow: visible; visibility: visible; display: flex; min-width: 18px;" />
+        <ui:Label text="On" style="flex-direction: row; visibility: visible; display: flex; overflow: visible; opacity: 1; right: auto; width: 23px; height: 16px; left: auto; margin-top: 2px;" />
+        <uie:EnumField value="Every" name="matchCountEnum" style="height: 18px; width: 78px;" />
+        <uie:IntegerField value="42" name="maxInstances" binding-path="m_MaxInstances" />
+        <uie:ObjectField allow-scene-objects="true" name="proxyPreset" style="margin-right: 0; flex-grow: 1;" />
+        <ui:Button name="pickProxyPreset" class="unity-object-field__selector" style="flex-direction: row; margin-left: -20px;" />
+        <ui:Button text="&gt;" name="groupDrillIn" style="display: none;" />
+        <ui:VisualElement>
+            <ui:Label text="n" name="simMatchCount" style="-unity-font-style: italic; left: 0; position: absolute; -unity-text-align: upper-center; min-width: 45px;" />
+        </ui:VisualElement>
+        <ui:Instance template="AddButton" name="AddButton" />
+    </ui:VisualElement>
+    <ui:VisualElement name="addBarLocation" />
+    <ui:VisualElement name="contentContainer" />
+</ui:UXML>

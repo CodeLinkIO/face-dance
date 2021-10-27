@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="Overlay" class="overlay-box">
+        <Style src="DataInfoOverlay.uss" />
+        <ui:Label text="Header" name="Header" class="overlay-header" />
+        <ui:VisualElement name="TagsSection" class="data-section" style="flex-grow: 1;&#10;">
+            <ui:Label text="Tags:" class="list-prefix-label" />
+            <ui:Label text="plane, floor" name="Tags" class="word-list" />
+        </ui:VisualElement>
+        <ui:VisualElement name="TraitsSection" class="data-section">
+            <ui:Label text="Traits:" class="list-prefix-label" />
+            <ui:Label text="bounds2d, alignment, geolocation" name="Traits" class="word-list" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

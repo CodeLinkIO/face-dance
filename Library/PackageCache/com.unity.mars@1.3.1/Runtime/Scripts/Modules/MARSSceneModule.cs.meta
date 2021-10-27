@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 796ac1e7b2d310a4aa44d23c7c4a8f48
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_SimulationIsland: {fileID: 11400000, guid: ec4a7a5772f004f0a90d8df7d3ad44a0,
+      type: 2}
+  - m_SimulatedDiscoveryIsland: {fileID: 11400000, guid: 8bbbc60efbf5b4907881baf0bd3fa651,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

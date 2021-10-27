@@ -1,0 +1,69 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using Unity.MARS.Authoring;
+using Unity.MARS.Query;
+using Unity.XRTools.ModuleLoader;
+
+namespace Unity.MARS.Data
+{
+    public partial class TraitDataSnapshot
+    {
+{TraitData_FIELDS}
+
+        void Clear()
+        {
+{Clear_METHOD}
+        }
+
+        /// <summary>
+        /// Save a snapshot that contains all the data currently associated with a query result
+        /// </summary>
+        /// <param name="queryResult">The query result to get the data from.</param>
+        public void TakeSnapshot(QueryResult queryResult)
+        {
+            Clear();
+            DataID = -1;
+
+            var db = ModuleLoaderCore.instance.GetModule<MARSDatabase>();
+            if (db == null || queryResult == null)
+                return;
+
+            DataID = queryResult.DataID;
+
+{TakeSnapshot_METHOD}
+        }
+
+{GetTraits_METHOD}
+
+{TryGetTrait_METHOD}
+
+        void CollectPotentialRelations(List<Type>[] childRelationTypes, int index)
+        {
+{CollectPotentialRelations_METHOD}
+        }
+
+        /// <summary>
+        /// Get potential conditions from this data snapshot
+        /// </summary>
+        /// <param name="results">The list to store the results. The list is not cleared.</param>
+        /// <param name="gameObject">The gameObject that potential conditions will be added to.</param>
+        public void GetPotentialConditions(List<PotentialCondition> results, GameObject gameObject)
+        {
+{GetPotentialConditions_METHOD}
+        }
+
+        /// <summary>
+        /// Gets all trait names in this data snapshot.
+        /// </summary>
+        /// <param name="results">A list to add the results. The list is not cleared. If null, a new list is allocated.</param>
+        public void GetAllTraitNames(List<string> results)
+        {
+            if (results == null)
+                results = new List<string>();
+
+{GetAllTraitNames_METHOD}
+        }
+    }
+}

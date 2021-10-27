@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d656a45f60114f049947b075572ed4f, type: 3}
+  m_Name: ARCoreLandmarkMeshIndices
+  m_EditorClassIdentifier: 
+  m_LandmarkTriangleIndexes: 8101000073000000dd0100006b020000f70100006a020000f60100000b0000000c000000a7020000a0010000d7010000d801000029020000b50100008d0200003f02000026020000b40100008a0200003e020000

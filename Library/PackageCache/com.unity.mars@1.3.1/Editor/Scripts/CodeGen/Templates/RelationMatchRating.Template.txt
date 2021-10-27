@@ -1,0 +1,19 @@
+﻿using System.Collections.Generic;
+using Unity.MARS.Data;
+
+namespace Unity.MARS.Query
+{
+    partial class RelationRatingTransform
+    {
+        public static bool TryMatchAllInternal(Relations relations,
+            RelationTraitCache traits,
+            RelationRatingsData ratings,
+            Dictionary<int, float>[] memberRatings,
+            RelationDataPair[] relationPairs)
+        {
+{TryMatchAllInternal_METHOD}
+
+            return true;
+        }
+    }
+}

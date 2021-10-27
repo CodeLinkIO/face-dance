@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement style="left: 8px;">
+        <ui:VisualElement name="addButtonHoverElement" style="position: absolute; min-width: 40px; min-height: 20px;">
+            <ui:Button text="+" name="addButton" style="position: absolute; display: none; -unity-font-style: bold;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

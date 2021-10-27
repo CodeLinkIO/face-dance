@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d20bf400e471f4c578c9cfdc39ba9948, type: 3}
+  m_Name: ReasoningDefaultsModule
+  m_EditorClassIdentifier: 
+  m_ReasoningDefaultApis:
+  - {fileID: 11400000, guid: 5b0cd262386f62a409e86d49f4db6f8b, type: 2}
+  - {fileID: 11400000, guid: 44698144e53151b41ae99425cd227ac7, type: 2}
+  - {fileID: 11400000, guid: c93c70577c678b945a700b0d6ff51224, type: 2}
+  - {fileID: 11400000, guid: 7dbbab446d6504a31b72a1d9614aba50, type: 2}
+  - {fileID: 11400000, guid: 348d3cb953fd12c4c89585f8a1217a96, type: 2}

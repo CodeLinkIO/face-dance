@@ -1,0 +1,10 @@
+{
+  "name": "com.unity.content-manager.test-content-pack-blank",
+  "version": "0.1.0-update-preview",
+  "displayName": "Unity Content Manager Test Pack - Update",
+  "description": "This is a test package stored locally with the Unity Content Manager and used during runtime tests.",
+  "unity": "2019.3",
+  "unityRelease": "0f6",
+  "dependencies": {
+  }
+}

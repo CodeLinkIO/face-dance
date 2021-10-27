@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="SetChildVisualElement" style="flex-direction: row;&#10;">
+        <Style src="ProxyGroupChildField.uss" />
+        <ui:Label text="Label" name="Name" style="justify-content: flex-start;&#10;min-width: 100px;&#10;flex-grow: 0.25;&#10;-unity-text-align: middle-left;&#10;padding-left: 2px;&#10;" />
+        <ui:Button text="Modify Conditions" name="Button" style="flex-grow: 0.75;&#10;" />
+    </ui:VisualElement>
+</ui:UXML>

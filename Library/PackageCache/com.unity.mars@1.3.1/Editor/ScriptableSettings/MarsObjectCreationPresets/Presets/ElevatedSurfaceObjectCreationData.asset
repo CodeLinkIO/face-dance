@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1fe2cad655d949ba8c8dadd2f113140, type: 3}
+  m_Name: ElevatedSurfaceObjectCreationData
+  m_EditorClassIdentifier: 
+  m_ObjectName: Elevated Surface
+  m_Icon:
+    m_Dark: {fileID: 2800000, guid: 489aee2c0a45e88448b110577986442b, type: 3}
+    m_Light: {fileID: 2800000, guid: 489aee2c0a45e88448b110577986442b, type: 3}
+  m_Tooltip: Creates a Proxy with a height above floor condition.
+  m_CreateInContext: 0

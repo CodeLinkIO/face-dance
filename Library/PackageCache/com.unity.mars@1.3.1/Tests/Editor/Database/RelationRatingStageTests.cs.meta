@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 261bd9d9714d4268b4804050e04358f9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_SetQueryTestObject: {fileID: 1601308111017301114, guid: d145b2815d696b240983fabd2a795786,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

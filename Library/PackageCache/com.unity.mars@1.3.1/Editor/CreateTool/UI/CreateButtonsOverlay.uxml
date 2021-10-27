@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="ButtonsRoot" style="position: absolute;&#10;top: 0;&#10;left: 0;&#10;">
+        <Style src="CreateButtonsOverlay.uss" />
+        <ui:Button text="Create Proxy" name="CreateButton" class="floating-button" />
+    </ui:VisualElement>
+</ui:UXML>

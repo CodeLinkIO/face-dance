@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba36a03cc179e4d42a247ee25fcb5896, type: 3}
+  m_Name: TestPack_Writeable
+  m_EditorClassIdentifier: 
+  m_DisplayName: Test Pack - Writeable
+  m_PackageName: com.unity.content-manager.test-content-pack-writeable
+  m_Url: Packages/com.unity.content-manager/LocalContentPacks~/TestPack_Writeable
+  m_InstallType: 1
+  m_Description: This is a test package stored locally with the Unity Content Manager
+    and used during runtime tests. It installs as a writeable package.
+  m_Category: group2
+  m_PreviewImage: {fileID: 2800000, guid: 999ddd2868bcd4192b277ac8936469b3, type: 3}
+  m_Version: 0.1.0
+  m_Created:
+    m_Ticks: 637424640000000000
+  m_Updated:
+    m_Ticks: 637424640000000000

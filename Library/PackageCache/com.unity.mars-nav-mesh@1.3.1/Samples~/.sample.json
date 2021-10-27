@@ -1,0 +1,5 @@
+{
+	"displayName":"Nav Mesh Example",
+	"description": "This sample includes a scene that puts nav mesh surfaces on all AR surfaces. When a user taps a surface a nav mesh agent appears and subsequent taps set the agent's target location",
+	"createSeparatePackage": false
+}

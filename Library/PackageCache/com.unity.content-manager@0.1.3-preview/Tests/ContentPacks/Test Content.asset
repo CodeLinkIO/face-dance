@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 951f71b896deb3c4b8e587587876ae12, type: 3}
+  m_Name: Test Content
+  m_EditorClassIdentifier: 
+  m_Icon: {fileID: 2800000, guid: a3120360b83a44e8b8351bb290628d4a, type: 3}
+  m_DisplayName: Test Content
+  m_Description: Manual & Unit
+  m_SearchPath: Packages/com.unity.content-manager
+  m_Visible: 0
+  m_Categories:
+  - m_Name: Group 1
+    m_Filter: group1
+  - m_Name: Group 2
+    m_Filter: group2

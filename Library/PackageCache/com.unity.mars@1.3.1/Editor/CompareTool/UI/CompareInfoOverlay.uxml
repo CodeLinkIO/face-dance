@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="Overlay" class="overlay-box">
+        <Style src="CompareInfoOverlay.uss" />
+        <ui:Label text="Compare Proxy Object to Data #-1" name="Header" class="overlay-header" />
+        <ui:VisualElement name="ConditionsSection" class="data-section" style="flex-grow: 1;&#10;flex-direction: column;&#10;" />
+        <ui:Label name="SubHeader" text="Select data to compare" style="white-space: normal;&#10;font-size: 11px;&#10;color: rgba(196, 196, 196, 255);&#10;" />
+    </ui:VisualElement>
+</ui:UXML>

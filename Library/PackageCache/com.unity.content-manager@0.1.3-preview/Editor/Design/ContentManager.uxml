@@ -1,0 +1,45 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="WindowCanvas">
+        <Style src="ContentManager.uss" />
+        <ui:VisualElement name="Categories" class="flat-border raised-background">
+            <ui:VisualElement name="ProductEntry" class="flat-border">
+                <ui:VisualElement name="ProductDetail">
+                    <ui:VisualElement name="ProductIcon" />
+                    <ui:VisualElement name="ProductData" style="border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0;">
+                        <ui:Label text="Loading..." name="ProductName" />
+                        <ui:Label text="..." name="ProductDescription" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="ProductArrow" style="margin-top: 6px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:ScrollView name="CategoryList" />
+        </ui:VisualElement>
+        <ui:VisualElement name="ContentOverview" class="deep-background">
+            <ui:ScrollView name="ContentList">
+                <ui:VisualElement name="ContentListWrapper" />
+            </ui:ScrollView>
+        </ui:VisualElement>
+        <ui:VisualElement name="ContentDetail" class="flat-border deep-background">
+            <ui:VisualElement name="ContentImage" class="deep-background" />
+            <ui:VisualElement name="ContentDescription" class="flat-border">
+                <ui:VisualElement name="ContentMetadata">
+                    <ui:Label text="Display Name" name="DescriptionName" />
+                    <ui:Label text="Package Name" name="DescriptionPackage" />
+                    <ui:Label text="Date Information" name="DescriptionDate" />
+                </ui:VisualElement>
+                <ui:ScrollView name="DescriptionScroll" class="flat-border">
+                    <ui:Label name="DescriptionHeading" text="ABOUT" />
+                    <ui:Label name="DescriptionText" text="Description" />
+                </ui:ScrollView>
+                <ui:Label text="Installs to" name="DescriptionLocation" />
+                <ui:Label name="DescriptionStatus" />
+                <ui:VisualElement name="DescriptionButtons">
+                    <ui:Button text="Cancel" name="CancelButton" class="description-button" />
+                    <ui:Button text="Uninstall" name="UninstallButton" class="description-button" />
+                    <ui:Button text="Update" name="UpdateButton" class="description-button button-primary" />
+                    <ui:Button text="Install" name="InstallButton" class="description-button button-primary" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

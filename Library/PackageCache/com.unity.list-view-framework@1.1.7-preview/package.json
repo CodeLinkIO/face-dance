@@ -1,0 +1,16 @@
+{
+  "name": "com.unity.list-view-framework",
+  "displayName": "List View Framework",
+  "version": "1.1.7-preview",
+  "unity": "2018.4",
+  "unityRelease": "20f1",
+  "description": "An extensible framework for creating dynamic, scrollable lists of objects.\nIt is implemented outside of the UI system in order to allow more complex animations and for performance in VR.",
+  "upmCi": {
+    "footprint": "87af96dcf49ff85a2d96dd8dd98ba0829f0c0881"
+  },
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/com.unity.list-view-framework.git",
+    "type": "git",
+    "revision": "0e01a351b4f31fd28461cb1bee66be3807846cca"
+  }
+}

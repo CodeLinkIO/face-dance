@@ -1,0 +1,37 @@
+fileFormatVersion: 2
+guid: d897e1d4ab4d422499dacb0e2d34a4f8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_DefaultRecordedVideo: {fileID: 32900000, guid: 18d7b790f273aa546a44be3fa6d27bd3,
+      type: 3}
+  - m_NextEnvironmentIcon: {fileID: 2800000, guid: 249123a93d17e4343b26db2d94e13c5d,
+      type: 3}
+  - m_PreviousEnvironmentIcon: {fileID: 2800000, guid: 2328c235d6923c04b9d49740c67d009a,
+      type: 3}
+  - m_StopIcon: {fileID: 2800000, guid: b8663da35b25bc04dbf06dcc3018337e, type: 3}
+  - m_WarningTexture: {fileID: 2800000, guid: 80ff6246da520954faa0cd63b95957a2, type: 3}
+  - m_EnvironmentIcon: {fileID: 2800000, guid: ddffbfce105d77a4d8ff9cf29f65ac62, type: 3}
+  - m_SimulationViewIcon: {fileID: 2800000, guid: ce36760adf346b34784c3a09f1dc7a03,
+      type: 3}
+  - m_CanEditIcon: {fileID: 2800000, guid: ef68862b5832bf146811551df52958fe, type: 3}
+  - m_CanNotEditIcon: {fileID: 2800000, guid: 25f12dddc9059cd42b8c0bb08d173544, type: 3}
+  - m_ToolbarBackground: {fileID: 2800000, guid: 33b2a21b8300ee744b520d0ba1b624e6,
+      type: 3}
+  - m_ToolbarBackground2X: {fileID: 2800000, guid: 32d48cf4be3fc6a4690c065377c39a71,
+      type: 3}
+  - m_ToolbarBackgroundPro: {fileID: 2800000, guid: 18856645e75fbf544892db34dd7274b7,
+      type: 3}
+  - m_ToolbarBackgroundPro2X: {fileID: 2800000, guid: 8a96ba7eeb53d0546bf43ac81f0e6f79,
+      type: 3}
+  - m_ToolbarButton: {fileID: 2800000, guid: ee07e647ae605f24a81a968b2aca78c5, type: 3}
+  - m_ToolbarButton2X: {fileID: 2800000, guid: e626aed50e095094aa797d5b4d4c9e72, type: 3}
+  - m_ToolbarDropdown: {fileID: 2800000, guid: 2ec7780f90f00e54ba11181274aaaf37, type: 3}
+  - m_ToolbarDropdownPro: {fileID: 2800000, guid: 576955927867c3445ac9d6aad67d4fa3,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

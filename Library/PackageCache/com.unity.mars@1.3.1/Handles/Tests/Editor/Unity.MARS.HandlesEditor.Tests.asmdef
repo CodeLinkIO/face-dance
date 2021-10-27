@@ -1,0 +1,26 @@
+{
+    "name": "Unity.MARS.HandlesEditor.Tests",
+    "references": [
+        "Unity.MARS.MARSHandles",
+        "Unity.MARS.HandlesEditor",
+        "Unity.MARS.MARSHandles.Tests",
+        "Unity.MARS.MARSHandles.Picking",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

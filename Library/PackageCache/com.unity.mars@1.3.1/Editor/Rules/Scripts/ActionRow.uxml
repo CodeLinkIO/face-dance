@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="ruleNodeContainer" class="ruleNode" style="flex-direction: row; margin-left: 60px;">
+        <ui:Label text="&lt;Action Title&gt;" name="actionTitle" style="flex-grow: 1;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="addBarLocation" />
+</ui:UXML>

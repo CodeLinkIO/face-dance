@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement class="category">
+        <Style src="ContentManager.uss" />
+        <ui:VisualElement class="category-icon" />
+        <ui:Label text="Label" class="category-label" />
+    </ui:VisualElement>
+</ui:UXML>

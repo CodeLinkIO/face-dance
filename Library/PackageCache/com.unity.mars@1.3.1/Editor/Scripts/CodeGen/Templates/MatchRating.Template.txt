@@ -1,0 +1,18 @@
+﻿using System.Collections.Generic;
+using Unity.MARS.Data;
+
+namespace Unity.MARS.Query
+{
+    partial class MatchRatingDataTransform
+    {
+        public static bool RateConditionMatchesInternal(ProxyConditions conditions,
+            {TraitCollectionClassName} traits, ConditionRatingsData ratings)
+        {
+{RateConditionMatchesInternal_METHOD}
+
+            return true;
+        }
+
+{RateConditionType_METHODS}
+    }
+}

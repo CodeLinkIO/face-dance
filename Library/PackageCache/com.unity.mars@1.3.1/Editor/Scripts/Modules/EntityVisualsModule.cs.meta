@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: fa0c7efd98242714c9e828a4870d16dd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_PlaneMesh: {fileID: 4300000, guid: 3b9c16906660ab94da826415b93c3363, type: 3}
+  - m_EntityMaterial: {fileID: 2100000, guid: fcb9c29efb0b70849bdecbe1b02dec1a, type: 2}
+  - m_FaceMaskVisual: {fileID: 1956304382320606, guid: a010db0b15b3e13448acc326d2b9ebf3,
+      type: 2}
+  - m_FloorVisual: {fileID: 1770798429004586, guid: 8ce8fe80cdc83a34aaa32ba61156905b,
+      type: 2}
+  - m_DropTargetNormalMaterial: {fileID: 2100000, guid: fcb9c29efb0b70849bdecbe1b02dec1a,
+      type: 2}
+  - m_DropTargetHoverMaterial: {fileID: 2100000, guid: 54cb2261067583042b6a491005509124,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c111cb842dba94c9498a428e9ae41925, type: 3}
+  m_Name: FaceMaskObjectCreationData
+  m_EditorClassIdentifier: 
+  m_ObjectName: Face Mask
+  m_Icon:
+    m_Dark: {fileID: 2800000, guid: f5e4ee73d107563479cf7795d02e6aa3, type: 3}
+    m_Light: {fileID: 2800000, guid: dac692f8e880343f99f2f406fbf79b92, type: 3}
+  m_Tooltip: A Game Object representing a Face Mask
+  m_CreateInContext: 0
+  m_DepthMaskMesh: {fileID: -6987551098063839758, guid: b3c0df4c7abc0d44d9df8ae91865f677,
+    type: 3}
+  m_DepthMaskMaterial: {fileID: 2100000, guid: 6f81d9438e0f6e14a9abb292a2b3e924, type: 2}

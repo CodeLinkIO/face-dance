@@ -1,0 +1,85 @@
+.flat-border {
+    border-left-color: rgb(221, 221, 221);
+    border-right-color: rgb(221, 221, 221);
+    border-top-color: rgb(221, 221, 221);
+    border-bottom-color: rgb(221, 221, 221);
+}
+
+.unity-button {
+    border-color: transparent;
+    background-color: rgb(255, 255, 255);
+    color: rgb(20, 20, 20);
+}
+
+.button-primary {
+    background-color: rgb(61, 119, 194);
+    color: rgb(255, 255, 255);
+}
+
+.main-text {
+    color: rgb(20, 20, 20);
+    white-space: normal;
+}
+
+.deep-background {
+    background-color: rgb(242, 242, 242);
+}
+
+.deep-background .unity-label {
+    color: rgb(77, 77, 77);
+}
+
+.shallow-background {
+    background-color: rgb(56, 56, 56);
+}
+
+.raised-background {
+    background-color: rgb(255, 255, 255);
+}
+
+.raised-background .unity-label {
+    color: rgb(77, 77, 77);
+}
+
+.raised-background.flat-border {
+    border-left-color: rgb(230, 230, 230);
+    border-right-color: rgb(230, 230, 230);
+    border-top-color: rgb(230, 230, 230);
+    border-bottom-color: rgb(230, 230, 230);
+}
+
+.selected.content-entry {
+    border-left-color: rgb(61, 119, 194);
+    border-right-color: rgb(61, 119, 194);
+    border-top-color: rgb(61, 119, 194);
+    border-bottom-color: rgb(61, 119, 194);
+}
+
+.selected > .raised-background {
+}
+
+.selected.category {
+    background-color: rgb(242, 242, 242);
+    color: rgb(20, 20, 20);
+}
+
+.selected > .category-label {
+    color: rgb(20, 20, 20);
+}
+
+.error {
+    -unity-font-style: bold;
+    color: rgb(176, 0, 0);
+}
+
+.download-mark {
+    color: rgb(49, 49, 49);
+}
+
+#DescriptionLocation {
+    color: rgba(102, 102, 102, 255);
+}
+
+#DescriptionStatus {
+    color: rgba(102, 102, 102, 255);
+}

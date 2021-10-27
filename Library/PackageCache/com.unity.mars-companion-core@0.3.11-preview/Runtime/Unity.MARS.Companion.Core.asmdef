@@ -1,0 +1,34 @@
+{
+    "name": "Unity.MARS.Companion.Core",
+    "references": [
+        "Unity.Properties",
+        "Unity.XRTools.Utils",
+        "Unity.TextMeshPro",
+        "Unity.MARS.Interfaces",
+        "Unity.ListViewFramework",
+        "Unity.MARS",
+        "Unity.XRTools.ModuleLoader.Interfaces",
+        "Unity.RuntimeSceneSerialization",
+        "Unity.EditorXR",
+        "Unity.XRTools.ModuleLoader",
+        "Unity.EditorXR.Interfaces",
+        "Unity.Serialization",
+        "Unity.Collections",
+        "Unity.DeltaDNA.SDK"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.deltadna.sdk",
+            "expression": "4.0",
+            "define": "INCLUDE_DELTA_DNA"
+        }
+    ],
+    "noEngineReferences": false
+}

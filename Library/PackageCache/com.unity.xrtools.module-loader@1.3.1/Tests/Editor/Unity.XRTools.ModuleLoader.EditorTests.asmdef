@@ -1,0 +1,20 @@
+{
+    "name": "Unity.XRTools.ModuleLoader.EditorTests",
+    "references": [
+        "Unity.XRTools.Utils",
+        "Unity.XRTools.ModuleLoader",
+        "Unity.XRTools.ModuleLoader.Interfaces"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

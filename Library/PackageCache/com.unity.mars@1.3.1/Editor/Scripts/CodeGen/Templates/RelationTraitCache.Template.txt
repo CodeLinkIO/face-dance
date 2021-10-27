@@ -1,0 +1,30 @@
+﻿using System.Collections.Generic;
+using Unity.XRTools.Utils;
+using Unity.MARS.Query;
+
+namespace Unity.MARS.Data
+{
+    partial class RelationTraitCache
+    {
+{BackingValue_FIELDS}
+
+        void ClearInternal(RelationTraitCache self)
+        {
+{ClearInternal_METHOD}
+        }
+
+        void FromRelations(Relations relations)
+        {
+{FromRelations_METHOD}
+        }
+
+        bool CheckDestroyedInternal(RelationTraitCache self)
+        {
+{CheckDestroyed_METHOD}
+
+            return false;
+        }
+
+{TryGetType_METHOD}
+    }
+}

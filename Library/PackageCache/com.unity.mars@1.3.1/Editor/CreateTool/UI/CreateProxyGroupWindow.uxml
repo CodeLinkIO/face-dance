@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="CreateDialogFrame" class="dialog-frame" style="min-height: 180px;&#10;">
+        <Style src="CreateProxyGroupWindow.uss" />
+        <ui:TextField label="Name" name="NameField" class="nameField" />
+        <ui:VisualElement name="MaxCountRow" style="flex-direction: row;&#10;flex-shrink: 0;&#10;">
+            <ui:Toggle name="MaxCountToggle" value="true" />
+            <uie:IntegerField label="Max Count" value="1" name="MaxCount" style="flex-grow: 1;&#10;" />
+        </ui:VisualElement>
+        <ui:Label text="Child Objects" name="ChildrenHeader" class="sectionHeaderLabel" />
+        <ui:VisualElement name="ChildrenList" class="boxedList" style="padding-left: 2px;&#10;padding-right: 2px;&#10;padding-top: 2px;&#10;padding-bottom: 2px;&#10;" />
+        <ui:Label text="Relations" name="RelationsHeader" class="sectionHeaderLabel" />
+        <ui:ListView focusable="True" name="RelationsList" class="boxedList component-list" />
+        <ui:VisualElement name="Buttons" style="flex-direction: row;&#10;flex-shrink: 0;&#10;">
+            <ui:Button text="Create" name="CreateButton" class="large-button" />
+            <ui:Button text="Cancel" name="CancelButton" class="large-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9578b852074643d44a7ebcf42fef558f, type: 3}
+  m_Name: SynthesizedObjectTestSettings
+  m_EditorClassIdentifier: 
+  m_SynthesizedObject: {fileID: 1430296828699550, guid: 413e7e21b95f3164880ce3e26b6c9cbb,
+    type: 3}
+  m_Test1QueryObject: {fileID: 1523266435276448, guid: 2c64b6ce3ab356549bed6c1fe2d03fe1,
+    type: 3}
+  m_Test2QueryObject: {fileID: 1725842094179022, guid: 33c466d7b9ecd804e924c3b326494ee8,
+    type: 3}
+  m_Test3QueryObject1: {fileID: 1182218279014308, guid: 751ba32a82f7d184e9ef170f16362e65,
+    type: 3}
+  m_Test3QueryObject2: {fileID: 1780625640663188, guid: cd7f12ed5c21f0d44b0bb27077cb5bd9,
+    type: 3}

@@ -1,0 +1,29 @@
+﻿using System.Collections.Generic;
+using Unity.MARS.Query;
+
+namespace Unity.MARS.Data
+{
+    public partial class MARSDatabase
+    {
+        bool FindRelationTraits(Relations relations, RelationTraitCache cache)
+        {
+{FindRelationTraits_METHOD}
+
+            return true;
+        }
+
+        bool DataStillMatches(Dictionary<IMRObject, int> dataAssignments, Relations relations,
+            Dictionary<IMRObject, SetChildArgs> children, HashSet<IMRObject> nonRequiredChildrenLost)
+        {
+{DataStillMatches_METHOD}
+
+            return true;
+        }
+
+        void FillRelationTraits(Dictionary<IMRObject, int> dataAssignments,
+            Relations relations, Dictionary<IMRObject, QueryResult> childResults)
+        {
+{FillRelationTraits_METHOD}
+        }
+    }
+}

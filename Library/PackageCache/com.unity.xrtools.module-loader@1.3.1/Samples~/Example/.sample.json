@@ -1,0 +1,5 @@
+{
+	"displayName":"Module Loader Example",
+	"description": "This sample includes a basic hello world project setup with some editor-only modeules, some runtime modules, and basic functionaly injection provider/subscribers which write log messages.",
+	"createSeparatePackage": true
+}

@@ -1,0 +1,36 @@
+﻿using System;
+
+namespace Unity.MARS.Data
+{
+    public partial class MARSDatabase
+    {
+{TraitProvider_FIELDS}
+
+        void InitializeTraitProviders(Action<int> setDirtyIfNeeded)
+        {
+{InitializeTraitProviders_METHOD}
+        }
+
+        void UnloadTraits(MARSDatabase self)
+        {
+{UnloadTraits_METHOD}
+        }
+
+        void ClearTraits(MARSDatabase self)
+        {
+{ClearTraits_METHOD}
+        }
+
+{GetTraitProvider_METHOD}
+
+        void StartBufferingInternal(MARSDatabase self)
+        {
+{StartBufferingInternal_METHOD}
+        }
+
+        void StopBufferingInternal(MARSDatabase self)
+        {
+{StopBufferingInternal_METHOD}
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Unity.XRTools.ModuleLoader.Example",
+    "references": [
+        "Unity.XRTools.Utils",
+        "Unity.XRTools.ModuleLoader.Interfaces",
+        "Unity.XRTools.ModuleLoader.Example.Interfaces",
+        "Unity.XRTools.ModuleLoader"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

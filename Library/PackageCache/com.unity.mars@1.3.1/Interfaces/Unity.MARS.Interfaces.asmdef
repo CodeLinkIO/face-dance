@@ -1,0 +1,10 @@
+{
+    "name": "Unity.MARS.Interfaces",
+    "references": [
+        "Unity.XRTools.ModuleLoader.Interfaces"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

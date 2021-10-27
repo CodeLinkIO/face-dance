@@ -1,0 +1,21 @@
+﻿using System.Collections.Generic;
+using Unity.MARS.Data;
+
+namespace Unity.MARS.Query
+{
+    partial class FindMatchProposalsTransform
+    {
+        internal static void GetStartingIdSet(ConditionRatingsData data, HashSet<int> idSet)
+        {
+            idSet.Clear();
+{GetStartingIdSet_METHOD}
+        }
+
+        static bool FindIntersection(ConditionRatingsData data, HashSet<int> matchSet)
+        {
+{FindIntersection_METHOD}
+
+            return true;
+        }
+    }
+}

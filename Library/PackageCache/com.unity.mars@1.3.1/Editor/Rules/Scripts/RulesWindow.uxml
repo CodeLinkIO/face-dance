@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement style="flex-direction: column; width: 100%; height: 100%;">
+        <uie:Toolbar>
+            <uie:ToolbarButton text="&lt;" name="drillUp" />
+            <uie:ToolbarButton text="Re-Sync" name="rebuild" style="display: none;" />
+            <uie:ToolbarButton text="Settings" name="settings" style="display: none;" />
+            <uie:ToolbarButton text="Session" name="session" style="display: none;" />
+            <ui:VisualElement style="min-width: 50px; display: none;" />
+            <uie:ToolbarButton text="Group Settings" name="groupSettings" />
+            <uie:ToolbarBreadcrumbs />
+        </uie:Toolbar>
+        <ui:ScrollView style="height: 100%;">
+            <ui:VisualElement style="width: 100%; height: 100%; flex-direction: row;">
+                <ui:VisualElement class="view-border-right" style="width: 30px; height: 100%;" />
+                <ui:VisualElement style="width: 100%; padding-right: 30px;">
+                    <ui:VisualElement class="view-border-right" style="height: 100%; width: 100%; margin-left: 0; margin-right: 4px;">
+                        <ui:Button text="Add Rule" name="addRule" style="min-height: 30px; margin-bottom: 5px; margin-top: 5px; max-height: initial; max-width: initial; margin-left: 5px; margin-right: 5px;" />
+                        <ui:VisualElement name="rulesArea" style="height: 100%; margin-left: 3px; margin-right: 3px;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

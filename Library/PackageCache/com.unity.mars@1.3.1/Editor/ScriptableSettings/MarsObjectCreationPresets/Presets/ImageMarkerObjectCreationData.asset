@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 683f5c1408e3140adbde357301f16f2c, type: 3}
+  m_Name: ImageMarkerObjectCreationData
+  m_EditorClassIdentifier: 
+  m_ObjectName: Image Marker
+  m_Icon:
+    m_Dark: {fileID: 2800000, guid: c20490274f2be4347a2967b2379ddb63, type: 3}
+    m_Light: {fileID: 2800000, guid: 26e28055d54554e589620efbe61426a1, type: 3}
+  m_Tooltip: A Game Object representing an Image Marker.
+  m_CreateInContext: 0

@@ -1,0 +1,2485 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - BeatScroller
+    - ButtonController
+    - FaceExpression
+    - GameManager
+    - NoteObject
+    MARS.Editor.Bootstrap.dll:
+    - Unity.MARS.RegenerationWatcher
+    Unity.MARS.Companion.Core.Editor.dll:
+    - Unity.MARS.Companion.Core.CompanionResourceSync
+    Unity.MARS.Companion.Core.dll:
+    - Unity.MARS.Companion.CloudStorage.GenesisCloudStorageModule
+    - Unity.MARS.Companion.Core.IssueHandlingModule
+    Unity.MARS.Editor.dll:
+    - Unity.MARS.ContentHierarchyPanel
+    - Unity.MARS.EnvironmentHierarchyPanel
+    - Unity.MARS.MARSEntitlements
+    - Unity.MARS.MarsObjectCreationResources
+    - Unity.MARS.ScenePlacementPanel
+    - Unity.MARS.SimulationControlsPanel
+    - UnityEditor.MARS.Authoring.EntityVisualsModule
+    - UnityEditor.MARS.BodyObjectCreationData
+    - UnityEditor.MARS.Data.MarsUserGeoLocations
+    - UnityEditor.MARS.ElevatedSurfaceObjectObjectCreationData
+    - UnityEditor.MARS.FaceLandmarkVisualizerObjectCreationData
+    - UnityEditor.MARS.FaceMaskObjectCreationData
+    - UnityEditor.MARS.FloorObjectObjectCreationData
+    - UnityEditor.MARS.Forces.EditorExtensions.ForcesPreferences
+    - UnityEditor.MARS.HorizontalPlaneObjectCreationData
+    - UnityEditor.MARS.ImageMarkerObjectCreationData
+    - UnityEditor.MARS.LightEstimationVisualizerObjectCreationData
+    - UnityEditor.MARS.MarsObjectCreationSettings
+    - UnityEditor.MARS.MarsPanel
+    - UnityEditor.MARS.MarsUIResources
+    - UnityEditor.MARS.MarsWorldScaleModule
+    - UnityEditor.MARS.MarsWorldScaleSettings
+    - UnityEditor.MARS.PlanesVisualizerObjectCreationData
+    - UnityEditor.MARS.PointCloudVisualizerObjectCreationData
+    - UnityEditor.MARS.ProxyGroupObjectCreationData
+    - UnityEditor.MARS.ProxyObjectObjectCreationData
+    - UnityEditor.MARS.ProxyReplicatorObjectCreationData
+    - UnityEditor.MARS.SceneWatchdogModule
+    - UnityEditor.MARS.Simulation.MARSEnvironmentManager
+    - UnityEditor.MARS.Simulation.MarsRecordingPlaybackModule
+    - UnityEditor.MARS.Simulation.QuerySimulationModule
+    - UnityEditor.MARS.Simulation.Rendering.CompositeRenderModuleOptions
+    - UnityEditor.MARS.Simulation.Rendering.XRayOptions
+    - UnityEditor.MARS.Simulation.SimulatedObjectsManager
+    - UnityEditor.MARS.Simulation.SimulationSceneUsers
+    - UnityEditor.MARS.Simulation.SimulationSettings
+    - UnityEditor.MARS.Simulation.SimulationView
+    - UnityEditor.MARS.SyntheticBodyObjectCreationData
+    - UnityEditor.MARS.SyntheticMarkerObjectCreationData
+    - UnityEditor.MARS.SyntheticObjectObjectCreationData
+    - UnityEditor.MARS.VerticalPlaneObjectCreationData
+    Unity.MARS.MARSHandles.Picking.dll:
+    - Unity.MARS.MARSHandles.Picking.BoxPickingTarget
+    Unity.MARS.MARSHandles.dll:
+    - Unity.MARS.MARSHandles.HandleStateColors
+    - Unity.MARS.MARSHandles.ScaleWithCameraDistance
+    - Unity.MARS.MARSHandles.Slider1DHandle
+    - Unity.MARS.MARSHandles.Slider2DHandle
+    Unity.MARS.Providers.ARFoundation.dll:
+    - Unity.MARS.Data.ARFoundation.ARCoreFacialExpressionSettings
+    - Unity.MARS.Data.ARFoundation.ARCoreLandmarkMeshIndices
+    - Unity.MARS.Data.ARFoundation.ARFoundationFaceExpressionSettings
+    - Unity.MARS.Data.ARFoundation.ARKitFacialExpressionSettings
+    - Unity.MARS.Data.ARFoundation.ARKitLandmarkMeshIndices
+    - Unity.MARS.Data.ARFoundation.MarkerProviderSettings
+    - Unity.MARS.Providers.ARKitBodyRigSettings
+    Unity.MARS.dll:
+    - Unity.MARS.Actions.BuildSurfaceAction
+    - Unity.MARS.Actions.FaceExpressionAction
+    - Unity.MARS.Actions.SetPoseAction
+    - Unity.MARS.Actions.ShowChildrenOnTrackingAction
+    - Unity.MARS.ApplyColorsToOthers
+    - Unity.MARS.Authoring.BodyLandmarkInteractionTarget
+    - Unity.MARS.Authoring.ColorPreset
+    - Unity.MARS.Authoring.DataVisualsModule
+    - Unity.MARS.Authoring.DataVisualsModuleOptions
+    - Unity.MARS.Authoring.EntityVisual
+    - Unity.MARS.Authoring.FaceInteractionTargets
+    - Unity.MARS.Authoring.FaceLandmarkInteractionTarget
+    - Unity.MARS.Authoring.Gizmo2D
+    - Unity.MARS.Authoring.InteractionTarget
+    - Unity.MARS.Authoring.PlacementOverride
+    - Unity.MARS.Authoring.PlaneDataVisual
+    - Unity.MARS.Authoring.RedirectSelection
+    - Unity.MARS.BillboardHandle
+    - Unity.MARS.Conditions.DistanceRelation
+    - Unity.MARS.Conditions.IsFaceCondition
+    - Unity.MARS.Conditions.IsPlaneCondition
+    - Unity.MARS.Conditions.PlaneSizeCondition
+    - Unity.MARS.Conditions.SemanticTagCondition
+    - Unity.MARS.Data.BodyPoseData
+    - Unity.MARS.Data.MarsMarkerLibrary
+    - Unity.MARS.Data.Reasoning.FloorReasoningAPI
+    - Unity.MARS.Data.Reasoning.GeoDuplicationReasoningAPI
+    - Unity.MARS.Data.Reasoning.HeightAboveFloorReasoningAPI
+    - Unity.MARS.Data.Reasoning.ImmersionReasoningAPI
+    - Unity.MARS.Data.Reasoning.InViewReasoningAPI
+    - Unity.MARS.Data.Reasoning.ReasoningDefaultsModule
+    - Unity.MARS.Data.Reasoning.ReasoningModule
+    - Unity.MARS.Data.Recorded.CameraPoseRecording
+    - Unity.MARS.Data.Recorded.MarsVideoPlayableAsset
+    - Unity.MARS.Data.Recorded.MarsVideoPlayableTrack
+    - Unity.MARS.Data.Recorded.PlaneFindingRecording
+    - Unity.MARS.Data.Recorded.SessionRecordingInfo
+    - Unity.MARS.Data.Recorded.SessionRecordingSettings
+    - Unity.MARS.Data.Synthetic.PlaneExtractionSettings
+    - Unity.MARS.Data.Synthetic.SimulatedObject
+    - Unity.MARS.Data.Synthetic.SynthesizedAlignment
+    - Unity.MARS.Data.Synthetic.SynthesizedBounds2D
+    - Unity.MARS.Data.Synthetic.SynthesizedLightEstimation
+    - Unity.MARS.Data.Synthetic.SynthesizedObject
+    - Unity.MARS.Data.Synthetic.SynthesizedPlane
+    - Unity.MARS.Data.Synthetic.SynthesizedPose
+    - Unity.MARS.Data.Synthetic.SynthesizedReferencePoint
+    - Unity.MARS.Data.Synthetic.SynthesizedSemanticTag
+    - Unity.MARS.DistanceHandle
+    - Unity.MARS.ElevationHandle
+    - Unity.MARS.Forces.ProxyForcesFieldSolverModule
+    - Unity.MARS.GeneratedPlanesRoot
+    - Unity.MARS.IgnoreForEnvironmentPersistence
+    - Unity.MARS.Landmarks.FaceLandmarksAction
+    - Unity.MARS.Landmarks.FallbackFace
+    - Unity.MARS.Landmarks.LandmarkController
+    - Unity.MARS.Landmarks.LandmarkOutputPose
+    - Unity.MARS.Landmarks.MARSFallbackFaceLandmarks
+    - Unity.MARS.Landmarks.PlaneLandmarksAction
+    - Unity.MARS.MARSCamera
+    - Unity.MARS.MARSSession
+    - Unity.MARS.MARSUtils.SlowTaskModule
+    - Unity.MARS.MarsBodySettings
+    - Unity.MARS.PlaneSizeHandle
+    - Unity.MARS.Providers.GeoLocationModule
+    - Unity.MARS.Providers.Synthetic.SimulatedBodyTrackingProvider
+    - Unity.MARS.Providers.Synthetic.SimulatedDiscoveryPlanesProvider
+    - Unity.MARS.Providers.Synthetic.SimulatedDiscoveryPointCloudProvider
+    - Unity.MARS.Providers.Synthetic.SimulatedDiscoverySessionProvider
+    - Unity.MARS.Proxy
+    - Unity.MARS.ProxyGroup
+    - Unity.MARS.Query.EvaluationSchedulerModule
+    - Unity.MARS.Query.QueryPipelineConfiguration
+    - Unity.MARS.Recording.FaceEventMarker
+    - Unity.MARS.Recording.FaceExpressionEventMarker
+    - Unity.MARS.Recording.FaceTrackingRecording
+    - Unity.MARS.Recording.FacialExpressionsRecording
+    - Unity.MARS.Recording.PlaneEventMarker
+    - Unity.MARS.Replicator
+    - Unity.MARS.ScaleLineWidthWithCameraDistance
+    - Unity.MARS.ScaleWorldCanvasWithCameraDistance
+    - Unity.MARS.Settings.MARSCore
+    - Unity.MARS.Settings.MARSMemoryOptions
+    - Unity.MARS.Settings.MARSRuntimePrefabs
+    - Unity.MARS.Settings.MARSSceneModule
+    - Unity.MARS.Settings.MarsDebugSettings
+    - Unity.MARS.SimulatedPlayable
+    - Unity.MARS.Simulation.MARSEnvironmentSettings
+    - Unity.MARS.Simulation.MarsTimeModule
+    - Unity.MARS.Simulation.Rendering.XRayCollider
+    - Unity.MARS.Simulation.Rendering.XRayRegion
+    - Unity.MARS.Simulation.SimulationEnvironmentSettings
+    - Unity.MARS.Simulation.SimulationVideoContextManager
+    - Unity.MARS.Simulation.SimulationVideoContextSettings
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TextMeshProUGUI
+    Unity.Timeline.dll:
+    - UnityEngine.Timeline.AnimationPlayableAsset
+    - UnityEngine.Timeline.AnimationTrack
+    - UnityEngine.Timeline.MarkerTrack
+    - UnityEngine.Timeline.SignalTrack
+    - UnityEngine.Timeline.TimelineAsset
+    Unity.XR.ARKit.Editor.dll:
+    - UnityEditor.XR.ARKit.ARKitSettings
+    Unity.XR.ARKit.dll:
+    - UnityEngine.XR.ARKit.ARKitLoader
+    Unity.XR.ARSubsystems.dll:
+    - UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary
+    Unity.XR.Management.Editor.dll:
+    - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
+    Unity.XR.Management.dll:
+    - UnityEngine.XR.Management.XRGeneralSettings
+    - UnityEngine.XR.Management.XRManagerSettings
+    Unity.XRTools.ModuleLoader.dll:
+    - Unity.XRTools.ModuleLoader.FunctionalityInjectionModule
+    - Unity.XRTools.ModuleLoader.FunctionalityIsland
+    - Unity.XRTools.ModuleLoader.ModuleLoaderCore
+    - Unity.XRTools.ModuleLoader.ModuleLoaderDebugSettings
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.LayoutElement
+  sceneClasses:
+    Assets/Scenes/SampleScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 58
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1586}
+    - Class: 114
+      Script: {instanceID: 1702}
+    - Class: 114
+      Script: {instanceID: 1710}
+    - Class: 114
+      Script: {instanceID: 1712}
+    - Class: 114
+      Script: {instanceID: 1840}
+    - Class: 114
+      Script: {instanceID: 1886}
+    - Class: 114
+      Script: {instanceID: 1994}
+    - Class: 114
+      Script: {instanceID: 2350}
+    - Class: 114
+      Script: {instanceID: 2486}
+    - Class: 114
+      Script: {instanceID: 2602}
+    - Class: 114
+      Script: {instanceID: 2696}
+    - Class: 114
+      Script: {instanceID: 2936}
+    - Class: 114
+      Script: {instanceID: 2940}
+    - Class: 114
+      Script: {instanceID: 2974}
+    - Class: 114
+      Script: {instanceID: 3044}
+    - Class: 114
+      Script: {instanceID: 3068}
+    - Class: 114
+      Script: {instanceID: 3204}
+    - Class: 114
+      Script: {instanceID: 3354}
+    - Class: 114
+      Script: {instanceID: 3374}
+    - Class: 114
+      Script: {instanceID: 3476}
+    - Class: 114
+      Script: {instanceID: 3506}
+    - Class: 114
+      Script: {instanceID: 3548}
+    - Class: 114
+      Script: {instanceID: 3574}
+    - Class: 114
+      Script: {instanceID: 3632}
+    - Class: 114
+      Script: {instanceID: 3674}
+    - Class: 114
+      Script: {instanceID: 3714}
+    - Class: 114
+      Script: {instanceID: 3794}
+    - Class: 114
+      Script: {instanceID: 3808}
+    - Class: 114
+      Script: {instanceID: 3816}
+    - Class: 114
+      Script: {instanceID: 3940}
+    - Class: 114
+      Script: {instanceID: 4042}
+    - Class: 114
+      Script: {instanceID: 4074}
+    - Class: 114
+      Script: {instanceID: 4102}
+    - Class: 114
+      Script: {instanceID: 4146}
+    - Class: 114
+      Script: {instanceID: 4258}
+    - Class: 114
+      Script: {instanceID: 4314}
+    - Class: 114
+      Script: {instanceID: 4316}
+    - Class: 114
+      Script: {instanceID: 4376}
+    - Class: 114
+      Script: {instanceID: 4440}
+    - Class: 114
+      Script: {instanceID: 4480}
+    - Class: 114
+      Script: {instanceID: 4570}
+    - Class: 114
+      Script: {instanceID: 4614}
+    - Class: 114
+      Script: {instanceID: 4650}
+    - Class: 114
+      Script: {instanceID: 4724}
+    - Class: 114
+      Script: {instanceID: 4774}
+    - Class: 114
+      Script: {instanceID: 4850}
+    - Class: 114
+      Script: {instanceID: 4954}
+    - Class: 114
+      Script: {instanceID: 5024}
+    - Class: 114
+      Script: {instanceID: 5068}
+    - Class: 114
+      Script: {instanceID: 5142}
+    - Class: 114
+      Script: {instanceID: 5318}
+    - Class: 114
+      Script: {instanceID: 5328}
+    - Class: 114
+      Script: {instanceID: 5402}
+    - Class: 114
+      Script: {instanceID: 5404}
+    - Class: 114
+      Script: {instanceID: 5416}
+    - Class: 114
+      Script: {instanceID: 5490}
+    - Class: 114
+      Script: {instanceID: 5510}
+    - Class: 114
+      Script: {instanceID: 5600}
+    - Class: 114
+      Script: {instanceID: 5660}
+    - Class: 114
+      Script: {instanceID: 5666}
+    - Class: 114
+      Script: {instanceID: 5700}
+    - Class: 114
+      Script: {instanceID: 5748}
+    - Class: 114
+      Script: {instanceID: 6016}
+    - Class: 114
+      Script: {instanceID: 6082}
+    - Class: 114
+      Script: {instanceID: 6146}
+    - Class: 114
+      Script: {instanceID: 6152}
+    - Class: 114
+      Script: {instanceID: 6234}
+    - Class: 114
+      Script: {instanceID: 6266}
+    - Class: 114
+      Script: {instanceID: 6290}
+    - Class: 114
+      Script: {instanceID: 6362}
+    - Class: 114
+      Script: {instanceID: 6436}
+    - Class: 114
+      Script: {instanceID: 6440}
+    - Class: 114
+      Script: {instanceID: 6462}
+    - Class: 114
+      Script: {instanceID: 6472}
+    - Class: 114
+      Script: {instanceID: 6614}
+    - Class: 114
+      Script: {instanceID: 6736}
+    - Class: 114
+      Script: {instanceID: 6852}
+    - Class: 114
+      Script: {instanceID: 6890}
+    - Class: 114
+      Script: {instanceID: 7110}
+    - Class: 114
+      Script: {instanceID: 7148}
+    - Class: 114
+      Script: {instanceID: 7172}
+    - Class: 114
+      Script: {instanceID: 7658}
+    - Class: 114
+      Script: {instanceID: 7674}
+    - Class: 114
+      Script: {instanceID: 7868}
+    - Class: 114
+      Script: {instanceID: 7922}
+    - Class: 114
+      Script: {instanceID: 7962}
+    - Class: 114
+      Script: {instanceID: 7966}
+    - Class: 114
+      Script: {instanceID: 8044}
+    - Class: 114
+      Script: {instanceID: 8122}
+    - Class: 114
+      Script: {instanceID: 8228}
+    - Class: 114
+      Script: {instanceID: 8310}
+    - Class: 114
+      Script: {instanceID: 8650}
+    - Class: 114
+      Script: {instanceID: 8730}
+    - Class: 114
+      Script: {instanceID: 8784}
+    - Class: 114
+      Script: {instanceID: 8832}
+    - Class: 114
+      Script: {instanceID: 8844}
+    - Class: 114
+      Script: {instanceID: 8864}
+    - Class: 114
+      Script: {instanceID: 8908}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: e8733e39efa851172df1c9eaef062265
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARPlane
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 04e4a8b0447477cc4e933d9e5311188f
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: ArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 442ec542f6b0ad0799da99166573fd74
+    assemblyName: Unity.MARS.Companion.Core.dll
+    namespaceName: Unity.MARS.Companion.Mobile
+    className: Post
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARInputManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: fd364048d2d75c5550f82f67fe38788a
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS
+    className: MARSCamera
+  - hash:
+      serializedVersion: 2
+      Hash: d406ac2c66ee1dc25d8ce1e40b1ae5a4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BeatScroller
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Behaviors
+    className: ApplyForces
+  - hash:
+      serializedVersion: 2
+      Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: d3001c7da91730e1341d9b7e4f9dda28
+    assemblyName: Unity.XRTools.ModuleLoader.dll
+    namespaceName: Unity.XRTools.ModuleLoader
+    className: ModuleLoaderSettingsOverride
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: ddb37f49adc348ba0799576d20ab0dd8
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Data.Recorded
+    className: CameraPoseRecording
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Data.Synthetic
+    className: SynthesizedAlignment
+  - hash:
+      serializedVersion: 2
+      Hash: 7fe5c2e633e6b17e8ba35abdb2d02182
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Actions
+    className: SetAlignedPoseAction
+  - hash:
+      serializedVersion: 2
+      Hash: 3d6492ab3e1a3318152931a6ad0555ec
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Settings
+    className: MARSMemoryOptions
+  - hash:
+      serializedVersion: 2
+      Hash: 95e8700badf5116f9d70b7abbb0bf33e
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Data.Recorded
+    className: PlaneFindingRecording
+  - hash:
+      serializedVersion: 2
+      Hash: 716955e6df38019233c9d0f56c006ce5
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Actions
+    className: MatchBodyPoseAction
+  - hash:
+      serializedVersion: 2
+      Hash: 9ed2eb4c32856a24472d0f1aebee7095
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Visualizers
+    className: MARSFaceMeshVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.Navmesh.dll
+    namespaceName: Unity.MARS.AI
+    className: JumpNavigation
+  - hash:
+      serializedVersion: 2
+      Hash: 23d90548eba18f29c90327ab0dc03663
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.MARSUtils
+    className: SlowTaskModule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARPointCloudMeshVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XRTools.Utils.dll
+    namespaceName: Unity.XRTools.Utils
+    className: EditorMonoBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 1ed8235bf58e627939a230a4d612ad84
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Landmarks
+    className: LandmarkOutputEdge
+  - hash:
+      serializedVersion: 2
+      Hash: e6edb4eefd91cb963beeeb9cb4ee91cd
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Recording
+    className: FaceTrackingRecording
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Recording.Providers
+    className: RecordedPointCloudProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 4eafb80a610375a250799653a4f19e79
+    assemblyName: Unity.MARS.MARSHandles.dll
+    namespaceName: Unity.MARS.MARSHandles
+    className: ScaleHandle
+  - hash:
+      serializedVersion: 2
+      Hash: 524a8f7c9b60f50a1c6bbe7185c0207e
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARHumanBodyManager
+  - hash:
+      serializedVersion: 2
+      Hash: 800c50acba124432abb4cf0d47202e06
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Visualizers
+    className: MARSLightEstimationVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: f1d735cc1a21c3704ab52568f4fbfcf8
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.PerformanceTesting.dll
+    namespaceName: Unity.PerformanceTesting.Measurements
+    className: ProfilerMarkerMeasurement
+  - hash:
+      serializedVersion: 2
+      Hash: a108738000be01a550da7b3628ce07f4
+    assemblyName: Unity.ListViewFramework.dll
+    namespaceName: Unity.ListViewFramework
+    className: ListViewCanvasScroller
+  - hash:
+      serializedVersion: 2
+      Hash: c2d3d30c457857b7bd379536dd9fcb0d
+    assemblyName: Unity.MARS.Companion.Core.dll
+    namespaceName: Unity.MARS.Companion.CloudStorage
+    className: GenesisCloudStorageModule
+  - hash:
+      serializedVersion: 2
+      Hash: c1d728126ff1918728036c59106d32b2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 9b6303c7164a38e06044ec2036c18b6b
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARParticipantManager
+  - hash:
+      serializedVersion: 2
+      Hash: 41eeb743d5a832e4b1e616ffabc54e09
+    assemblyName: Unity.XRTools.ModuleLoader.dll
+    namespaceName: Unity.XRTools.ModuleLoader
+    className: ModuleLoaderCore
+  - hash:
+      serializedVersion: 2
+      Hash: b0b85ac812db880433be3a14fba1d0a0
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Recording
+    className: FacialExpressionsRecording
+  - hash:
+      serializedVersion: 2
+      Hash: 2297cc856a746bca66168464e20939c2
+    assemblyName: Unity.MARS.Providers.ARFoundation.dll
+    namespaceName: Unity.MARS.Data.ARFoundation
+    className: ARCoreFacialExpressionSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 290afc8da8e459e0b8dc7444bfaf5e35
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARFace
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Recording.Providers
+    className: RecordedCameraPoseProvider
+  - hash:
+      serializedVersion: 2
+      Hash: faac6b127d3f4c30067159fbaf9627ff
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Forces
+    className: ProxyRegionForcePlane2D
+  - hash:
+      serializedVersion: 2
+      Hash: 5adedd2d780602b28be2d036f63ff3c1
+    assemblyName: Unity.XRTools.ModuleLoader.dll
+    namespaceName: Unity.XRTools.ModuleLoader
+    className: ModuleLoaderDebugSettings
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: fe64a45214940b510a0ec79c96d43498
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a74405a4829a834d107a0c6e072719ed
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Recording
+    className: RecordedSessionDirector
+  - hash:
+      serializedVersion: 2
+      Hash: fc49aa4298163b6435fa4265fcf026c3
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Authoring
+    className: FaceLandmarkInteractionTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 5405a7e38cc47dd6d5a815793022a7e9
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Data.Recorded
+    className: SessionRecordingInfo
+  - hash:
+      serializedVersion: 2
+      Hash: ac9864e72be68cd3306e52438d3f01ee
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS
+    className: IgnoreForEnvironmentPersistence
+  - hash:
+      serializedVersion: 2
+      Hash: cad3d6a0af51cb01c965802f6aeac0c3
+    assemblyName: Unity.MARS.Navmesh.dll
+    namespaceName: Unity.MARS.AI
+    className: MARSNavMeshAgent
+  - hash:
+      serializedVersion: 2
+      Hash: 27702adf6501811c7ce6d10c5661b6ee
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Providers.Synthetic
+    className: SimulatedCameraPoseProvider
+  - hash:
+      serializedVersion: 2
+      Hash: c9662c5b115db16907f629900efcfaa8
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS
+    className: PointCloudEventMarker
+  - hash:
+      serializedVersion: 2
+      Hash: 0c5108545fb925730d4d5887ebcdd20c
+    assemblyName: Unity.XR.ARSubsystems.dll
+    namespaceName: UnityEngine.XR.ARSubsystems
+    className: XRReferenceObjectLibrary
+  - hash:
+      serializedVersion: 2
+      Hash: 57b85dc9a9527bae8b3ae50d2885d64f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Data.Synthetic
+    className: SynthesizedSemanticTag
+  - hash:
+      serializedVersion: 2
+      Hash: 0be16c7397bbd6ea829a7bc5a49f7b7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ButtonController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: f40fedccd4adbc76605bea6d67537e4b
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: a306e12d896ddcca949923c805691027
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: cdcf39a9de0080db56b81c2f94e8958f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Data.Synthetic
+    className: SynthesizedObject
+  - hash:
+      serializedVersion: 2
+      Hash: 305c931f8b4f521c43f98b4cf49197fb
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS
+    className: ElevationHandle
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Authoring
+    className: Gizmo2D
+  - hash:
+      serializedVersion: 2
+      Hash: 1268406d3f2e4b2c2b670b560b6db769
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: AREnvironmentProbeManager
+  - hash:
+      serializedVersion: 2
+      Hash: 297baaeded98a56f55539fb61333e2df
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: AROcclusionManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.Providers.ARFoundation.dll
+    namespaceName: Unity.MARS.Data.ARFoundation
+    className: ARCoreLandmarksCalibration
+  - hash:
+      serializedVersion: 2
+      Hash: dbac98ec741dfe2512ac5cac771ac3a8
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS
+    className: MARSSession
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Providers
+    className: StubFacialExpressionsProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Data.Synthetic
+    className: SynthesizedBody
+  - hash:
+      serializedVersion: 2
+      Hash: 18e8090d79eac0a7d8a9a216debc8f4b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NoteObject
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Providers.Synthetic
+    className: SimulatedPlanesProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.Providers.ARFoundation.dll
+    namespaceName: Unity.MARS.Data.ARFoundation
+    className: ARKitLandmarksCalibration
+  - hash:
+      serializedVersion: 2
+      Hash: ca9afd74c8f8ee2e8c25d5cee50a213f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Landmarks
+    className: LandmarkOutputPose
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Conditions
+    className: HasPoseCondition
+  - hash:
+      serializedVersion: 2
+      Hash: 6874a4f641da9cad7ea8aa43b3fa43b7
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Conditions
+    className: DistanceRelation
+  - hash:
+      serializedVersion: 2
+      Hash: cbe6deff75fc0987595a61e9510f7917
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARCameraBackground
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: d4d728370728d56818c39fecf6b703f8
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Landmarks
+    className: ClosestLandmarkSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 849cf98a75b53a05c5cbfae3278faf9d
+    assemblyName: Unity.MARS.MARSHandles.Picking.dll
+    namespaceName: Unity.MARS.MARSHandles.Picking
+    className: MeshPickingTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 166b637424d68536dec4dfaf4ff62768
+    assemblyName: Unity.MARS.Providers.ARFoundation.dll
+    namespaceName: Unity.MARS.Data.ARFoundation
+    className: ARKitLandmarkMeshIndices
+  - hash:
+      serializedVersion: 2
+      Hash: d76048fdd481f33311e67fa5d88c9618
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Authoring
+    className: PlaneDataVisual
+  - hash:
+      serializedVersion: 2
+      Hash: e4bb11aeab8f287b2959e6977db8f9ec
+    assemblyName: Unity.MARS.Navmesh.dll
+    namespaceName: Unity.MARS.AI
+    className: MARSNavMeshAgentManager
+  - hash:
+      serializedVersion: 2
+      Hash: 18bfd340c6ae448d4ee263527e0edfc0
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Authoring
+    className: FaceInteractionTargets
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Providers
+    className: StubPlanesProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 2a2f458c92b57938f325186f9124596a
+    assemblyName: Unity.XRTools.ModuleLoader.dll
+    namespaceName: Unity.XRTools.ModuleLoader
+    className: FunctionalityInjectionModule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.Companion.Core.dll
+    namespaceName: Unity.MARS.Companion
+    className: MarkSurfaceAction
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS
+    className: ScaleWorldCanvasWithCameraDistance
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 290afc8da8e459e0b8dc7444bfaf5e35
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARTrackedImage
+  - hash:
+      serializedVersion: 2
+      Hash: 8fa04081d140264417bbd9870fcee848
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Settings
+    className: MarsDebugSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.Companion.Core.dll
+    namespaceName: Unity.MARS.Companion.Core
+    className: QRCodeScanner
+  - hash:
+      serializedVersion: 2
+      Hash: 0358f87d7f3e9c26dfe149071e149810
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Data.Synthetic
+    className: SynthesizedBounds2D
+  - hash:
+      serializedVersion: 2
+      Hash: 98aa0a0c8ff2910eb12af89c7e0eb661
+    assemblyName: Unity.XR.Management.dll
+    namespaceName: UnityEngine.XR.Management
+    className: XRGeneralSettings
+  - hash:
+      serializedVersion: 2
+      Hash: da4cc51a02ce84afe2cecd27cfe6997a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS
+    className: GeneratedPlanesRoot
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Data.Reasoning
+    className: GeoDuplicationReasoningAPI
+  - hash:
+      serializedVersion: 2
+      Hash: dcc11fbf4499670517d4b78d70384313
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS
+    className: Replicator
+  - hash:
+      serializedVersion: 2
+      Hash: 05c0c406322f65e7e3c834738ebac6a0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameManager
+  - hash:
+      serializedVersion: 2
+      Hash: 8ab9295d94483c961936d82d233d3df2
+    assemblyName: Unity.XR.Management.dll
+    namespaceName: UnityEngine.XR.Management
+    className: XRManagerSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 7f5c55cb7b3151ce240452eb85500d32
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARPlaneManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Data.Synthetic
+    className: SynthesizedReferencePoint
+  - hash:
+      serializedVersion: 2
+      Hash: 625e4fd6f88b90d1ee9e7c089c3f450d
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARSession
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.ARKit.dll
+    namespaceName: UnityEngine.XR.ARKit
+    className: ARKitLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FaceExpression
+  - hash:
+      serializedVersion: 2
+      Hash: 788e1377782ab2aebcd40c4241e028de
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Authoring
+    className: DataVisualsModule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Conditions
+    className: IsMarkerCondition
+  - hash:
+      serializedVersion: 2
+      Hash: a08ac70c1acb5f214cc253ed6b57b5bd
+    assemblyName: Unity.MARS.MARSHandles.Picking.dll
+    namespaceName: Unity.MARS.MARSHandles.Picking
+    className: BoxPickingTarget
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 5d9721cbf4439e053338b55770d2a475
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Landmarks
+    className: LandmarkController
+  - hash:
+      serializedVersion: 2
+      Hash: c388990179df36f42085ba75edef8561
+    assemblyName: Unity.MARS.MARSHandles.dll
+    namespaceName: Unity.MARS.MARSHandles
+    className: LineRendererConstraint
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Behaviors
+    className: ContentAction
+  - hash:
+      serializedVersion: 2
+      Hash: 6e1c986d67f40f2ce5206e15b320a86a
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Authoring
+    className: ColorPreset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Data.Synthetic
+    className: SynthesizedMarker
+  - hash:
+      serializedVersion: 2
+      Hash: 76575796cb42202b9feabd01beb87c1b
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Data.Synthetic
+    className: SynthesizedPlane
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 908b3077da284d11de0450423ca1808e
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Data.Synthetic
+    className: SynthesizedPose
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS
+    className: ScaleLineWidthWithCameraDistance
+  - hash:
+      serializedVersion: 2
+      Hash: 290afc8da8e459e0b8dc7444bfaf5e35
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARRaycast
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.Providers.ARFoundation.dll
+    namespaceName: Unity.MARS.Providers.ARFoundation
+    className: ARFoundationSessionProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Actions
+    className: ShowChildrenOnTrackingAction
+  - hash:
+      serializedVersion: 2
+      Hash: ef5c43f921427d03730f6ea4c848f07d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 87ad3705a58f19c47136728d4a6e9c47
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 290afc8da8e459e0b8dc7444bfaf5e35
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARHumanBody
+  - hash:
+      serializedVersion: 2
+      Hash: a75698b26410c9d97fe81bd3ca47dcf6
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Providers.Synthetic
+    className: SimulatedDiscoverySessionProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Conditions
+    className: IsBodyCondition
+  - hash:
+      serializedVersion: 2
+      Hash: ef705ae677d649d6c0ff3b4060963abd
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARTrackedObjectManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Providers.Synthetic
+    className: SimulatedMarkerProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.MARSHandles.dll
+    namespaceName: Unity.MARS.MARSHandles
+    className: Slider2DHandle
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARPointCloudParticleVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Recording.Providers
+    className: RecordedPlanesProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Conditions
+    className: IsPlaneCondition
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.RuntimeSceneSerialization.Generated.dll
+    namespaceName: Unity.RuntimeSceneSerialization.Generated
+    className: Stub
+  - hash:
+      serializedVersion: 2
+      Hash: e4e1db177a7eab8c1341e463f5f32dc4
+    assemblyName: Unity.XR.ARSubsystems.dll
+    namespaceName: UnityEngine.XR.ARSubsystems
+    className: XRReferenceImageLibrary
+  - hash:
+      serializedVersion: 2
+      Hash: 6980e81ddc615a861309d2d659cc3760
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS
+    className: BillboardHandle
+  - hash:
+      serializedVersion: 2
+      Hash: 1bc03a501323d00d0037a6b76d25a3ba
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARMeshManager
+  - hash:
+      serializedVersion: 2
+      Hash: 290afc8da8e459e0b8dc7444bfaf5e35
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARParticipant
+  - hash:
+      serializedVersion: 2
+      Hash: d251bf88db6c95a6b1aa0b69298da9ef
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Providers
+    className: CameraPoseProvider
+  - hash:
+      serializedVersion: 2
+      Hash: fd68d84f33fad85aac38f2739c0ee270
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 36897c89f6e26a17ce175153b0b58b8c
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Authoring
+    className: BodyLandmarkInteractionTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Rules
+    className: ProxyRuleSet
+  - hash:
+      serializedVersion: 2
+      Hash: 290afc8da8e459e0b8dc7444bfaf5e35
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARAnchor
+  - hash:
+      serializedVersion: 2
+      Hash: 166b637424d68536dec4dfaf4ff62768
+    assemblyName: Unity.MARS.Providers.ARFoundation.dll
+    namespaceName: Unity.MARS.Data.ARFoundation
+    className: ARCoreLandmarkMeshIndices
+  - hash:
+      serializedVersion: 2
+      Hash: cdee20bcb3408cd7e1215babd8ebe0db
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Visualizers
+    className: MARSMarkerVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Providers.Synthetic
+    className: SimulatedLightEstimationProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 95e8700badf5116f9d70b7abbb0bf33e
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Data.Recorded
+    className: PointCloudRecording
+  - hash:
+      serializedVersion: 2
+      Hash: 80c0012d53bba21942556643d8de5624
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Conditions
+    className: PlaneSizeCondition
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Simulation
+    className: SimulationVideoContextManager
+  - hash:
+      serializedVersion: 2
+      Hash: 0535c7e7c34dd1cdfc5b1f8ffce1aebe
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARTrackedImageManager
+  - hash:
+      serializedVersion: 2
+      Hash: 36897c89f6e26a17ce175153b0b58b8c
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Authoring
+    className: InteractionTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 0de24c5e9e2fba9815c9e623e23fb67a
+    assemblyName: Unity.ListViewFramework.dll
+    namespaceName: Unity.ListViewFramework
+    className: ListViewScroller
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XRTools.Utils.dll
+    namespaceName: Unity.XRTools.Utils
+    className: OnDestroyNotifier
+  - hash:
+      serializedVersion: 2
+      Hash: 7e5aae8a18693abc960e2ac24c917328
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Data
+    className: BodyPoseData
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 8c871bd4753854167fd176f0a4e46169
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Data.Reasoning
+    className: FloorReasoningAPI
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 0ef2ba798bf56da7fa137b583b3b0a41
+    assemblyName: Unity.MARS.MARSHandles.dll
+    namespaceName: Unity.MARS.MARSHandles
+    className: EditorHandleStateColors
+  - hash:
+      serializedVersion: 2
+      Hash: fffcfe99fef413999b8b73493d95563f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Authoring
+    className: EntityVisual
+  - hash:
+      serializedVersion: 2
+      Hash: c8c672fee8a258266e51b55a210b8083
+    assemblyName: NavMeshComponents.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshLink
+  - hash:
+      serializedVersion: 2
+      Hash: 24c74cc0d527a06113f2b967042769f0
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEditor.XR.LegacyInputHelpers
+    className: CameraOffset
+  - hash:
+      serializedVersion: 2
+      Hash: dc65971ba4c73489cf3179a64d5d2ff7
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Conditions
+    className: TrackingStateCondition
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Providers.Synthetic
+    className: SimulatedCameraViewProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 343ae8e4717addf48191070a863eced2
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Data.Reasoning
+    className: ImmersionReasoningAPI
+  - hash:
+      serializedVersion: 2
+      Hash: 8244f99067db0f6c8fe13bed5b625cbc
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Data.Reasoning
+    className: HeightAboveFloorReasoningAPI
+  - hash:
+      serializedVersion: 2
+      Hash: 77aaaaa51f7a8d8ff333a879741e47d2
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 52bcb9c2a78bdd8d98a59e915c346e75
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: TransitionArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 7cdd5fd2ae8f55023eb4bf1a22b516c6
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Query
+    className: EvaluationSchedulerModule
+  - hash:
+      serializedVersion: 2
+      Hash: c14b2b1385192fd529b1024b78581021
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Landmarks
+    className: PlaneLandmarksAction
+  - hash:
+      serializedVersion: 2
+      Hash: ec23b42a284d900fc234a82ec36bfbca
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Providers
+    className: GeoLocationModule
+  - hash:
+      serializedVersion: 2
+      Hash: bcaee4c2a83047257b5f47d6ed264b75
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 966d6094495a658b0d5b447b9d4f712e
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Data.Recorded
+    className: MarsVideoPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Data.Synthetic
+    className: SynthesizedManualPose
+  - hash:
+      serializedVersion: 2
+      Hash: e9c0a03c1cde0b38bd40aaa4f63d8cd9
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Landmarks
+    className: FallbackFace
+  - hash:
+      serializedVersion: 2
+      Hash: 35ea45d9ce433a15e64bfb5c895bbed9
+    assemblyName: Unity.MARS.Companion.Core.dll
+    namespaceName: Unity.MARS.Companion.Core
+    className: CloudGuidSaver
+  - hash:
+      serializedVersion: 2
+      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: ed4622b9103b137832d16b87557b8cc7
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Authoring
+    className: RedirectSelection
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 300fd99066f8c288e85f5e81ce65fe34
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 1ff93c99c4787927ce31680d6e63062e
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Query
+    className: QueryPipelineConfiguration
+  - hash:
+      serializedVersion: 2
+      Hash: 7299a528424874bcf6b5736b5305ac37
+    assemblyName: NavMeshComponents.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshModifierVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 1e8788973bc3b6e474af42b919c8ef8d
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Data.Synthetic
+    className: SynthesizedLightEstimation
+  - hash:
+      serializedVersion: 2
+      Hash: b5dca6ffb6145cc0d8b827881b7bcf37
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Authoring
+    className: PlacementOverride
+  - hash:
+      serializedVersion: 2
+      Hash: 4a19512719a9a6892d4a11104d0169f2
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Forces
+    className: ProxyRegionForceOccupancy
+  - hash:
+      serializedVersion: 2
+      Hash: 277ca36534aae28e125490df3a49d025
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Actions
+    className: FaceAction
+  - hash:
+      serializedVersion: 2
+      Hash: 75028ad7868eee592908761dbe70b318
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Providers.Synthetic
+    className: SimulatedDiscoveryPlanesProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 42e27e55d55423145c6111d035d12149
+    assemblyName: Unity.MARS.Providers.ARFoundation.dll
+    namespaceName: Unity.MARS.Providers
+    className: ARKitBodyRigSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 25376b75258d0f1d9361dfabd529c141
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Forces
+    className: ProxyAlignmentForce
+  - hash:
+      serializedVersion: 2
+      Hash: 6dbc4333e8b1e51e59081547a299df88
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Settings
+    className: MARSRuntimePrefabs
+  - hash:
+      serializedVersion: 2
+      Hash: a2de59a5ba68b351fcebe689c3b47506
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS
+    className: MarsBodySettings
+  - hash:
+      serializedVersion: 2
+      Hash: 8e8bf745e0cce114b9efeabbef1b3df7
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Data.Synthetic
+    className: PlaneExtractionSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 8d4458b476a9a4dd8df843a849fcfffa
+    assemblyName: NavMeshComponents.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshSurface
+  - hash:
+      serializedVersion: 2
+      Hash: 0f44aff3c4b417c272731bfce65e0f8c
+    assemblyName: Unity.MARS.MARSHandles.Picking.dll
+    namespaceName: Unity.MARS.MARSHandles.Picking
+    className: LinePickingTarget
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: cbc003fb265dd3566b9800eb4b3b428e
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Simulation
+    className: MARSEnvironmentSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Simulation.Rendering
+    className: XRayCollider
+  - hash:
+      serializedVersion: 2
+      Hash: eef686bf26df81c1cde8259454a5283d
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Settings
+    className: MARSSceneModule
+  - hash:
+      serializedVersion: 2
+      Hash: 0f326eebed310fdc3093c87410c16141
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Simulation.Rendering
+    className: XRayRegion
+  - hash:
+      serializedVersion: 2
+      Hash: dc1bf7169b005112f7a4da5a6b15f0c4
+    assemblyName: Unity.XR.ARKit.dll
+    namespaceName: UnityEngine.XR.ARKit
+    className: ARKitReferenceObjectEntry
+  - hash:
+      serializedVersion: 2
+      Hash: 0337b6237c114157e1c8a5e9c785ae21
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Behaviors
+    className: RandomizeTransform
+  - hash:
+      serializedVersion: 2
+      Hash: 4ecacb5610c835aa9cbd8e34b59c2207
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Actions
+    className: BuildSurfaceAction
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.MARSHandles.dll
+    namespaceName: Unity.MARS.MARSHandles
+    className: Slider1DHandle
+  - hash:
+      serializedVersion: 2
+      Hash: 3013b77603ed17b36eb484f50310513a
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Data.Reasoning
+    className: ReasoningModule
+  - hash:
+      serializedVersion: 2
+      Hash: 770581c429c1b9e7475cd157df3f3775
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Simulation
+    className: MarsTimeModule
+  - hash:
+      serializedVersion: 2
+      Hash: 4af0088bcdcf78cee7b2bc4142535d9f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Actions
+    className: MatchAction
+  - hash:
+      serializedVersion: 2
+      Hash: a1aa98c78061c6f03a8c124cda576e67
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Providers
+    className: StubPointCloudProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 3fee99ac7242ccfbeb46500e9d435632
+    assemblyName: Unity.MARS.MARSHandles.dll
+    namespaceName: Unity.MARS.MARSHandles
+    className: HandleStateColors
+  - hash:
+      serializedVersion: 2
+      Hash: 37a13922678947e6d144f41a7195154a
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARCameraManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Providers.Synthetic
+    className: SimulatedBodySnapshotProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 314c6578f40767e6154dee310739efd7
+    assemblyName: Unity.XRTools.ModuleLoader.dll
+    namespaceName: Unity.XRTools.ModuleLoader
+    className: FunctionalityIsland
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Providers
+    className: StubFaceTrackingProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 290afc8da8e459e0b8dc7444bfaf5e35
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARTrackedObject
+  - hash:
+      serializedVersion: 2
+      Hash: e65fd42932f462b0d60f01fa8417b127
+    assemblyName: Unity.RuntimeSceneSerialization.dll
+    namespaceName: Unity.RuntimeSceneSerialization
+    className: AssetPack
+  - hash:
+      serializedVersion: 2
+      Hash: 3eae7298b383f4edd07a78973b592b2f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Actions
+    className: StretchToExtentsAction
+  - hash:
+      serializedVersion: 2
+      Hash: 760787567e1b60d64a3e421ab83ee14a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 8244f99067db0f6c8fe13bed5b625cbc
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Data.Reasoning
+    className: InViewReasoningAPI
+  - hash:
+      serializedVersion: 2
+      Hash: 8216acbf5b90f39b760c35641f205212
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Providers.Synthetic
+    className: SimulatedDiscoveryPointCloudProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 07efcb7d0a0b8a79cbf08e418b0038fc
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS
+    className: ProxyGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Providers
+    className: StubSessionProvider
+  - hash:
+      serializedVersion: 2
+      Hash: d78a806f0c5b678eb74ad8ac591df592
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Conditions
+    className: GeoFenceCondition
+  - hash:
+      serializedVersion: 2
+      Hash: 0f26dff2ae8b2ae4e28cb2c417777e17
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Conditions
+    className: MarkerCondition
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.MARSHandles.dll
+    namespaceName: Unity.MARS.MARSHandles
+    className: RotatorHandle
+  - hash:
+      serializedVersion: 2
+      Hash: 329b7eec01b83c71ac335586ea2c096b
+    assemblyName: Unity.MARS.Providers.ARFoundation.dll
+    namespaceName: Unity.MARS.Data.ARFoundation
+    className: MarkerProviderSettings
+  - hash:
+      serializedVersion: 2
+      Hash: c40f577d339f6936c89046fade102c64
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Conditions
+    className: FlatFloorCondition
+  - hash:
+      serializedVersion: 2
+      Hash: c14b2b1385192fd529b1024b78581021
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Landmarks
+    className: LandmarkOutputPolygon
+  - hash:
+      serializedVersion: 2
+      Hash: 74181b6e4a1d64d9a0a4170f1ce99026
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Recording
+    className: PlaneEventMarker
+  - hash:
+      serializedVersion: 2
+      Hash: 26c82c7a4508207caba19184279d2afc
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Conditions
+    className: HeightAboveFloorCondition
+  - hash:
+      serializedVersion: 2
+      Hash: 441806fa44b4c43102f1c539a68265a1
+    assemblyName: Unity.MARS.Providers.ARFoundation.dll
+    namespaceName: Unity.MARS.Data.ARFoundation
+    className: ARKitFacialExpressionSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: f7858108331b563fb41b80b729297acd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 5dea360fb0b147724ac344e6f399c2f3
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Landmarks
+    className: FaceLandmarksAction
+  - hash:
+      serializedVersion: 2
+      Hash: 85f1bc096d4932b11684181f142d1fb6
+    assemblyName: Unity.MARS.MARSHandles.dll
+    namespaceName: Unity.MARS.MARSHandles
+    className: RotationHandle
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Actions
+    className: ShowChildrenInBoundsAction
+  - hash:
+      serializedVersion: 2
+      Hash: 2b19be13f00df62e6d4d4f5539bcad51
+    assemblyName: NavMeshComponents.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshModifier
+  - hash:
+      serializedVersion: 2
+      Hash: a9867c90f7a6ff6ff08f62b7fc989960
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS
+    className: Proxy
+  - hash:
+      serializedVersion: 2
+      Hash: c5562a86da425544e7fc3313c85a6d5c
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Recording
+    className: FaceEventMarker
+  - hash:
+      serializedVersion: 2
+      Hash: 0ad51d0574e3eaa1378e67d3b810f375
+    assemblyName: Unity.RuntimeSceneSerialization.dll
+    namespaceName: Unity.RuntimeSceneSerialization
+    className: MissingComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6ceabfd38a184413d69b7db56c89cc
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS
+    className: SimulatedPlayable
+  - hash:
+      serializedVersion: 2
+      Hash: 16dacd04869a876ea4bea0d1d2e77e34
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARPointCloudManager
+  - hash:
+      serializedVersion: 2
+      Hash: 290afc8da8e459e0b8dc7444bfaf5e35
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: AREnvironmentProbe
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: dd1700ac5d3d15082240065e7f3e66f2
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Settings
+    className: MARSCore
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Data.Recorded
+    className: MarsVideoPlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: e522bbae5dd195cbd25032284e783c83
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Conditions
+    className: SemanticTagCondition
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: 1d9b53318825332126b0fd6da2d962fb
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARAnchorManager
+  - hash:
+      serializedVersion: 2
+      Hash: 0d809505abe1280209f883fb66122cd7
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Actions
+    className: SetPoseAction
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: ff16e7a413379bbd2a73080a2c128266
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Tests
+    className: TestMultiRelation
+  - hash:
+      serializedVersion: 2
+      Hash: 6c3cccc8edf3a9c34e4aacbea5828ff9
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Conditions
+    className: ElevationRelation
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: d251bf88db6c95a6b1aa0b69298da9ef
+    assemblyName: UnityEngine.SpatialTracking.dll
+    namespaceName: UnityEngine.SpatialTracking
+    className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XRTools.ModuleLoader.dll
+    namespaceName: Unity.XRTools.ModuleLoader
+    className: ModuleCallbacksBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Recording.Providers
+    className: RecordedFacialExpressionsProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: fc2d9a0b980238bd97a9f4e7704f9b42
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Behaviors
+    className: Scatter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: fc769210f5a449166e5bffb07999959c
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Visualizers
+    className: MARSPointCloudVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 94240b4c86b972fb299f434989e991c3
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Visualizers
+    className: MARSPlaneVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 134322c9293c1896357cce271b819ce4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 494cc9cf869c67f5c412ad1a6d0b9007
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Actions
+    className: FaceExpressionAction
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.Navmesh.dll
+    namespaceName: Unity.MARS.AI
+    className: MARSNavMeshSurface
+  - hash:
+      serializedVersion: 2
+      Hash: 6a84d996208d53c9de7a1ae8eb7a2703
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Data
+    className: MarsMarkerLibrary
+  - hash:
+      serializedVersion: 2
+      Hash: 750a3262d7661290b14833dedf1c5599
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Actions
+    className: BodyExpressionAction
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.ARKit.dll
+    namespaceName: UnityEngine.XR.ARKit
+    className: ARKitLoaderSettings
+  - hash:
+      serializedVersion: 2
+      Hash: a81d4c2c1cf3ad164d277d927a193679
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARBackgroundRendererFeature
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 1ecbfbdaaa2897c6b3876e929a5e8b0e
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Recording
+    className: FaceExpressionEventMarker
+  - hash:
+      serializedVersion: 2
+      Hash: 40de930da06843fcd47eaa9cdffe776c
+    assemblyName: Unity.MARS.Companion.Core.dll
+    namespaceName: Unity.MARS.Companion.Core
+    className: IssueHandlingModule
+  - hash:
+      serializedVersion: 2
+      Hash: 8cbc715ee57e375295f45566711ec2c7
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Data.Recorded
+    className: SessionRecordingSettings
+  - hash:
+      serializedVersion: 2
+      Hash: c487a887249275d8815be8aadc6e2a44
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Landmarks
+    className: MARSFallbackFaceLandmarks
+  - hash:
+      serializedVersion: 2
+      Hash: 46a73d5ed4e9838ce3ac2582df9d7264
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS
+    className: ApplyColorsToOthers
+  - hash:
+      serializedVersion: 2
+      Hash: e1c35cdce946e9da77fe80a39c261608
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARSessionOrigin
+  - hash:
+      serializedVersion: 2
+      Hash: 0b79ac3c4e0aeb30e660d925c1be2ddf
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Data
+    className: SynthesizedMarkerId
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 5bdf10d1224c7a17213f8b47bdeec4a6
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS
+    className: MRFaceLandmarkVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: b02c655eb1fff4acf62298cea02ef3dc
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Data.Reasoning
+    className: ReasoningDefaultsModule
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: c0f482ba8b6ee3660caf6cd682396076
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Forces
+    className: ProxyForcesFieldSolverModule
+  - hash:
+      serializedVersion: 2
+      Hash: 6832571e4a19c354ae2b5c8d8328c7ba
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Forces
+    className: ProxyForces
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.MARSHandles.dll
+    namespaceName: Unity.MARS.MARSHandles
+    className: ScaleWithCameraDistance
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Providers
+    className: CameraOffsetProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 893dbdbfe611d62e230a686ea89f1efd
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: SwingArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 62ec6a5f0c853fbdf1086a9b889b1db0
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Visualizers
+    className: MARSStickerPlacer
+  - hash:
+      serializedVersion: 2
+      Hash: e5568789468fe2cb6cfb577a8e8bc49f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Simulation
+    className: SimulationVideoContextSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 4b21be8395a63eb2313665501141c1b5
+    assemblyName: Unity.RuntimeSceneSerialization.dll
+    namespaceName: Unity.RuntimeSceneSerialization.Prefabs
+    className: PrefabMetadata
+  - hash:
+      serializedVersion: 2
+      Hash: d0976f085ee327327a35839ca3cb80f1
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Visualizers
+    className: MARSFaceManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Recording.Providers
+    className: RecordedFaceTrackingProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Data.Synthetic
+    className: SimulatedObject
+  - hash:
+      serializedVersion: 2
+      Hash: f854959258a7825068ea909cc9effa21
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARPlaneMeshVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 947419f87bb5409e38b6f34c79316804
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Conditions
+    className: AlignmentCondition
+  - hash:
+      serializedVersion: 2
+      Hash: 4eafb80a610375a250799653a4f19e79
+    assemblyName: Unity.MARS.MARSHandles.dll
+    namespaceName: Unity.MARS.MARSHandles
+    className: PositionHandle
+  - hash:
+      serializedVersion: 2
+      Hash: d39905ff8fda75afed4d688761c322e1
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARFaceManager
+  - hash:
+      serializedVersion: 2
+      Hash: 441806fa44b4c43102f1c539a68265a1
+    assemblyName: Unity.MARS.Providers.ARFoundation.dll
+    namespaceName: Unity.MARS.Data.ARFoundation
+    className: ARFoundationFaceExpressionSettings
+  - hash:
+      serializedVersion: 2
+      Hash: c1aa24dc179be0cb7c6d49f66fc0db8a
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARRaycastManager
+  - hash:
+      serializedVersion: 2
+      Hash: 9542288e0a3ff1221ce93440ed18baaa
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Simulation
+    className: SimulationEnvironmentSettings
+  - hash:
+      serializedVersion: 2
+      Hash: a8f1cc87332723ac6ca56b86e4531892
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Landmarks
+    className: LandmarkOutputPoint
+  - hash:
+      serializedVersion: 2
+      Hash: 290afc8da8e459e0b8dc7444bfaf5e35
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARPointCloud
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Simulation.Rendering
+    className: CompositeCameraRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: df1c3adcfbfc2c1e8043d2ec91b11bed
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Providers.Synthetic
+    className: SimulatedBodyTrackingProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARFaceMeshVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: feebda072b191f8dc7d645dfcc4b4b8d
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Authoring
+    className: DataVisualsModuleOptions
+  - hash:
+      serializedVersion: 2
+      Hash: 6c5a8313c57fac9366be2c8f1b047f25
+    assemblyName: Unity.MARS.Companion.Core.dll
+    namespaceName: Unity.MARS.Companion.Core
+    className: IssueHandlingDialogView
+  - hash:
+      serializedVersion: 2
+      Hash: 305c931f8b4f521c43f98b4cf49197fb
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS
+    className: DistanceHandle
+  - hash:
+      serializedVersion: 2
+      Hash: 19df43ff56f96f17c7d538e37a712cc7
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS
+    className: PlaneSizeHandle
+  - hash:
+      serializedVersion: 2
+      Hash: df1c3adcfbfc2c1e8043d2ec91b11bed
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Providers.Synthetic
+    className: SimulatedDiscoveryMarkerProvider
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Conditions
+    className: IsFaceCondition
+  - hash:
+      serializedVersion: 2
+      Hash: 6de23698b7e3ffc8972f53d825ad9cbf
+    assemblyName: Unity.MARS.dll
+    namespaceName: Unity.MARS.Forces
+    className: ProxyRegionForceTowards
+  platform: 9
+  scenePathNames:
+  - Assets/Scenes/SampleScene.unity
+  playerPath: /Users/tinh/Documents/5

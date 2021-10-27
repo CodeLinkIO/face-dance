@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f47cff41df1ce4f36a8c9cb93b06a3f7, type: 3}
+  m_Name: SyntheticMarkerObjectCreationData
+  m_EditorClassIdentifier: 
+  m_ObjectName: Synthetic Image Marker
+  m_Icon:
+    m_Dark: {fileID: 2800000, guid: 51e9bbc16020bff4cac095360465ccac, type: 3}
+    m_Light: {fileID: 2800000, guid: 2316abb3f7c212b48b4fa2f4cad2003d, type: 3}
+  m_Tooltip: Create a synthetic image marker to test in synthetic environments. (Must
+    have a simulated synthetic environment active).
+  m_CreateInContext: 0
+  m_SyntheticMarkersMaterial: {fileID: 2100000, guid: 74841033d1f564986a82f38a7b00e4b7,
+    type: 2}
+  m_SyntheticMarkersMesh: {fileID: 4300000, guid: bcf65121890eb4deb951382e2b295019,
+    type: 2}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba36a03cc179e4d42a247ee25fcb5896, type: 3}
+  m_Name: PostProcessing
+  m_EditorClassIdentifier: 
+  m_DisplayName: Post Processing
+  m_PackageName: com.unity.postprocessing
+  m_Url: com.unity.postprocessing
+  m_InstallType: 0
+  m_Description: MARS uses the post-processing stack (v2) to greatly improve the
+    lighting and visual quality of simulation environments.
+  m_Category: extensions
+  m_PreviewImage: {fileID: 2800000, guid: 2af19d4b2c3966f448cf52f1f750db7c, type: 3}
+  m_Version: 
+  m_Created:
+    m_Ticks: 636559776000000000
+  m_Updated:
+    m_Ticks: 637387488000000000

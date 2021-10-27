@@ -1,0 +1,12 @@
+{
+    "name": "Unity.XRTools.Utils.Editor",
+    "references": [
+        "Unity.XRTools.Utils"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

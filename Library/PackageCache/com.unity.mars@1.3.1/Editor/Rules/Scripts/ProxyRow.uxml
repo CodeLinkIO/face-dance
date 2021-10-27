@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:Template name="AddButton" src="AddButton.uxml" />
+    <ui:VisualElement name="ruleNodeContainer" focusable="true" class="ruleNode" style="margin-top: 16px; flex-direction: row;">
+        <ui:Label text="On" style="flex-direction: row; visibility: visible; display: flex; overflow: visible; opacity: 1; width: 23px; height: 16px; margin-top: 2px;" />
+        <uie:ObjectField allow-scene-objects="true" name="proxyPreset" style="margin-right: 0; flex-grow: 1;" />
+        <ui:Button name="pickProxyPreset" class="unity-object-field__selector" style="flex-direction: row; margin-left: -20px;" />
+        <ui:VisualElement>
+            <ui:Label text="1" name="simMatchCount" style="left: 17px; position: absolute;" />
+        </ui:VisualElement>
+        <ui:Instance template="AddButton" name="AddButton" />
+    </ui:VisualElement>
+    <ui:VisualElement name="contentContainer" />
+</ui:UXML>

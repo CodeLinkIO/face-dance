@@ -1,0 +1,52 @@
+.list-prefix-label {
+    -unity-font-style: bold;
+    width: 42px;
+    color: rgba(196, 196, 196, 255);
+}
+
+.data-section {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 5px;
+    margin-bottom: 0;
+    flex-grow: 1;
+    flex-direction: row;
+    flex-shrink: 0;
+}
+
+.word-list {
+    white-space: normal;
+    flex-shrink: 1;
+    overflow: hidden;
+    color: rgba(196, 196, 196, 255);
+}
+
+.overlay-header {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    -unity-text-align: upper-left;
+    -unity-font-style: bold;
+    white-space: normal;
+}
+
+.overlay-box {
+    left: 15px;
+    top: 68px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    background-color: rgba(51, 51, 51, 0.7);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    max-height: 400px;
+    min-height: 100px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    overflow: visible;
+    flex-wrap: nowrap;
+    max-width: 220px;
+    min-width: 220px;
+}

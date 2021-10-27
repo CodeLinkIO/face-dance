@@ -1,0 +1,18 @@
+﻿using System.Collections.Generic;
+
+namespace Unity.MARS.Query
+{
+    public partial class QueryResult
+    {
+{BackingValue_FIELDS}
+
+{TryGetTrait_METHODS}
+
+{SetTrait_METHODS}
+
+        static void Clear(QueryResult result)
+        {
+{Clear_METHOD}
+        }
+    }
+}

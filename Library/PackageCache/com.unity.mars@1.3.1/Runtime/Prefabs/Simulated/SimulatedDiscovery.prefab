@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6713339344908314061
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7324690242721565394}
+  - component: {fileID: 2618790631795304700}
+  - component: {fileID: 8158046685362073698}
+  - component: {fileID: 902282474703843853}
+  m_Layer: 0
+  m_Name: SimulatedDiscovery
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7324690242721565394
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6713339344908314061}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2618790631795304700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6713339344908314061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad21640225bbab242a2629580fc959e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SessionProvider: {fileID: 902282474703843853}
+  m_MinimumRecastTime: 0.15
+  m_DistanceToRecast: 0.025
+  m_AngleDegreesToRecast: 4
+  m_RaysPerCast: 256
+  m_MaxHitDistance: 2
+  m_MinHitDistance: 0.05
+--- !u!114 &8158046685362073698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6713339344908314061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eac0906e79142f74ea7ffff9b9e4a49a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SessionProvider: {fileID: 902282474703843853}
+  m_MinimumRegrowthTime: 0.2
+  m_NewPointsEvaluationThreshold: 5
+  m_PointUpdateDropoutRate: 0.66
+  m_PointSkip: 2
+  m_VoxelSize: 0.14
+  m_NormalToleranceAngle: 15
+  m_PlaneFindingParams:
+    minPointsPerSqMeter: 370
+    minSideLength: 0.2
+    inLayerMergeDistance: 0.2
+    crossLayerMergeDistance: 0.05
+    checkEmptyArea: 1
+    allowedEmptyAreaCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.0040558577
+        value: 0.79612505
+        inSlope: -0.0007543761
+        outSlope: -0.0007543761
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.2908276
+      - serializedVersion: 3
+        time: 2.989531
+        value: 0.7862237
+        inSlope: -0.007682666
+        outSlope: -0.007682666
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.3859912
+        outWeight: 0.24448484
+      - serializedVersion: 3
+        time: 7.0841923
+        value: 0.5710944
+        inSlope: -0.030910837
+        outSlope: -0.030910837
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.13699001
+      - serializedVersion: 3
+        time: 13.99502
+        value: 0.79905236
+        inSlope: -0.0012268589
+        outSlope: -0.0012268589
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.122727774
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+--- !u!114 &902282474703843853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6713339344908314061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 605fddfd64686a14cbeb786a992672d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PlanesProvider: {fileID: 8158046685362073698}
+  m_PointCloudProvider: {fileID: 2618790631795304700}

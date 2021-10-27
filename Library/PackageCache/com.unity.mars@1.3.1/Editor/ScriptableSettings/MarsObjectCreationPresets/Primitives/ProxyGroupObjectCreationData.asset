@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd9819dd69c374d57bae0903507f03f2, type: 3}
+  m_Name: ProxyGroupObjectCreationData
+  m_EditorClassIdentifier: 
+  m_ObjectName: Proxy Group
+  m_Icon:
+    m_Dark: {fileID: 2800000, guid: dabaf60b938c32343b24c888c90eb299, type: 3}
+    m_Light: {fileID: 2800000, guid: c2059eb965e606e4ab2910ba2e436e55, type: 3}
+  m_Tooltip: A GameObject grouping multiple Proxy Objects.
+  m_CreateInContext: 0

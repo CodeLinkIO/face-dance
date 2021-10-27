@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3ce9de9a0b772e84589568d58baaa4a5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_EnvironmentPrefab: {fileID: 7576867131100388943, guid: d927931f65b7f4f09ba927c64f8cb4ba,
+      type: 3}
+  - m_RecordedVideo: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

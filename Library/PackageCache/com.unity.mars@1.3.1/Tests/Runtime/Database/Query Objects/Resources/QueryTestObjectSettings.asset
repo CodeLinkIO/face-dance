@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c60a7292217140eab9159604037f7bde, type: 3}
+  m_Name: QueryTestObjectSettings
+  m_EditorClassIdentifier: 
+  m_NonRequiredChildrenSet: {fileID: 5421839356513819176, guid: 692e306ca54a9bc498d2aa70d8667b7b,
+    type: 3}
+  m_AllNonRequiredChildrenGroup: {fileID: 4093923891290998332, guid: dcec2e2954b203d4a8a21d6315b29b9f,
+    type: 3}
+  m_AllNonRequiredChildrenReacquireGroup: {fileID: 1080541316600465367, guid: 6cf08f70d81851c448237c08e8864ed6,
+    type: 3}
+  m_SimpleProxyGroup: {fileID: 6716796486892799282, guid: 95a39205756d27c4787d9b1df19a4b90,
+    type: 3}
+  m_ProxyGroupWithNonRequiredMember: {fileID: 8629041248066628237, guid: dcb6517a2f863814bbeea96d02133f08,
+    type: 3}
+  m_SimplePlaneConditionProxy: {fileID: 554165820873128820, guid: df31cddd3236d62458f77447ad98ebd1,
+    type: 3}
+  m_SimpleReplicatedProxy: {fileID: 832046939718312519, guid: 292c6dd3af6d0b84e80d79d592cb954f,
+    type: 3}

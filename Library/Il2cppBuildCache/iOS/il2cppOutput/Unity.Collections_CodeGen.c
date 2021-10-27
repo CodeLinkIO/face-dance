@@ -1,0 +1,714 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void Microsoft.CodeAnalysis.EmbeddedAttribute::.ctor()
+extern void EmbeddedAttribute__ctor_mE19BFF00D03833D46FC6E6B83A9C5E708E7E665D (void);
+// 0x00000002 System.Void System.Runtime.CompilerServices.IsReadOnlyAttribute::.ctor()
+extern void IsReadOnlyAttribute__ctor_m34A120993044E67D397DB90FF22BBF030B5C19DC (void);
+// 0x00000003 System.UInt32 Unity.Collections.CollectionHelper::Hash(System.Void*,System.Int32)
+extern void CollectionHelper_Hash_m8132774EA770BB87BF148F3B4900F64CCA47F576 (void);
+// 0x00000004 System.Boolean Unity.Collections.CollectionHelper::ShouldDeallocate(Unity.Collections.Allocator)
+extern void CollectionHelper_ShouldDeallocate_m6D7DF9147EAA0A1DE277BD90F83A97002479C616 (void);
+// 0x00000005 System.String Unity.Collections.Generic::ToString()
+extern void Generic_ToString_m26E69BA5CB1B90676DE079AA8FB5818298952C17 (void);
+// 0x00000006 System.Int32 Unity.Collections.Generic::GetHashCode()
+extern void Generic_GetHashCode_m3242E9DCF5FD6BD718B9E9E180F8E30848AD5B1D (void);
+// 0x00000007 System.Int32 Unity.Collections.Generic::CompareTo(System.Byte*,System.Int32,System.Byte*,System.Int32)
+extern void Generic_CompareTo_m5C6EB0022570E2F4DD0F68AF3641FAB3F8B444BF (void);
+// 0x00000008 System.Boolean Unity.Collections.Generic::Equals(System.Byte*,System.Int32,System.Byte*,System.Int32)
+extern void Generic_Equals_m63893563B1CD64E8D103EC424CBAAAAC19B25DC6 (void);
+// 0x00000009 System.Void Unity.Collections.Generic::Write(System.Int32&,Unity.Collections.Unicode/Rune)
+extern void Generic_Write_m6DEA383EF4E57E28188CD72766097E3EEE2E9B6C (void);
+// 0x0000000A System.Void Unity.Collections.Generic::Base2ToBase10(System.UInt64&,System.Int32&,System.Single)
+extern void Generic_Base2ToBase10_m1ACE84D3428AAD0A60F8644CF96357FEC69421C7 (void);
+// 0x0000000B Unity.Collections.FormatError Unity.Collections.Generic::Format(System.Char)
+extern void Generic_Format_m6F645F1191ED36BD0AC89B074C347AEFBAD055CE (void);
+// 0x0000000C Unity.Collections.FormatError Unity.Collections.Generic::Format(System.Char,System.Char)
+extern void Generic_Format_mB7B387C6947568C4C69D3AFA0FF4B30F89883C31 (void);
+// 0x0000000D Unity.Collections.FormatError Unity.Collections.Generic::Format(System.Char,System.Char,System.Char)
+extern void Generic_Format_m640382A73722138F4F22C9B9008BB29E9A13CA25 (void);
+// 0x0000000E Unity.Collections.FormatError Unity.Collections.Generic::Format(System.Char,System.Char,System.Char,System.Char,System.Char,System.Char,System.Char,System.Char)
+extern void Generic_Format_mF8892A01FC5372F4EF601AE143B9A3C164AD3D37 (void);
+// 0x0000000F Unity.Collections.FormatError Unity.Collections.Generic::FormatScientific(System.Char*,System.Int32,System.Int32,System.Char)
+extern void Generic_FormatScientific_mC12B695901C8311A950BB7BFBAD241325C9FE0F5 (void);
+// 0x00000010 Unity.Collections.FormatError Unity.Collections.Generic::Format(System.Int64)
+extern void Generic_Format_m3189D75102E79C025670270B886A179A70C9D898 (void);
+// 0x00000011 Unity.Collections.FormatError Unity.Collections.Generic::Format(System.Int32)
+extern void Generic_Format_mB0C8B526F61794D1AF9EEFAE4AEF0BD816B2E04D (void);
+// 0x00000012 Unity.Collections.FormatError Unity.Collections.Generic::Format(System.Single,System.Char)
+extern void Generic_Format_mA7B435EEA5A309C0B14263F9624C7B41FB69C91F (void);
+// 0x00000013 System.Boolean Unity.Collections.FixedString32::EqualsIn(Unity.Collections.FixedString32&)
+extern void FixedString32_EqualsIn_m4DCC44BB881B5068A46AA0391517F2CE2251CC0F (void);
+// 0x00000014 System.Boolean Unity.Collections.FixedString32::Equals(Unity.Collections.FixedString32)
+extern void FixedString32_Equals_m82D02BAD4E48E18A05E16B5D0B998442DB4B775B (void);
+// 0x00000015 System.Boolean Unity.Collections.FixedString32::EqualsIn(Unity.Collections.FixedString64&)
+extern void FixedString32_EqualsIn_mAA3E45E269B90B10DE26898FE34796CE72360E10 (void);
+// 0x00000016 System.Boolean Unity.Collections.FixedString32::Equals(Unity.Collections.FixedString64)
+extern void FixedString32_Equals_m3FDCAA565BAF176480C53EF87F85B2C0EA7C331C (void);
+// 0x00000017 System.Boolean Unity.Collections.FixedString32::EqualsIn(Unity.Collections.FixedString128&)
+extern void FixedString32_EqualsIn_m132D0F5A2A87F3223C50536923CDB9FEF2AB70F5 (void);
+// 0x00000018 System.Boolean Unity.Collections.FixedString32::Equals(Unity.Collections.FixedString128)
+extern void FixedString32_Equals_mB9B26F3F0D3B62641279D60C4B56FB4504FF2E44 (void);
+// 0x00000019 System.Boolean Unity.Collections.FixedString32::EqualsIn(Unity.Collections.FixedString512&)
+extern void FixedString32_EqualsIn_m435F0367DC050C96352DE3310CF6C32A368E7DEF (void);
+// 0x0000001A System.Boolean Unity.Collections.FixedString32::Equals(Unity.Collections.FixedString512)
+extern void FixedString32_Equals_mBBDC3C2A574AD4D8A4B89CA83FB8617091659983 (void);
+// 0x0000001B System.Boolean Unity.Collections.FixedString32::EqualsIn(Unity.Collections.FixedString4096&)
+extern void FixedString32_EqualsIn_m952721D6E1C0ED45D82C0A42B93A2DDE1D639F77 (void);
+// 0x0000001C System.Boolean Unity.Collections.FixedString32::Equals(Unity.Collections.FixedString4096)
+extern void FixedString32_Equals_m485DD31ED9FA7E21D43247AF9B45024D1BF1EC3F (void);
+// 0x0000001D System.Int32 Unity.Collections.FixedString32::CompareTo(System.String)
+extern void FixedString32_CompareTo_mD6EDF66C86727139A223A75CBAFC991F60289051 (void);
+// 0x0000001E System.Boolean Unity.Collections.FixedString32::Equals(System.String)
+extern void FixedString32_Equals_m7866EB03EBC848CAC8314F544C3DE14793408902 (void);
+// 0x0000001F System.String Unity.Collections.FixedString32::ToString()
+extern void FixedString32_ToString_m2A525FA192533906B6B9F9AFBEC549171B77C696 (void);
+// 0x00000020 System.Int32 Unity.Collections.FixedString32::GetHashCode()
+extern void FixedString32_GetHashCode_m442C97EC09D7A76F9AACF129C8258A87AA9F9C99 (void);
+// 0x00000021 System.Boolean Unity.Collections.FixedString32::Equals(System.Object)
+extern void FixedString32_Equals_m56E76890520B85E545FC61A43F9DFAA1EC7466FA (void);
+// 0x00000022 System.Boolean Unity.Collections.FixedString64::EqualsIn(Unity.Collections.FixedString32&)
+extern void FixedString64_EqualsIn_mCAD21A6E8BDCD7CC9A3E0BC0016FDC26393DE11C (void);
+// 0x00000023 System.Boolean Unity.Collections.FixedString64::Equals(Unity.Collections.FixedString32)
+extern void FixedString64_Equals_mE273A8AD6C92864533BEEB57AE23037A827AF234 (void);
+// 0x00000024 System.Boolean Unity.Collections.FixedString64::EqualsIn(Unity.Collections.FixedString64&)
+extern void FixedString64_EqualsIn_mEC89A7211EF38063E311EF570F2E935D241BFEC4 (void);
+// 0x00000025 System.Boolean Unity.Collections.FixedString64::Equals(Unity.Collections.FixedString64)
+extern void FixedString64_Equals_m3AA4D90766D1876C2AED1B63BAF0D033192822F9 (void);
+// 0x00000026 System.Boolean Unity.Collections.FixedString64::EqualsIn(Unity.Collections.FixedString128&)
+extern void FixedString64_EqualsIn_m5DA5B325B4F2B418D09EAC7198238429BC2BF561 (void);
+// 0x00000027 System.Boolean Unity.Collections.FixedString64::Equals(Unity.Collections.FixedString128)
+extern void FixedString64_Equals_mCA71D2AB937411A3016DED87C71A340CCD274D0D (void);
+// 0x00000028 System.Boolean Unity.Collections.FixedString64::EqualsIn(Unity.Collections.FixedString512&)
+extern void FixedString64_EqualsIn_m04F66551612F8A9F5CA73B32D59321EDEB3954A0 (void);
+// 0x00000029 System.Boolean Unity.Collections.FixedString64::Equals(Unity.Collections.FixedString512)
+extern void FixedString64_Equals_m1940068D53FDAE0D2327BFC44054F01CE62CF5E9 (void);
+// 0x0000002A System.Boolean Unity.Collections.FixedString64::EqualsIn(Unity.Collections.FixedString4096&)
+extern void FixedString64_EqualsIn_m617D541BCCCD4AB4C083CC9DFD0A851C7114B4C1 (void);
+// 0x0000002B System.Boolean Unity.Collections.FixedString64::Equals(Unity.Collections.FixedString4096)
+extern void FixedString64_Equals_mC71A9DD70D3252CA89562EABF748189761E17CCC (void);
+// 0x0000002C System.Int32 Unity.Collections.FixedString64::CompareTo(System.String)
+extern void FixedString64_CompareTo_mCFB9F6E9E7DBD0CA133A65A40D8D205188CAE3F5 (void);
+// 0x0000002D System.Boolean Unity.Collections.FixedString64::Equals(System.String)
+extern void FixedString64_Equals_mD7831C85B35D02745D5E6B5BBDBE129AB9DB2A54 (void);
+// 0x0000002E System.String Unity.Collections.FixedString64::ToString()
+extern void FixedString64_ToString_m193DAAEE8DE7176C2855B2CCCC09B2344379A43B (void);
+// 0x0000002F System.Int32 Unity.Collections.FixedString64::GetHashCode()
+extern void FixedString64_GetHashCode_m2DC08BF25ACB1E017F4FA733873498FF45CF3F55 (void);
+// 0x00000030 System.Boolean Unity.Collections.FixedString64::Equals(System.Object)
+extern void FixedString64_Equals_m2E17841930B04C1BEF217842410EB1F43C7791A8 (void);
+// 0x00000031 Unity.Collections.FormatError Unity.Collections.FixedString128::Format(System.Int32)
+extern void FixedString128_Format_m4EEEDC115683A36AC382A09E84EA648726A3C877 (void);
+// 0x00000032 Unity.Collections.FormatError Unity.Collections.FixedString128::Format(System.Int64)
+extern void FixedString128_Format_m29CE662F57EEBDC7F03E1885654C19DF13FEE046 (void);
+// 0x00000033 Unity.Collections.FormatError Unity.Collections.FixedString128::Format(System.Single,System.Char)
+extern void FixedString128_Format_m6B256D28D36540C2C09586C320E7D95E1D4EEAE2 (void);
+// 0x00000034 System.Boolean Unity.Collections.FixedString128::EqualsIn(Unity.Collections.FixedString32&)
+extern void FixedString128_EqualsIn_mFB3DCF9B98869D8024FE1C29333C238D6FD2251B (void);
+// 0x00000035 System.Boolean Unity.Collections.FixedString128::Equals(Unity.Collections.FixedString32)
+extern void FixedString128_Equals_mCAD2F3D7B20263B3EDD59EAFE07295C7B5D9A1D9 (void);
+// 0x00000036 System.Boolean Unity.Collections.FixedString128::EqualsIn(Unity.Collections.FixedString64&)
+extern void FixedString128_EqualsIn_mBDBFFF0424066646BD11A8A81E53006BEF55A76A (void);
+// 0x00000037 System.Boolean Unity.Collections.FixedString128::Equals(Unity.Collections.FixedString64)
+extern void FixedString128_Equals_m8619021E0487A583DEB4CDE7A820D31A172A66F0 (void);
+// 0x00000038 System.Boolean Unity.Collections.FixedString128::EqualsIn(Unity.Collections.FixedString128&)
+extern void FixedString128_EqualsIn_m1802B4942A890430BA7D2685A627CA1936EDFB96 (void);
+// 0x00000039 System.Boolean Unity.Collections.FixedString128::Equals(Unity.Collections.FixedString128)
+extern void FixedString128_Equals_mB04DBC0F2781AA2ED4A7713125B1AA566E42C7FB (void);
+// 0x0000003A System.Boolean Unity.Collections.FixedString128::EqualsIn(Unity.Collections.FixedString512&)
+extern void FixedString128_EqualsIn_m0AC2DEB9DE0B30FD2415191C4501DE7034477290 (void);
+// 0x0000003B System.Boolean Unity.Collections.FixedString128::Equals(Unity.Collections.FixedString512)
+extern void FixedString128_Equals_m538B4746159D37ADF5863F1C83439C57F10E017C (void);
+// 0x0000003C System.Boolean Unity.Collections.FixedString128::EqualsIn(Unity.Collections.FixedString4096&)
+extern void FixedString128_EqualsIn_m1D5545321D41272A9420907335994782C329F344 (void);
+// 0x0000003D System.Boolean Unity.Collections.FixedString128::Equals(Unity.Collections.FixedString4096)
+extern void FixedString128_Equals_m95F814040036358AB2F7289D578B5B30716638C1 (void);
+// 0x0000003E System.Int32 Unity.Collections.FixedString128::CompareTo(System.String)
+extern void FixedString128_CompareTo_m4B5B5F811BA89526E794908C8B42A2DDE3636772 (void);
+// 0x0000003F System.Boolean Unity.Collections.FixedString128::Equals(System.String)
+extern void FixedString128_Equals_mBE2463F1F290A035D75D9B80C50DC4C63F9B7F31 (void);
+// 0x00000040 System.String Unity.Collections.FixedString128::ToString()
+extern void FixedString128_ToString_m233EC49BA861899541287880131606217F8D38C3 (void);
+// 0x00000041 System.Int32 Unity.Collections.FixedString128::GetHashCode()
+extern void FixedString128_GetHashCode_m1435AC65AC9C4C5203B330539694272F10EC2C17 (void);
+// 0x00000042 System.Boolean Unity.Collections.FixedString128::Equals(System.Object)
+extern void FixedString128_Equals_mDD60D226A66F0DAE92E8C75CE3B9E408A7277390 (void);
+// 0x00000043 System.Boolean Unity.Collections.FixedString512::EqualsIn(Unity.Collections.FixedString32&)
+extern void FixedString512_EqualsIn_m87933B957ACDFD71B06E710442355291C6007933 (void);
+// 0x00000044 System.Boolean Unity.Collections.FixedString512::Equals(Unity.Collections.FixedString32)
+extern void FixedString512_Equals_m85CEB61D68CF928B10071BC355DC714BD611FBCE (void);
+// 0x00000045 System.Boolean Unity.Collections.FixedString512::EqualsIn(Unity.Collections.FixedString64&)
+extern void FixedString512_EqualsIn_m54A9829C05BEC4E3C9C9E71A9A7D6768C5EFED6F (void);
+// 0x00000046 System.Boolean Unity.Collections.FixedString512::Equals(Unity.Collections.FixedString64)
+extern void FixedString512_Equals_m1CB1B89C518A15CECF6187DC0E58E9FA5155669E (void);
+// 0x00000047 System.Boolean Unity.Collections.FixedString512::EqualsIn(Unity.Collections.FixedString128&)
+extern void FixedString512_EqualsIn_m43417B48635FD23E8AF2CB40922A359733584241 (void);
+// 0x00000048 System.Boolean Unity.Collections.FixedString512::Equals(Unity.Collections.FixedString128)
+extern void FixedString512_Equals_m071985494C43832113AA76D8FBE079F860CDD14B (void);
+// 0x00000049 System.Boolean Unity.Collections.FixedString512::EqualsIn(Unity.Collections.FixedString512&)
+extern void FixedString512_EqualsIn_m6078E6CBF4E3339ACD9CB18ED5C015F7741B69FF (void);
+// 0x0000004A System.Boolean Unity.Collections.FixedString512::Equals(Unity.Collections.FixedString512)
+extern void FixedString512_Equals_m5B3C587FD290EC48C03650B2EC08E084477B43C1 (void);
+// 0x0000004B System.Boolean Unity.Collections.FixedString512::EqualsIn(Unity.Collections.FixedString4096&)
+extern void FixedString512_EqualsIn_m29D013C0E3A7845421C6AEE8728C5C15972FF320 (void);
+// 0x0000004C System.Boolean Unity.Collections.FixedString512::Equals(Unity.Collections.FixedString4096)
+extern void FixedString512_Equals_m9B7698CF53FD7A988243068267AF5EEFCDA82388 (void);
+// 0x0000004D System.Int32 Unity.Collections.FixedString512::CompareTo(System.String)
+extern void FixedString512_CompareTo_mBA6ADD6EC8EEBAAE27C4A67EFA6EB38D9DFD5A8D (void);
+// 0x0000004E System.Boolean Unity.Collections.FixedString512::Equals(System.String)
+extern void FixedString512_Equals_m6E1A619CEBCD3D957FD9360A66BBEEDEB9F6C922 (void);
+// 0x0000004F System.String Unity.Collections.FixedString512::ToString()
+extern void FixedString512_ToString_mFC6FB3EDEE271A80AC3A55366F4CE16FFA44B5E9 (void);
+// 0x00000050 System.Int32 Unity.Collections.FixedString512::GetHashCode()
+extern void FixedString512_GetHashCode_mF528B35A02C3CFD98A4E33F771FE15C33CEFF8D0 (void);
+// 0x00000051 System.Boolean Unity.Collections.FixedString512::Equals(System.Object)
+extern void FixedString512_Equals_mE7E1C6E3451755D79FF85B8B9C88BD3C2AA073EF (void);
+// 0x00000052 System.Boolean Unity.Collections.FixedString4096::EqualsIn(Unity.Collections.FixedString32&)
+extern void FixedString4096_EqualsIn_m424D9BB25601FE3A90369AFF6814B6A2E0E40AE6 (void);
+// 0x00000053 System.Boolean Unity.Collections.FixedString4096::Equals(Unity.Collections.FixedString32)
+extern void FixedString4096_Equals_mF500D7BC3F27D7C43849F78F83F3AFA70026B052 (void);
+// 0x00000054 System.Boolean Unity.Collections.FixedString4096::EqualsIn(Unity.Collections.FixedString64&)
+extern void FixedString4096_EqualsIn_mAB156606579D5A13BACBEFAF6E43BC2661AA433B (void);
+// 0x00000055 System.Boolean Unity.Collections.FixedString4096::Equals(Unity.Collections.FixedString64)
+extern void FixedString4096_Equals_mC5A9EA82F7FB065C23E9F05E430CB1FEF34D9763 (void);
+// 0x00000056 System.Boolean Unity.Collections.FixedString4096::EqualsIn(Unity.Collections.FixedString128&)
+extern void FixedString4096_EqualsIn_mABE03FF84ECE69C37978AC416D8C2D2A98B3DFE3 (void);
+// 0x00000057 System.Boolean Unity.Collections.FixedString4096::Equals(Unity.Collections.FixedString128)
+extern void FixedString4096_Equals_m61970FA44BE910969334A33EE33DC72CE94BC089 (void);
+// 0x00000058 System.Boolean Unity.Collections.FixedString4096::EqualsIn(Unity.Collections.FixedString512&)
+extern void FixedString4096_EqualsIn_mDF80B672E1B28EC876323618EB358EEF552C5DDC (void);
+// 0x00000059 System.Boolean Unity.Collections.FixedString4096::Equals(Unity.Collections.FixedString512)
+extern void FixedString4096_Equals_mDFFD640A53CC97BB1F472D83703242515EBD3241 (void);
+// 0x0000005A System.Boolean Unity.Collections.FixedString4096::EqualsIn(Unity.Collections.FixedString4096&)
+extern void FixedString4096_EqualsIn_mB41A5D6704C9BDB5EACC9B9A171DD85ADFA022BC (void);
+// 0x0000005B System.Boolean Unity.Collections.FixedString4096::Equals(Unity.Collections.FixedString4096)
+extern void FixedString4096_Equals_m57C5A3C1AD8F10CCA3B42CAD292A379CC2E8A074 (void);
+// 0x0000005C System.Int32 Unity.Collections.FixedString4096::CompareTo(System.String)
+extern void FixedString4096_CompareTo_mA0BEC4358623C8A251293938B5E6CA41E282A8C7 (void);
+// 0x0000005D System.Boolean Unity.Collections.FixedString4096::Equals(System.String)
+extern void FixedString4096_Equals_mAB709D2A9DDD88DD203C71072E8B68F6E44A9204 (void);
+// 0x0000005E System.String Unity.Collections.FixedString4096::ToString()
+extern void FixedString4096_ToString_m41416D5C7DCB2E1300F3FDDD396732197F17AFE5 (void);
+// 0x0000005F System.Int32 Unity.Collections.FixedString4096::GetHashCode()
+extern void FixedString4096_GetHashCode_m525D3E2B8826F873237C42FDDAF2BFC9910FA0BF (void);
+// 0x00000060 System.Boolean Unity.Collections.FixedString4096::Equals(System.Object)
+extern void FixedString4096_Equals_m21D34C5EE6ABB6242CA320B5F19407FFBD1A30F2 (void);
+// 0x00000061 System.Boolean Unity.Collections.Unicode::IsValidCodePoint(System.Int32)
+extern void Unicode_IsValidCodePoint_mA5ABC1748BA77655BB14B6CE5A08E3AD900BFC65 (void);
+// 0x00000062 System.Boolean Unity.Collections.Unicode::NotTrailer(System.Byte)
+extern void Unicode_NotTrailer_m6F4DC3FD2127DF0B548013689D074439002228CD (void);
+// 0x00000063 Unity.Collections.Unicode/Rune Unity.Collections.Unicode::get_ReplacementCharacter()
+extern void Unicode_get_ReplacementCharacter_m9377C03CB3368A7CE47382E145083FCD92E9E3A5 (void);
+// 0x00000064 Unity.Collections.ConversionError Unity.Collections.Unicode::Utf8ToUcs(Unity.Collections.Unicode/Rune&,System.Byte*,System.Int32&,System.Int32)
+extern void Unicode_Utf8ToUcs_m90897A41F2D2867E3D12450E2615ACABBE34394B (void);
+// 0x00000065 Unity.Collections.ConversionError Unity.Collections.Unicode::UcsToUtf8(System.Byte*,System.Int32&,System.Int32,Unity.Collections.Unicode/Rune)
+extern void Unicode_UcsToUtf8_m623EAE6C57FAFEA183FE149E76558A2C1955AF97 (void);
+// 0x00000066 Unity.Collections.ConversionError Unity.Collections.Unicode::UcsToUtf16(System.Char*,System.Int32&,System.Int32,Unity.Collections.Unicode/Rune)
+extern void Unicode_UcsToUtf16_m2E6DBE12EA2B10B420B4B262A7558A1936EB7737 (void);
+// 0x00000067 Unity.Collections.ConversionError Unity.Collections.Unicode::Utf8ToUtf16(System.Byte*,System.Int32,System.Char*,System.Int32&,System.Int32)
+extern void Unicode_Utf8ToUtf16_m5B93532CBC12B1F14915903F61B15FD1531B7835 (void);
+// 0x00000068 System.Void Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer::.ctor(System.Int32,System.Int32,Unity.Collections.Allocator)
+extern void UnsafeAppendBuffer__ctor_m96E148A473B7F918676D55721BD4B099D0273A98 (void);
+// 0x00000069 System.Void Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer::Dispose()
+extern void UnsafeAppendBuffer_Dispose_mE0D04A5DE0B5DC5B992C41C397B19F0C51A2370D (void);
+// 0x0000006A System.Void Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer::SetCapacity(System.Int32)
+extern void UnsafeAppendBuffer_SetCapacity_mA3EFE5DBB5B487913CC76318D694390752561F2E (void);
+// 0x0000006B System.Void Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer::Add(T)
+// 0x0000006C System.Void Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer::Add(System.Void*,System.Int32)
+extern void UnsafeAppendBuffer_Add_m0CC0047C87EE09AD534D7F2E18681ECA30F73EF8 (void);
+// 0x0000006D System.Void Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer::Add(System.String)
+extern void UnsafeAppendBuffer_Add_mEEAFB6836B6955834BE30E7770F37EED61129E44 (void);
+// 0x0000006E System.Byte[] Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer::ToBytes()
+extern void UnsafeAppendBuffer_ToBytes_m88F117B6E6915AF48EC7525D3ED8D376C6D9512A (void);
+// 0x0000006F System.Void Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader::.ctor(System.Void*,System.Int32)
+extern void Reader__ctor_m36D9B3749054F90C6F3BC7B11BAAB739E142B2F7 (void);
+// 0x00000070 System.Void Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader::ReadNext(T&)
+// 0x00000071 T Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader::ReadNext()
+// 0x00000072 System.Void* Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader::ReadNext(System.Int32)
+extern void Reader_ReadNext_m0918DFA37A7BCD503322A8AD83921CDEC856DECE (void);
+// 0x00000073 System.Void Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader::ReadNext(System.String&)
+extern void Reader_ReadNext_m735FF5A97E1EBAC32FE6E7DE516B3E8970C8695F (void);
+static Il2CppMethodPointer s_methodPointers[115] = 
+{
+	EmbeddedAttribute__ctor_mE19BFF00D03833D46FC6E6B83A9C5E708E7E665D,
+	IsReadOnlyAttribute__ctor_m34A120993044E67D397DB90FF22BBF030B5C19DC,
+	CollectionHelper_Hash_m8132774EA770BB87BF148F3B4900F64CCA47F576,
+	CollectionHelper_ShouldDeallocate_m6D7DF9147EAA0A1DE277BD90F83A97002479C616,
+	Generic_ToString_m26E69BA5CB1B90676DE079AA8FB5818298952C17,
+	Generic_GetHashCode_m3242E9DCF5FD6BD718B9E9E180F8E30848AD5B1D,
+	Generic_CompareTo_m5C6EB0022570E2F4DD0F68AF3641FAB3F8B444BF,
+	Generic_Equals_m63893563B1CD64E8D103EC424CBAAAAC19B25DC6,
+	Generic_Write_m6DEA383EF4E57E28188CD72766097E3EEE2E9B6C,
+	Generic_Base2ToBase10_m1ACE84D3428AAD0A60F8644CF96357FEC69421C7,
+	Generic_Format_m6F645F1191ED36BD0AC89B074C347AEFBAD055CE,
+	Generic_Format_mB7B387C6947568C4C69D3AFA0FF4B30F89883C31,
+	Generic_Format_m640382A73722138F4F22C9B9008BB29E9A13CA25,
+	Generic_Format_mF8892A01FC5372F4EF601AE143B9A3C164AD3D37,
+	Generic_FormatScientific_mC12B695901C8311A950BB7BFBAD241325C9FE0F5,
+	Generic_Format_m3189D75102E79C025670270B886A179A70C9D898,
+	Generic_Format_mB0C8B526F61794D1AF9EEFAE4AEF0BD816B2E04D,
+	Generic_Format_mA7B435EEA5A309C0B14263F9624C7B41FB69C91F,
+	FixedString32_EqualsIn_m4DCC44BB881B5068A46AA0391517F2CE2251CC0F,
+	FixedString32_Equals_m82D02BAD4E48E18A05E16B5D0B998442DB4B775B,
+	FixedString32_EqualsIn_mAA3E45E269B90B10DE26898FE34796CE72360E10,
+	FixedString32_Equals_m3FDCAA565BAF176480C53EF87F85B2C0EA7C331C,
+	FixedString32_EqualsIn_m132D0F5A2A87F3223C50536923CDB9FEF2AB70F5,
+	FixedString32_Equals_mB9B26F3F0D3B62641279D60C4B56FB4504FF2E44,
+	FixedString32_EqualsIn_m435F0367DC050C96352DE3310CF6C32A368E7DEF,
+	FixedString32_Equals_mBBDC3C2A574AD4D8A4B89CA83FB8617091659983,
+	FixedString32_EqualsIn_m952721D6E1C0ED45D82C0A42B93A2DDE1D639F77,
+	FixedString32_Equals_m485DD31ED9FA7E21D43247AF9B45024D1BF1EC3F,
+	FixedString32_CompareTo_mD6EDF66C86727139A223A75CBAFC991F60289051,
+	FixedString32_Equals_m7866EB03EBC848CAC8314F544C3DE14793408902,
+	FixedString32_ToString_m2A525FA192533906B6B9F9AFBEC549171B77C696,
+	FixedString32_GetHashCode_m442C97EC09D7A76F9AACF129C8258A87AA9F9C99,
+	FixedString32_Equals_m56E76890520B85E545FC61A43F9DFAA1EC7466FA,
+	FixedString64_EqualsIn_mCAD21A6E8BDCD7CC9A3E0BC0016FDC26393DE11C,
+	FixedString64_Equals_mE273A8AD6C92864533BEEB57AE23037A827AF234,
+	FixedString64_EqualsIn_mEC89A7211EF38063E311EF570F2E935D241BFEC4,
+	FixedString64_Equals_m3AA4D90766D1876C2AED1B63BAF0D033192822F9,
+	FixedString64_EqualsIn_m5DA5B325B4F2B418D09EAC7198238429BC2BF561,
+	FixedString64_Equals_mCA71D2AB937411A3016DED87C71A340CCD274D0D,
+	FixedString64_EqualsIn_m04F66551612F8A9F5CA73B32D59321EDEB3954A0,
+	FixedString64_Equals_m1940068D53FDAE0D2327BFC44054F01CE62CF5E9,
+	FixedString64_EqualsIn_m617D541BCCCD4AB4C083CC9DFD0A851C7114B4C1,
+	FixedString64_Equals_mC71A9DD70D3252CA89562EABF748189761E17CCC,
+	FixedString64_CompareTo_mCFB9F6E9E7DBD0CA133A65A40D8D205188CAE3F5,
+	FixedString64_Equals_mD7831C85B35D02745D5E6B5BBDBE129AB9DB2A54,
+	FixedString64_ToString_m193DAAEE8DE7176C2855B2CCCC09B2344379A43B,
+	FixedString64_GetHashCode_m2DC08BF25ACB1E017F4FA733873498FF45CF3F55,
+	FixedString64_Equals_m2E17841930B04C1BEF217842410EB1F43C7791A8,
+	FixedString128_Format_m4EEEDC115683A36AC382A09E84EA648726A3C877,
+	FixedString128_Format_m29CE662F57EEBDC7F03E1885654C19DF13FEE046,
+	FixedString128_Format_m6B256D28D36540C2C09586C320E7D95E1D4EEAE2,
+	FixedString128_EqualsIn_mFB3DCF9B98869D8024FE1C29333C238D6FD2251B,
+	FixedString128_Equals_mCAD2F3D7B20263B3EDD59EAFE07295C7B5D9A1D9,
+	FixedString128_EqualsIn_mBDBFFF0424066646BD11A8A81E53006BEF55A76A,
+	FixedString128_Equals_m8619021E0487A583DEB4CDE7A820D31A172A66F0,
+	FixedString128_EqualsIn_m1802B4942A890430BA7D2685A627CA1936EDFB96,
+	FixedString128_Equals_mB04DBC0F2781AA2ED4A7713125B1AA566E42C7FB,
+	FixedString128_EqualsIn_m0AC2DEB9DE0B30FD2415191C4501DE7034477290,
+	FixedString128_Equals_m538B4746159D37ADF5863F1C83439C57F10E017C,
+	FixedString128_EqualsIn_m1D5545321D41272A9420907335994782C329F344,
+	FixedString128_Equals_m95F814040036358AB2F7289D578B5B30716638C1,
+	FixedString128_CompareTo_m4B5B5F811BA89526E794908C8B42A2DDE3636772,
+	FixedString128_Equals_mBE2463F1F290A035D75D9B80C50DC4C63F9B7F31,
+	FixedString128_ToString_m233EC49BA861899541287880131606217F8D38C3,
+	FixedString128_GetHashCode_m1435AC65AC9C4C5203B330539694272F10EC2C17,
+	FixedString128_Equals_mDD60D226A66F0DAE92E8C75CE3B9E408A7277390,
+	FixedString512_EqualsIn_m87933B957ACDFD71B06E710442355291C6007933,
+	FixedString512_Equals_m85CEB61D68CF928B10071BC355DC714BD611FBCE,
+	FixedString512_EqualsIn_m54A9829C05BEC4E3C9C9E71A9A7D6768C5EFED6F,
+	FixedString512_Equals_m1CB1B89C518A15CECF6187DC0E58E9FA5155669E,
+	FixedString512_EqualsIn_m43417B48635FD23E8AF2CB40922A359733584241,
+	FixedString512_Equals_m071985494C43832113AA76D8FBE079F860CDD14B,
+	FixedString512_EqualsIn_m6078E6CBF4E3339ACD9CB18ED5C015F7741B69FF,
+	FixedString512_Equals_m5B3C587FD290EC48C03650B2EC08E084477B43C1,
+	FixedString512_EqualsIn_m29D013C0E3A7845421C6AEE8728C5C15972FF320,
+	FixedString512_Equals_m9B7698CF53FD7A988243068267AF5EEFCDA82388,
+	FixedString512_CompareTo_mBA6ADD6EC8EEBAAE27C4A67EFA6EB38D9DFD5A8D,
+	FixedString512_Equals_m6E1A619CEBCD3D957FD9360A66BBEEDEB9F6C922,
+	FixedString512_ToString_mFC6FB3EDEE271A80AC3A55366F4CE16FFA44B5E9,
+	FixedString512_GetHashCode_mF528B35A02C3CFD98A4E33F771FE15C33CEFF8D0,
+	FixedString512_Equals_mE7E1C6E3451755D79FF85B8B9C88BD3C2AA073EF,
+	FixedString4096_EqualsIn_m424D9BB25601FE3A90369AFF6814B6A2E0E40AE6,
+	FixedString4096_Equals_mF500D7BC3F27D7C43849F78F83F3AFA70026B052,
+	FixedString4096_EqualsIn_mAB156606579D5A13BACBEFAF6E43BC2661AA433B,
+	FixedString4096_Equals_mC5A9EA82F7FB065C23E9F05E430CB1FEF34D9763,
+	FixedString4096_EqualsIn_mABE03FF84ECE69C37978AC416D8C2D2A98B3DFE3,
+	FixedString4096_Equals_m61970FA44BE910969334A33EE33DC72CE94BC089,
+	FixedString4096_EqualsIn_mDF80B672E1B28EC876323618EB358EEF552C5DDC,
+	FixedString4096_Equals_mDFFD640A53CC97BB1F472D83703242515EBD3241,
+	FixedString4096_EqualsIn_mB41A5D6704C9BDB5EACC9B9A171DD85ADFA022BC,
+	FixedString4096_Equals_m57C5A3C1AD8F10CCA3B42CAD292A379CC2E8A074,
+	FixedString4096_CompareTo_mA0BEC4358623C8A251293938B5E6CA41E282A8C7,
+	FixedString4096_Equals_mAB709D2A9DDD88DD203C71072E8B68F6E44A9204,
+	FixedString4096_ToString_m41416D5C7DCB2E1300F3FDDD396732197F17AFE5,
+	FixedString4096_GetHashCode_m525D3E2B8826F873237C42FDDAF2BFC9910FA0BF,
+	FixedString4096_Equals_m21D34C5EE6ABB6242CA320B5F19407FFBD1A30F2,
+	Unicode_IsValidCodePoint_mA5ABC1748BA77655BB14B6CE5A08E3AD900BFC65,
+	Unicode_NotTrailer_m6F4DC3FD2127DF0B548013689D074439002228CD,
+	Unicode_get_ReplacementCharacter_m9377C03CB3368A7CE47382E145083FCD92E9E3A5,
+	Unicode_Utf8ToUcs_m90897A41F2D2867E3D12450E2615ACABBE34394B,
+	Unicode_UcsToUtf8_m623EAE6C57FAFEA183FE149E76558A2C1955AF97,
+	Unicode_UcsToUtf16_m2E6DBE12EA2B10B420B4B262A7558A1936EB7737,
+	Unicode_Utf8ToUtf16_m5B93532CBC12B1F14915903F61B15FD1531B7835,
+	UnsafeAppendBuffer__ctor_m96E148A473B7F918676D55721BD4B099D0273A98,
+	UnsafeAppendBuffer_Dispose_mE0D04A5DE0B5DC5B992C41C397B19F0C51A2370D,
+	UnsafeAppendBuffer_SetCapacity_mA3EFE5DBB5B487913CC76318D694390752561F2E,
+	NULL,
+	UnsafeAppendBuffer_Add_m0CC0047C87EE09AD534D7F2E18681ECA30F73EF8,
+	UnsafeAppendBuffer_Add_mEEAFB6836B6955834BE30E7770F37EED61129E44,
+	UnsafeAppendBuffer_ToBytes_m88F117B6E6915AF48EC7525D3ED8D376C6D9512A,
+	Reader__ctor_m36D9B3749054F90C6F3BC7B11BAAB739E142B2F7,
+	NULL,
+	NULL,
+	Reader_ReadNext_m0918DFA37A7BCD503322A8AD83921CDEC856DECE,
+	Reader_ReadNext_m735FF5A97E1EBAC32FE6E7DE516B3E8970C8695F,
+};
+extern void Generic_ToString_m26E69BA5CB1B90676DE079AA8FB5818298952C17_AdjustorThunk (void);
+extern void Generic_GetHashCode_m3242E9DCF5FD6BD718B9E9E180F8E30848AD5B1D_AdjustorThunk (void);
+extern void Generic_Write_m6DEA383EF4E57E28188CD72766097E3EEE2E9B6C_AdjustorThunk (void);
+extern void Generic_Format_m6F645F1191ED36BD0AC89B074C347AEFBAD055CE_AdjustorThunk (void);
+extern void Generic_Format_mB7B387C6947568C4C69D3AFA0FF4B30F89883C31_AdjustorThunk (void);
+extern void Generic_Format_m640382A73722138F4F22C9B9008BB29E9A13CA25_AdjustorThunk (void);
+extern void Generic_Format_mF8892A01FC5372F4EF601AE143B9A3C164AD3D37_AdjustorThunk (void);
+extern void Generic_FormatScientific_mC12B695901C8311A950BB7BFBAD241325C9FE0F5_AdjustorThunk (void);
+extern void Generic_Format_m3189D75102E79C025670270B886A179A70C9D898_AdjustorThunk (void);
+extern void Generic_Format_mB0C8B526F61794D1AF9EEFAE4AEF0BD816B2E04D_AdjustorThunk (void);
+extern void Generic_Format_mA7B435EEA5A309C0B14263F9624C7B41FB69C91F_AdjustorThunk (void);
+extern void FixedString32_EqualsIn_m4DCC44BB881B5068A46AA0391517F2CE2251CC0F_AdjustorThunk (void);
+extern void FixedString32_Equals_m82D02BAD4E48E18A05E16B5D0B998442DB4B775B_AdjustorThunk (void);
+extern void FixedString32_EqualsIn_mAA3E45E269B90B10DE26898FE34796CE72360E10_AdjustorThunk (void);
+extern void FixedString32_Equals_m3FDCAA565BAF176480C53EF87F85B2C0EA7C331C_AdjustorThunk (void);
+extern void FixedString32_EqualsIn_m132D0F5A2A87F3223C50536923CDB9FEF2AB70F5_AdjustorThunk (void);
+extern void FixedString32_Equals_mB9B26F3F0D3B62641279D60C4B56FB4504FF2E44_AdjustorThunk (void);
+extern void FixedString32_EqualsIn_m435F0367DC050C96352DE3310CF6C32A368E7DEF_AdjustorThunk (void);
+extern void FixedString32_Equals_mBBDC3C2A574AD4D8A4B89CA83FB8617091659983_AdjustorThunk (void);
+extern void FixedString32_EqualsIn_m952721D6E1C0ED45D82C0A42B93A2DDE1D639F77_AdjustorThunk (void);
+extern void FixedString32_Equals_m485DD31ED9FA7E21D43247AF9B45024D1BF1EC3F_AdjustorThunk (void);
+extern void FixedString32_CompareTo_mD6EDF66C86727139A223A75CBAFC991F60289051_AdjustorThunk (void);
+extern void FixedString32_Equals_m7866EB03EBC848CAC8314F544C3DE14793408902_AdjustorThunk (void);
+extern void FixedString32_ToString_m2A525FA192533906B6B9F9AFBEC549171B77C696_AdjustorThunk (void);
+extern void FixedString32_GetHashCode_m442C97EC09D7A76F9AACF129C8258A87AA9F9C99_AdjustorThunk (void);
+extern void FixedString32_Equals_m56E76890520B85E545FC61A43F9DFAA1EC7466FA_AdjustorThunk (void);
+extern void FixedString64_EqualsIn_mCAD21A6E8BDCD7CC9A3E0BC0016FDC26393DE11C_AdjustorThunk (void);
+extern void FixedString64_Equals_mE273A8AD6C92864533BEEB57AE23037A827AF234_AdjustorThunk (void);
+extern void FixedString64_EqualsIn_mEC89A7211EF38063E311EF570F2E935D241BFEC4_AdjustorThunk (void);
+extern void FixedString64_Equals_m3AA4D90766D1876C2AED1B63BAF0D033192822F9_AdjustorThunk (void);
+extern void FixedString64_EqualsIn_m5DA5B325B4F2B418D09EAC7198238429BC2BF561_AdjustorThunk (void);
+extern void FixedString64_Equals_mCA71D2AB937411A3016DED87C71A340CCD274D0D_AdjustorThunk (void);
+extern void FixedString64_EqualsIn_m04F66551612F8A9F5CA73B32D59321EDEB3954A0_AdjustorThunk (void);
+extern void FixedString64_Equals_m1940068D53FDAE0D2327BFC44054F01CE62CF5E9_AdjustorThunk (void);
+extern void FixedString64_EqualsIn_m617D541BCCCD4AB4C083CC9DFD0A851C7114B4C1_AdjustorThunk (void);
+extern void FixedString64_Equals_mC71A9DD70D3252CA89562EABF748189761E17CCC_AdjustorThunk (void);
+extern void FixedString64_CompareTo_mCFB9F6E9E7DBD0CA133A65A40D8D205188CAE3F5_AdjustorThunk (void);
+extern void FixedString64_Equals_mD7831C85B35D02745D5E6B5BBDBE129AB9DB2A54_AdjustorThunk (void);
+extern void FixedString64_ToString_m193DAAEE8DE7176C2855B2CCCC09B2344379A43B_AdjustorThunk (void);
+extern void FixedString64_GetHashCode_m2DC08BF25ACB1E017F4FA733873498FF45CF3F55_AdjustorThunk (void);
+extern void FixedString64_Equals_m2E17841930B04C1BEF217842410EB1F43C7791A8_AdjustorThunk (void);
+extern void FixedString128_Format_m4EEEDC115683A36AC382A09E84EA648726A3C877_AdjustorThunk (void);
+extern void FixedString128_Format_m29CE662F57EEBDC7F03E1885654C19DF13FEE046_AdjustorThunk (void);
+extern void FixedString128_Format_m6B256D28D36540C2C09586C320E7D95E1D4EEAE2_AdjustorThunk (void);
+extern void FixedString128_EqualsIn_mFB3DCF9B98869D8024FE1C29333C238D6FD2251B_AdjustorThunk (void);
+extern void FixedString128_Equals_mCAD2F3D7B20263B3EDD59EAFE07295C7B5D9A1D9_AdjustorThunk (void);
+extern void FixedString128_EqualsIn_mBDBFFF0424066646BD11A8A81E53006BEF55A76A_AdjustorThunk (void);
+extern void FixedString128_Equals_m8619021E0487A583DEB4CDE7A820D31A172A66F0_AdjustorThunk (void);
+extern void FixedString128_EqualsIn_m1802B4942A890430BA7D2685A627CA1936EDFB96_AdjustorThunk (void);
+extern void FixedString128_Equals_mB04DBC0F2781AA2ED4A7713125B1AA566E42C7FB_AdjustorThunk (void);
+extern void FixedString128_EqualsIn_m0AC2DEB9DE0B30FD2415191C4501DE7034477290_AdjustorThunk (void);
+extern void FixedString128_Equals_m538B4746159D37ADF5863F1C83439C57F10E017C_AdjustorThunk (void);
+extern void FixedString128_EqualsIn_m1D5545321D41272A9420907335994782C329F344_AdjustorThunk (void);
+extern void FixedString128_Equals_m95F814040036358AB2F7289D578B5B30716638C1_AdjustorThunk (void);
+extern void FixedString128_CompareTo_m4B5B5F811BA89526E794908C8B42A2DDE3636772_AdjustorThunk (void);
+extern void FixedString128_Equals_mBE2463F1F290A035D75D9B80C50DC4C63F9B7F31_AdjustorThunk (void);
+extern void FixedString128_ToString_m233EC49BA861899541287880131606217F8D38C3_AdjustorThunk (void);
+extern void FixedString128_GetHashCode_m1435AC65AC9C4C5203B330539694272F10EC2C17_AdjustorThunk (void);
+extern void FixedString128_Equals_mDD60D226A66F0DAE92E8C75CE3B9E408A7277390_AdjustorThunk (void);
+extern void FixedString512_EqualsIn_m87933B957ACDFD71B06E710442355291C6007933_AdjustorThunk (void);
+extern void FixedString512_Equals_m85CEB61D68CF928B10071BC355DC714BD611FBCE_AdjustorThunk (void);
+extern void FixedString512_EqualsIn_m54A9829C05BEC4E3C9C9E71A9A7D6768C5EFED6F_AdjustorThunk (void);
+extern void FixedString512_Equals_m1CB1B89C518A15CECF6187DC0E58E9FA5155669E_AdjustorThunk (void);
+extern void FixedString512_EqualsIn_m43417B48635FD23E8AF2CB40922A359733584241_AdjustorThunk (void);
+extern void FixedString512_Equals_m071985494C43832113AA76D8FBE079F860CDD14B_AdjustorThunk (void);
+extern void FixedString512_EqualsIn_m6078E6CBF4E3339ACD9CB18ED5C015F7741B69FF_AdjustorThunk (void);
+extern void FixedString512_Equals_m5B3C587FD290EC48C03650B2EC08E084477B43C1_AdjustorThunk (void);
+extern void FixedString512_EqualsIn_m29D013C0E3A7845421C6AEE8728C5C15972FF320_AdjustorThunk (void);
+extern void FixedString512_Equals_m9B7698CF53FD7A988243068267AF5EEFCDA82388_AdjustorThunk (void);
+extern void FixedString512_CompareTo_mBA6ADD6EC8EEBAAE27C4A67EFA6EB38D9DFD5A8D_AdjustorThunk (void);
+extern void FixedString512_Equals_m6E1A619CEBCD3D957FD9360A66BBEEDEB9F6C922_AdjustorThunk (void);
+extern void FixedString512_ToString_mFC6FB3EDEE271A80AC3A55366F4CE16FFA44B5E9_AdjustorThunk (void);
+extern void FixedString512_GetHashCode_mF528B35A02C3CFD98A4E33F771FE15C33CEFF8D0_AdjustorThunk (void);
+extern void FixedString512_Equals_mE7E1C6E3451755D79FF85B8B9C88BD3C2AA073EF_AdjustorThunk (void);
+extern void FixedString4096_EqualsIn_m424D9BB25601FE3A90369AFF6814B6A2E0E40AE6_AdjustorThunk (void);
+extern void FixedString4096_Equals_mF500D7BC3F27D7C43849F78F83F3AFA70026B052_AdjustorThunk (void);
+extern void FixedString4096_EqualsIn_mAB156606579D5A13BACBEFAF6E43BC2661AA433B_AdjustorThunk (void);
+extern void FixedString4096_Equals_mC5A9EA82F7FB065C23E9F05E430CB1FEF34D9763_AdjustorThunk (void);
+extern void FixedString4096_EqualsIn_mABE03FF84ECE69C37978AC416D8C2D2A98B3DFE3_AdjustorThunk (void);
+extern void FixedString4096_Equals_m61970FA44BE910969334A33EE33DC72CE94BC089_AdjustorThunk (void);
+extern void FixedString4096_EqualsIn_mDF80B672E1B28EC876323618EB358EEF552C5DDC_AdjustorThunk (void);
+extern void FixedString4096_Equals_mDFFD640A53CC97BB1F472D83703242515EBD3241_AdjustorThunk (void);
+extern void FixedString4096_EqualsIn_mB41A5D6704C9BDB5EACC9B9A171DD85ADFA022BC_AdjustorThunk (void);
+extern void FixedString4096_Equals_m57C5A3C1AD8F10CCA3B42CAD292A379CC2E8A074_AdjustorThunk (void);
+extern void FixedString4096_CompareTo_mA0BEC4358623C8A251293938B5E6CA41E282A8C7_AdjustorThunk (void);
+extern void FixedString4096_Equals_mAB709D2A9DDD88DD203C71072E8B68F6E44A9204_AdjustorThunk (void);
+extern void FixedString4096_ToString_m41416D5C7DCB2E1300F3FDDD396732197F17AFE5_AdjustorThunk (void);
+extern void FixedString4096_GetHashCode_m525D3E2B8826F873237C42FDDAF2BFC9910FA0BF_AdjustorThunk (void);
+extern void FixedString4096_Equals_m21D34C5EE6ABB6242CA320B5F19407FFBD1A30F2_AdjustorThunk (void);
+extern void UnsafeAppendBuffer__ctor_m96E148A473B7F918676D55721BD4B099D0273A98_AdjustorThunk (void);
+extern void UnsafeAppendBuffer_Dispose_mE0D04A5DE0B5DC5B992C41C397B19F0C51A2370D_AdjustorThunk (void);
+extern void UnsafeAppendBuffer_SetCapacity_mA3EFE5DBB5B487913CC76318D694390752561F2E_AdjustorThunk (void);
+extern void UnsafeAppendBuffer_Add_m0CC0047C87EE09AD534D7F2E18681ECA30F73EF8_AdjustorThunk (void);
+extern void UnsafeAppendBuffer_Add_mEEAFB6836B6955834BE30E7770F37EED61129E44_AdjustorThunk (void);
+extern void UnsafeAppendBuffer_ToBytes_m88F117B6E6915AF48EC7525D3ED8D376C6D9512A_AdjustorThunk (void);
+extern void Reader__ctor_m36D9B3749054F90C6F3BC7B11BAAB739E142B2F7_AdjustorThunk (void);
+extern void Reader_ReadNext_m0918DFA37A7BCD503322A8AD83921CDEC856DECE_AdjustorThunk (void);
+extern void Reader_ReadNext_m735FF5A97E1EBAC32FE6E7DE516B3E8970C8695F_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[98] = 
+{
+	{ 0x06000005, Generic_ToString_m26E69BA5CB1B90676DE079AA8FB5818298952C17_AdjustorThunk },
+	{ 0x06000006, Generic_GetHashCode_m3242E9DCF5FD6BD718B9E9E180F8E30848AD5B1D_AdjustorThunk },
+	{ 0x06000009, Generic_Write_m6DEA383EF4E57E28188CD72766097E3EEE2E9B6C_AdjustorThunk },
+	{ 0x0600000B, Generic_Format_m6F645F1191ED36BD0AC89B074C347AEFBAD055CE_AdjustorThunk },
+	{ 0x0600000C, Generic_Format_mB7B387C6947568C4C69D3AFA0FF4B30F89883C31_AdjustorThunk },
+	{ 0x0600000D, Generic_Format_m640382A73722138F4F22C9B9008BB29E9A13CA25_AdjustorThunk },
+	{ 0x0600000E, Generic_Format_mF8892A01FC5372F4EF601AE143B9A3C164AD3D37_AdjustorThunk },
+	{ 0x0600000F, Generic_FormatScientific_mC12B695901C8311A950BB7BFBAD241325C9FE0F5_AdjustorThunk },
+	{ 0x06000010, Generic_Format_m3189D75102E79C025670270B886A179A70C9D898_AdjustorThunk },
+	{ 0x06000011, Generic_Format_mB0C8B526F61794D1AF9EEFAE4AEF0BD816B2E04D_AdjustorThunk },
+	{ 0x06000012, Generic_Format_mA7B435EEA5A309C0B14263F9624C7B41FB69C91F_AdjustorThunk },
+	{ 0x06000013, FixedString32_EqualsIn_m4DCC44BB881B5068A46AA0391517F2CE2251CC0F_AdjustorThunk },
+	{ 0x06000014, FixedString32_Equals_m82D02BAD4E48E18A05E16B5D0B998442DB4B775B_AdjustorThunk },
+	{ 0x06000015, FixedString32_EqualsIn_mAA3E45E269B90B10DE26898FE34796CE72360E10_AdjustorThunk },
+	{ 0x06000016, FixedString32_Equals_m3FDCAA565BAF176480C53EF87F85B2C0EA7C331C_AdjustorThunk },
+	{ 0x06000017, FixedString32_EqualsIn_m132D0F5A2A87F3223C50536923CDB9FEF2AB70F5_AdjustorThunk },
+	{ 0x06000018, FixedString32_Equals_mB9B26F3F0D3B62641279D60C4B56FB4504FF2E44_AdjustorThunk },
+	{ 0x06000019, FixedString32_EqualsIn_m435F0367DC050C96352DE3310CF6C32A368E7DEF_AdjustorThunk },
+	{ 0x0600001A, FixedString32_Equals_mBBDC3C2A574AD4D8A4B89CA83FB8617091659983_AdjustorThunk },
+	{ 0x0600001B, FixedString32_EqualsIn_m952721D6E1C0ED45D82C0A42B93A2DDE1D639F77_AdjustorThunk },
+	{ 0x0600001C, FixedString32_Equals_m485DD31ED9FA7E21D43247AF9B45024D1BF1EC3F_AdjustorThunk },
+	{ 0x0600001D, FixedString32_CompareTo_mD6EDF66C86727139A223A75CBAFC991F60289051_AdjustorThunk },
+	{ 0x0600001E, FixedString32_Equals_m7866EB03EBC848CAC8314F544C3DE14793408902_AdjustorThunk },
+	{ 0x0600001F, FixedString32_ToString_m2A525FA192533906B6B9F9AFBEC549171B77C696_AdjustorThunk },
+	{ 0x06000020, FixedString32_GetHashCode_m442C97EC09D7A76F9AACF129C8258A87AA9F9C99_AdjustorThunk },
+	{ 0x06000021, FixedString32_Equals_m56E76890520B85E545FC61A43F9DFAA1EC7466FA_AdjustorThunk },
+	{ 0x06000022, FixedString64_EqualsIn_mCAD21A6E8BDCD7CC9A3E0BC0016FDC26393DE11C_AdjustorThunk },
+	{ 0x06000023, FixedString64_Equals_mE273A8AD6C92864533BEEB57AE23037A827AF234_AdjustorThunk },
+	{ 0x06000024, FixedString64_EqualsIn_mEC89A7211EF38063E311EF570F2E935D241BFEC4_AdjustorThunk },
+	{ 0x06000025, FixedString64_Equals_m3AA4D90766D1876C2AED1B63BAF0D033192822F9_AdjustorThunk },
+	{ 0x06000026, FixedString64_EqualsIn_m5DA5B325B4F2B418D09EAC7198238429BC2BF561_AdjustorThunk },
+	{ 0x06000027, FixedString64_Equals_mCA71D2AB937411A3016DED87C71A340CCD274D0D_AdjustorThunk },
+	{ 0x06000028, FixedString64_EqualsIn_m04F66551612F8A9F5CA73B32D59321EDEB3954A0_AdjustorThunk },
+	{ 0x06000029, FixedString64_Equals_m1940068D53FDAE0D2327BFC44054F01CE62CF5E9_AdjustorThunk },
+	{ 0x0600002A, FixedString64_EqualsIn_m617D541BCCCD4AB4C083CC9DFD0A851C7114B4C1_AdjustorThunk },
+	{ 0x0600002B, FixedString64_Equals_mC71A9DD70D3252CA89562EABF748189761E17CCC_AdjustorThunk },
+	{ 0x0600002C, FixedString64_CompareTo_mCFB9F6E9E7DBD0CA133A65A40D8D205188CAE3F5_AdjustorThunk },
+	{ 0x0600002D, FixedString64_Equals_mD7831C85B35D02745D5E6B5BBDBE129AB9DB2A54_AdjustorThunk },
+	{ 0x0600002E, FixedString64_ToString_m193DAAEE8DE7176C2855B2CCCC09B2344379A43B_AdjustorThunk },
+	{ 0x0600002F, FixedString64_GetHashCode_m2DC08BF25ACB1E017F4FA733873498FF45CF3F55_AdjustorThunk },
+	{ 0x06000030, FixedString64_Equals_m2E17841930B04C1BEF217842410EB1F43C7791A8_AdjustorThunk },
+	{ 0x06000031, FixedString128_Format_m4EEEDC115683A36AC382A09E84EA648726A3C877_AdjustorThunk },
+	{ 0x06000032, FixedString128_Format_m29CE662F57EEBDC7F03E1885654C19DF13FEE046_AdjustorThunk },
+	{ 0x06000033, FixedString128_Format_m6B256D28D36540C2C09586C320E7D95E1D4EEAE2_AdjustorThunk },
+	{ 0x06000034, FixedString128_EqualsIn_mFB3DCF9B98869D8024FE1C29333C238D6FD2251B_AdjustorThunk },
+	{ 0x06000035, FixedString128_Equals_mCAD2F3D7B20263B3EDD59EAFE07295C7B5D9A1D9_AdjustorThunk },
+	{ 0x06000036, FixedString128_EqualsIn_mBDBFFF0424066646BD11A8A81E53006BEF55A76A_AdjustorThunk },
+	{ 0x06000037, FixedString128_Equals_m8619021E0487A583DEB4CDE7A820D31A172A66F0_AdjustorThunk },
+	{ 0x06000038, FixedString128_EqualsIn_m1802B4942A890430BA7D2685A627CA1936EDFB96_AdjustorThunk },
+	{ 0x06000039, FixedString128_Equals_mB04DBC0F2781AA2ED4A7713125B1AA566E42C7FB_AdjustorThunk },
+	{ 0x0600003A, FixedString128_EqualsIn_m0AC2DEB9DE0B30FD2415191C4501DE7034477290_AdjustorThunk },
+	{ 0x0600003B, FixedString128_Equals_m538B4746159D37ADF5863F1C83439C57F10E017C_AdjustorThunk },
+	{ 0x0600003C, FixedString128_EqualsIn_m1D5545321D41272A9420907335994782C329F344_AdjustorThunk },
+	{ 0x0600003D, FixedString128_Equals_m95F814040036358AB2F7289D578B5B30716638C1_AdjustorThunk },
+	{ 0x0600003E, FixedString128_CompareTo_m4B5B5F811BA89526E794908C8B42A2DDE3636772_AdjustorThunk },
+	{ 0x0600003F, FixedString128_Equals_mBE2463F1F290A035D75D9B80C50DC4C63F9B7F31_AdjustorThunk },
+	{ 0x06000040, FixedString128_ToString_m233EC49BA861899541287880131606217F8D38C3_AdjustorThunk },
+	{ 0x06000041, FixedString128_GetHashCode_m1435AC65AC9C4C5203B330539694272F10EC2C17_AdjustorThunk },
+	{ 0x06000042, FixedString128_Equals_mDD60D226A66F0DAE92E8C75CE3B9E408A7277390_AdjustorThunk },
+	{ 0x06000043, FixedString512_EqualsIn_m87933B957ACDFD71B06E710442355291C6007933_AdjustorThunk },
+	{ 0x06000044, FixedString512_Equals_m85CEB61D68CF928B10071BC355DC714BD611FBCE_AdjustorThunk },
+	{ 0x06000045, FixedString512_EqualsIn_m54A9829C05BEC4E3C9C9E71A9A7D6768C5EFED6F_AdjustorThunk },
+	{ 0x06000046, FixedString512_Equals_m1CB1B89C518A15CECF6187DC0E58E9FA5155669E_AdjustorThunk },
+	{ 0x06000047, FixedString512_EqualsIn_m43417B48635FD23E8AF2CB40922A359733584241_AdjustorThunk },
+	{ 0x06000048, FixedString512_Equals_m071985494C43832113AA76D8FBE079F860CDD14B_AdjustorThunk },
+	{ 0x06000049, FixedString512_EqualsIn_m6078E6CBF4E3339ACD9CB18ED5C015F7741B69FF_AdjustorThunk },
+	{ 0x0600004A, FixedString512_Equals_m5B3C587FD290EC48C03650B2EC08E084477B43C1_AdjustorThunk },
+	{ 0x0600004B, FixedString512_EqualsIn_m29D013C0E3A7845421C6AEE8728C5C15972FF320_AdjustorThunk },
+	{ 0x0600004C, FixedString512_Equals_m9B7698CF53FD7A988243068267AF5EEFCDA82388_AdjustorThunk },
+	{ 0x0600004D, FixedString512_CompareTo_mBA6ADD6EC8EEBAAE27C4A67EFA6EB38D9DFD5A8D_AdjustorThunk },
+	{ 0x0600004E, FixedString512_Equals_m6E1A619CEBCD3D957FD9360A66BBEEDEB9F6C922_AdjustorThunk },
+	{ 0x0600004F, FixedString512_ToString_mFC6FB3EDEE271A80AC3A55366F4CE16FFA44B5E9_AdjustorThunk },
+	{ 0x06000050, FixedString512_GetHashCode_mF528B35A02C3CFD98A4E33F771FE15C33CEFF8D0_AdjustorThunk },
+	{ 0x06000051, FixedString512_Equals_mE7E1C6E3451755D79FF85B8B9C88BD3C2AA073EF_AdjustorThunk },
+	{ 0x06000052, FixedString4096_EqualsIn_m424D9BB25601FE3A90369AFF6814B6A2E0E40AE6_AdjustorThunk },
+	{ 0x06000053, FixedString4096_Equals_mF500D7BC3F27D7C43849F78F83F3AFA70026B052_AdjustorThunk },
+	{ 0x06000054, FixedString4096_EqualsIn_mAB156606579D5A13BACBEFAF6E43BC2661AA433B_AdjustorThunk },
+	{ 0x06000055, FixedString4096_Equals_mC5A9EA82F7FB065C23E9F05E430CB1FEF34D9763_AdjustorThunk },
+	{ 0x06000056, FixedString4096_EqualsIn_mABE03FF84ECE69C37978AC416D8C2D2A98B3DFE3_AdjustorThunk },
+	{ 0x06000057, FixedString4096_Equals_m61970FA44BE910969334A33EE33DC72CE94BC089_AdjustorThunk },
+	{ 0x06000058, FixedString4096_EqualsIn_mDF80B672E1B28EC876323618EB358EEF552C5DDC_AdjustorThunk },
+	{ 0x06000059, FixedString4096_Equals_mDFFD640A53CC97BB1F472D83703242515EBD3241_AdjustorThunk },
+	{ 0x0600005A, FixedString4096_EqualsIn_mB41A5D6704C9BDB5EACC9B9A171DD85ADFA022BC_AdjustorThunk },
+	{ 0x0600005B, FixedString4096_Equals_m57C5A3C1AD8F10CCA3B42CAD292A379CC2E8A074_AdjustorThunk },
+	{ 0x0600005C, FixedString4096_CompareTo_mA0BEC4358623C8A251293938B5E6CA41E282A8C7_AdjustorThunk },
+	{ 0x0600005D, FixedString4096_Equals_mAB709D2A9DDD88DD203C71072E8B68F6E44A9204_AdjustorThunk },
+	{ 0x0600005E, FixedString4096_ToString_m41416D5C7DCB2E1300F3FDDD396732197F17AFE5_AdjustorThunk },
+	{ 0x0600005F, FixedString4096_GetHashCode_m525D3E2B8826F873237C42FDDAF2BFC9910FA0BF_AdjustorThunk },
+	{ 0x06000060, FixedString4096_Equals_m21D34C5EE6ABB6242CA320B5F19407FFBD1A30F2_AdjustorThunk },
+	{ 0x06000068, UnsafeAppendBuffer__ctor_m96E148A473B7F918676D55721BD4B099D0273A98_AdjustorThunk },
+	{ 0x06000069, UnsafeAppendBuffer_Dispose_mE0D04A5DE0B5DC5B992C41C397B19F0C51A2370D_AdjustorThunk },
+	{ 0x0600006A, UnsafeAppendBuffer_SetCapacity_mA3EFE5DBB5B487913CC76318D694390752561F2E_AdjustorThunk },
+	{ 0x0600006C, UnsafeAppendBuffer_Add_m0CC0047C87EE09AD534D7F2E18681ECA30F73EF8_AdjustorThunk },
+	{ 0x0600006D, UnsafeAppendBuffer_Add_mEEAFB6836B6955834BE30E7770F37EED61129E44_AdjustorThunk },
+	{ 0x0600006E, UnsafeAppendBuffer_ToBytes_m88F117B6E6915AF48EC7525D3ED8D376C6D9512A_AdjustorThunk },
+	{ 0x0600006F, Reader__ctor_m36D9B3749054F90C6F3BC7B11BAAB739E142B2F7_AdjustorThunk },
+	{ 0x06000072, Reader_ReadNext_m0918DFA37A7BCD503322A8AD83921CDEC856DECE_AdjustorThunk },
+	{ 0x06000073, Reader_ReadNext_m735FF5A97E1EBAC32FE6E7DE516B3E8970C8695F_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[115] = 
+{
+	4526,
+	4526,
+	5800,
+	6585,
+	4428,
+	4401,
+	5004,
+	5165,
+	1490,
+	5573,
+	2444,
+	1192,
+	736,
+	69,
+	330,
+	2446,
+	2445,
+	1230,
+	2951,
+	3017,
+	2951,
+	3020,
+	2951,
+	3016,
+	2951,
+	3019,
+	2951,
+	3018,
+	2463,
+	3070,
+	4428,
+	4401,
+	3070,
+	2951,
+	3017,
+	2951,
+	3020,
+	2951,
+	3016,
+	2951,
+	3019,
+	2951,
+	3018,
+	2463,
+	3070,
+	4428,
+	4401,
+	3070,
+	2445,
+	2446,
+	1230,
+	2951,
+	3017,
+	2951,
+	3020,
+	2951,
+	3016,
+	2951,
+	3019,
+	2951,
+	3018,
+	2463,
+	3070,
+	4428,
+	4401,
+	3070,
+	2951,
+	3017,
+	2951,
+	3020,
+	2951,
+	3016,
+	2951,
+	3019,
+	2951,
+	3018,
+	2463,
+	3070,
+	4428,
+	4401,
+	3070,
+	2951,
+	3017,
+	2951,
+	3020,
+	2951,
+	3016,
+	2951,
+	3019,
+	2951,
+	3018,
+	2463,
+	3070,
+	4428,
+	4401,
+	3070,
+	6585,
+	6592,
+	6773,
+	5001,
+	5003,
+	5003,
+	4771,
+	1025,
+	4526,
+	3580,
+	-1,
+	1477,
+	3605,
+	4428,
+	1477,
+	-1,
+	-1,
+	2162,
+	3501,
+};
+static const Il2CppTokenRangePair s_rgctxIndices[3] = 
+{
+	{ 0x0600006B, { 0, 2 } },
+	{ 0x06000070, { 2, 2 } },
+	{ 0x06000071, { 4, 2 } },
+};
+static const Il2CppRGCTXDefinition s_rgctxValues[6] = 
+{
+	{ (Il2CppRGCTXDataType)3, 42277 },
+	{ (Il2CppRGCTXDataType)3, 42185 },
+	{ (Il2CppRGCTXDataType)3, 42279 },
+	{ (Il2CppRGCTXDataType)3, 42173 },
+	{ (Il2CppRGCTXDataType)3, 42280 },
+	{ (Il2CppRGCTXDataType)3, 42221 },
+};
+extern const CustomAttributesCacheGenerator g_Unity_Collections_AttributeGenerators[];
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_Collections_CodeGenModule;
+const Il2CppCodeGenModule g_Unity_Collections_CodeGenModule = 
+{
+	"Unity.Collections.dll",
+	115,
+	s_methodPointers,
+	98,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	3,
+	s_rgctxIndices,
+	6,
+	s_rgctxValues,
+	NULL,
+	g_Unity_Collections_AttributeGenerators,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

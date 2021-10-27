@@ -1,0 +1,18 @@
+{
+    "name": "MARS.Editor.Bootstrap",
+    "references": [
+        "GUID:408226d2799e61548b8318afa77b9abb",
+        "GUID:65c272766bfb4354f914f750edb6a0ff"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

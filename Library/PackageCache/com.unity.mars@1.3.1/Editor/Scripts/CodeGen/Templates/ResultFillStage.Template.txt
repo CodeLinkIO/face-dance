@@ -1,0 +1,14 @@
+﻿using System.Collections.Generic;
+using Unity.MARS.Data;
+
+namespace Unity.MARS.Query
+{
+    partial class ResultFillTransform
+    {
+        internal static void FillQueryResultInternal(int dataId, ProxyConditions conditions, {TraitCollectionClassName} traits,
+            QueryMatchID matchId, QueryResult result)
+        {
+{FillQueryResult_METHOD}
+        }
+    }
+}

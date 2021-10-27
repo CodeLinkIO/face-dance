@@ -1,0 +1,188 @@
+.row {
+    -unity-text-align: middle-left;
+    justify-content: space-between;
+}
+
+.light #companionResourceTitle {
+    background-color: rgb(153, 153, 153);
+}
+
+.dark #companionResourceTitle {
+    background-color: rgb(60, 60, 60);
+}
+
+.light #infoContainer {
+    background-color: rgb(153, 153, 153);
+}
+
+.dark #infoContainer {
+    background-color: rgb(60, 60, 60);
+}
+
+.light .foldout {
+    background-color: rgb(160, 160, 160);
+}
+
+.dark .foldout {
+    background-color: rgb(70, 70, 70);
+}
+
+.error-message {
+    -unity-font-style: bold-and-italic;
+}
+
+.light .error-message {
+    color: #B10B0B;
+}
+
+.dark .error-message {
+    color: #FF6E3F;
+}
+
+.light .warning-message {
+    color: #9A7400;
+}
+
+.dark .warning-message {
+    color: #FFC108;
+}
+
+#companionResourceTitle Label {
+    -unity-font-style: bold;
+    -unity-text-align: middle-left;
+    padding-left: 4px;
+}
+
+.column_asset {
+    -unity-text-align: middle-left;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-direction: row;
+    padding-left: 4px;
+    padding-right: 0;
+}
+
+.column_size {
+    justify-content: flex-start;
+    width: 60px;
+    flex-shrink: 0;
+    padding-left: 4px;
+    padding-right: 0;
+}
+
+.column_date {
+    flex-shrink: 0;
+    width: 100px;
+    padding-left: 4px;
+    padding-right: 0;
+}
+
+.column_bundle {
+    flex-shrink: 0;
+    border-width: 0;
+    background-color: rgba(255, 255, 255, 0);
+    width: 18px;
+    height: 18px;
+    padding:0;
+    margin-right: 4px;
+    margin-left: 4px;
+    border-radius: 0;
+}
+
+.column_sync_status {
+    -unity-text-align: middle-center;
+    width: 90px;
+    flex-shrink: 0;
+    padding-left: 4px;
+    margin-left:0;
+    margin-right:0;
+}
+
+.column_delete {
+    width: 20px;
+    flex-shrink: 0;
+    border-width: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.dark Button.column_delete {
+    background-image: url('/Packages/com.unity.mars-companion-core/Editor/Icons/Delete_Dark.png');
+}
+
+.light Button.column_delete {
+    background-image: url('/Packages/com.unity.mars-companion-core/Editor/Icons/Delete_Light.png');
+}
+
+.editor {
+    min-width: 480px;
+    min-height: 50px;
+}
+
+.editor_project_settings_label {
+    min-width: 141px;
+}
+
+.foldout {
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(0, 0, 0, 0.08);
+}
+
+.platform_resource_already_uploaded {
+    font-size: 8px;
+    width: 5px;
+}
+
+.row:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.companion_resource_title {
+    border-bottom-color: rgb(150, 150, 150);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}
+
+.dark .reload_icon {
+    background-image: url('/Packages/com.unity.mars-companion-core/Editor/Icons/Refresh_Dark.png');
+}
+
+.dark .not_uploaded_icon {
+    background-image: url('/Packages/com.unity.mars-companion-core/Editor/Icons/CloudIcon_NotUploaded_Dark.png');
+}
+
+.dark .uploaded_icon {
+    background-image: url('/Packages/com.unity.mars-companion-core/Editor/Icons/CloudIcon_Uploaded_Dark.png');
+}
+
+.dark .update_icon {
+    background-image: url('/Packages/com.unity.mars-companion-core/Editor/Icons/CloudIcon_Update_Dark.png');
+}
+
+.dark .warn_icon {
+    background-image: url('/Packages/com.unity.mars-companion-core/Editor/Icons/CloudIcon_Warn_Dark.png');
+}
+
+.light .reload_icon {
+    background-image: url('/Packages/com.unity.mars-companion-core/Editor/Icons/Refresh_Light.png');
+}
+
+.light .not_uploaded_icon {
+    background-image: url('/Packages/com.unity.mars-companion-core/Editor/Icons/CloudIcon_NotUploaded_Light.png');
+}
+
+.light .uploaded_icon {
+    background-image: url('/Packages/com.unity.mars-companion-core/Editor/Icons/CloudIcon_Uploaded_Light.png');
+}
+
+.light .update_icon {
+    background-image: url('/Packages/com.unity.mars-companion-core/Editor/Icons/CloudIcon_Update_Light.png');
+}
+
+.light .warn_icon {
+    background-image: url('/Packages/com.unity.mars-companion-core/Editor/Icons/CloudIcon_Warn_Light.png');
+}

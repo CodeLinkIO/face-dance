@@ -1,0 +1,18 @@
+{
+    "name": "Unity.MARS.HandlesEditor",
+    "references": [
+        "Unity.MARS.MARSHandles",
+        "Unity.MARS.MARSHandles.Picking"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

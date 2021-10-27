@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 94717ea93a88992458004dd6e1e9f3f1
+timeCreated: 1519686537
+licenseType: Pro
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_PlanePrefab: {fileID: 1372998203143648, guid: f4e3005244160eb47930cd6a56117abf,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
